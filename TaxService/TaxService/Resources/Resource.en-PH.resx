@@ -1,0 +1,702 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdditionalInformation" xml:space="preserve">
+    <value>karagdagang impormasyon</value>
+  </data>
+  <data name="Additional_doc_files" xml:space="preserve">
+    <value>Karagdagang Mga Doc File</value>
+  </data>
+  <data name="Additional_information_and_question_related" xml:space="preserve">
+    <value>Karagdagang Impormasyon at Mga Katanungang May-kaugnayan sa Paghahanda ng Inyong Return</value>
+  </data>
+  <data name="Adopt_a_child" xml:space="preserve">
+    <value>Nag-ampon ng bata?</value>
+  </data>
+  <data name="Alimony_income_or_seprate_maintenence_payments" xml:space="preserve">
+    <value>Kita na Alimony o bayad panustos ng magkahiwalay?</value>
+  </data>
+  <data name="Alimony_or_seprate_maintenance_payments_if" xml:space="preserve">
+    <value>Alimony o bayad panustos ng magkahiwalay? Kung oo, na sa inyo ba ang SSN ng tumanggap?</value>
+  </data>
+  <data name="Anyone" xml:space="preserve">
+    <value>sinumang</value>
+  </data>
+  <data name="Any_of_the_following" xml:space="preserve">
+    <value>Alinman sa mga sumusunod?</value>
+  </data>
+  <data name="Apt" xml:space="preserve">
+    <value>Apt #</value>
+  </data>
+  <data name="Are_you_a_us_citizen" xml:space="preserve">
+    <value>U.S. Citizen ba kayo?</value>
+  </data>
+  <data name="as4" xml:space="preserve">
+    <value>M.I.</value>
+  </data>
+  <data name="as5" xml:space="preserve">
+    <value>Apelyido</value>
+  </data>
+  <data name="as6" xml:space="preserve">
+    <value>Telepono sa araw</value>
+  </data>
+  <data name="as8" xml:space="preserve">
+    <value>Oo</value>
+  </data>
+  <data name="as9" xml:space="preserve">
+    <value>Hindi</value>
+  </data>
+  <data name="asdf4" xml:space="preserve">
+    <value>Ganap at Pirmihang May-kapansanan</value>
+  </data>
+  <data name="asdf5" xml:space="preserve">
+    <value>Full-time na estudyante</value>
+  </data>
+  <data name="asdf6" xml:space="preserve">
+    <value>Bulag sa Ilalim ng Batas</value>
+  </data>
+  <data name="As_of_december_thirtyfirst" xml:space="preserve">
+    <value>Sa Disyembre
+31, 2019, ano
+ang inyong
+katayuang
+pangkasal?</value>
+  </data>
+  <data name="AUNT" xml:space="preserve">
+    <value>TIYA</value>
+  </data>
+  <data name="BROTHER" xml:space="preserve">
+    <value>LOLO'T LOLA</value>
+  </data>
+  <data name="Can_anyone_claim_you_or_your" xml:space="preserve">
+    <value>Maari bang angkinin kayo o ang inyong asawa bilang dependent ng sinuman sa kanilang tax return?</value>
+  </data>
+  <data name="Cash_check_virtual_currency_payments" xml:space="preserve">
+    <value>Mga bayad na cash/tseke/virtual currency, o iba pang ari-arian o mga serbisyo para sa anumang trabahong isinagawa na hindi nakaulat sa mga Form W-2 o 1099?</value>
+  </data>
+  <data name="Charitable_contributions" xml:space="preserve">
+    <value>Mga Ambag Pangkanwanggawa</value>
+  </data>
+  <data name="Chech_here_if_you_or_your_spouse_if" xml:space="preserve">
+    <value>I-check dito kung gusto ninyo, o ng inyong asawa kung maghain nang magkasama, mag-ambag ng $3 sa pondong ito.</value>
+  </data>
+  <data name="Check_appropriate_box_for_each_question_in_each" xml:space="preserve">
+    <value>I-check ang angkop ng kahon para sa bawat tanong sa bawat bahagi</value>
+  </data>
+  <data name="Child_or_dependent_care_expences" xml:space="preserve">
+    <value>Mga gastos sa pag-aalaga ng anak o dependent gaya ng daycare [pangangalaga sa araw]?</value>
+  </data>
+  <data name="Choose_your_file" xml:space="preserve">
+    <value>Piliin ang iyong File</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Lunsod</value>
+  </data>
+  <data name="College_or_post_secondry_education" xml:space="preserve">
+    <value>Mga gastos sa pagpapaaral na pagkatapos ng high school para sa inyong sarili, asawa o mga dependent? (Form 1098-T)</value>
+  </data>
+  <data name="completeformbelow" xml:space="preserve">
+    <value>Mangyaring Kumpletuhin ang Form sa ibaba</value>
+  </data>
+  <data name="Consent" xml:space="preserve">
+    <value>Pagpayag:</value>
+  </data>
+  <data name="Contribution_to_a_retirement_account" xml:space="preserve">
+    <value>Mga ambag sa retirement account?</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Petsa</value>
+  </data>
+  <data name="Date_format" xml:space="preserve">
+    <value>(mm/dd/yy)</value>
+  </data>
+  <data name="Date_of_births" xml:space="preserve">
+    <value>Petsa ng
+Kapanganakan</value>
+  </data>
+  <data name="Date_of_final_decree" xml:space="preserve">
+    <value>Petsa ng huling pasya</value>
+  </data>
+  <data name="Date_of_separate_maintenance_decre" xml:space="preserve">
+    <value>Petsa ng kasunduang pampamumuhay nang magkahiwalay</value>
+  </data>
+  <data name="DAUGHTER" xml:space="preserve">
+    <value>ANAK NA BABAE</value>
+  </data>
+  <data name="Daytime_telephone_number" xml:space="preserve">
+    <value>Telepono sa araw</value>
+  </data>
+  <data name="Did_the_taxpayers_pay_more_than_half_the_cost" xml:space="preserve">
+    <value>Binayaran ba ng
+(mga) taxpayer
+ang lampas sa
+kalahati ng gastos
+pampamamalakad
+ng isang bahay
+para sa taong ito?
+(oo/hindi)</value>
+  </data>
+  <data name="Did_the_taxpayers_provide_more_than_fiftypercent" xml:space="preserve">
+    <value>Nangaling ba
+sa (mga)
+taxpayer
+[nagbabayad
+ng buwis] ang
+lampas sa 50%
+ng panustos sa
+taong ito?
+(oo/hindi)</value>
+  </data>
+  <data name="Did_this_person_have_less_than_fortythree" xml:space="preserve">
+    <value>Mas
+mababa
+ba sa
+$4,200
+ang kita
+ng taong
+ito?
+(oo/hindi)</value>
+  </data>
+  <data name="Did_this_person_provide_more_than_fifty" xml:space="preserve">
+    <value>Galing ba
+sa taong ito
+ang lampas
+sa 50% ng
+kanyang
+sariling
+panustos?
+(oo/hindi)</value>
+  </data>
+  <data name="Did_you_live_in_an_area_that" xml:space="preserve">
+    <value>Naninirahan sa isang lugar na idineklarang may sakuna ng Pederal na pamahalaan?</value>
+  </data>
+  <data name="Did_you_live_with_your_spouse_during_any" xml:space="preserve">
+    <value>Kasama mo ba sa tirahan ang asawa ninyo sa anumang bahagi ng huling anim na buwan noong 2019?</value>
+  </data>
+  <data name="Did_you_or_your_spouse_if_filling_jointly" xml:space="preserve">
+    <value>Kayo ba o ang asawa ninyo, kung magpa-file kayo ng magkasama (jointly), ay nakatanggap ng liham mula sa IRS?</value>
+  </data>
+  <data name="Direct_deposite" xml:space="preserve">
+    <value>Direct deposit [paglagak tuwiran sa inyong account]</value>
+  </data>
+  <data name="Disability_income_such" xml:space="preserve">
+    <value>Kitang Pangkapansanan? (gaya ng mga bayad mula sa insurance o workers compensation) (Mga Form 1099-R, W-2)</value>
+  </data>
+  <data name="Divorced" xml:space="preserve">
+    <value>Diborsyado/a</value>
+  </data>
+  <data name="etc" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Everyone" xml:space="preserve">
+    <value>lahat</value>
+  </data>
+  <data name="Expences_related_to_self_employment_income" xml:space="preserve">
+    <value>Mga gastos na may kinalaman sa kita mula self-employment o anumang iba pang kita na natanggap ninyo?</value>
+  </data>
+  <data name="File_a_federal_return_last_year" xml:space="preserve">
+    <value>Naghain ng isang federal return sa nakaraang taon na may “capital loss carryover [naluging puhunan sa nakaraan]” sa Form 1040 Schedule D?</value>
+  </data>
+  <data name="For_supplies_used_as_an_eligible" xml:space="preserve">
+    <value>Mga materyales na ginamit ng karapat-dapat ng nag-tuturo gaya ng teacher, katulong ng teacher, counselor [tagapayo], atbp.?</value>
+  </data>
+  <data name="FOSTER_CHILD" xml:space="preserve">
+    <value>ANAK-ANAKAN</value>
+  </data>
+  <data name="Fourhundredone_k" xml:space="preserve">
+    <value>401K</value>
+  </data>
+  <data name="Full_time_student" xml:space="preserve">
+    <value>Full-time na estudyante</value>
+  </data>
+  <data name="Full_time_student_last_year_yes_or_no" xml:space="preserve">
+    <value>Full-time na
+estudyante
+sa
+nakaraang
+taon (oo/
+hindi)</value>
+  </data>
+  <data name="gb10" xml:space="preserve">
+    <value>Di-tiyak</value>
+  </data>
+  <data name="GRANDCHILD" xml:space="preserve">
+    <value>LOLO</value>
+  </data>
+  <data name="GRANDPARENT" xml:space="preserve">
+    <value>LOLO</value>
+  </data>
+  <data name="HALF_BROTHER" xml:space="preserve">
+    <value>ISANG SAKIT NA KAPATID</value>
+  </data>
+  <data name="HALF_SISTER" xml:space="preserve">
+    <value>KAPATID SA LABAS</value>
+  </data>
+  <data name="Have_a_helth_saving_account" xml:space="preserve">
+    <value>May Health Savings Account? (Mga Form 5498-SA, 1099-SA, W-2 na may kodigong W sa Box 12)</value>
+  </data>
+  <data name="Have_credit_card_or_mortgage_debt" xml:space="preserve">
+    <value>May utang sa mortgage o credit card na na pinawalang bisa/pinatawad ng isang negosyong nagpapautang o naremateng tirahan? (Mga Form 1099-C,1099A)</value>
+  </data>
+  <data name="Have_earned_income_credit" xml:space="preserve">
+    <value>May Earned Income Credit, Child Tax Credit o American Opportunity Credit na di-pinayagan sa isang nakaraang taon?  Kung oo, ukol sa aling taon na buwis?</value>
+  </data>
+  <data name="Have_health_coverage_through_the" xml:space="preserve">
+    <value>May coverage para sa kalusugan sa pamamagitan ng Marketplace (Exchange)? [Ibigay ang Form 1095-A]</value>
+  </data>
+  <data name="Have_you_your_spouse_or_dependents_been_a" xml:space="preserve">
+    <value>Nabiktima na ba kayo o inyong asawa ng identity theft [paggamit ng iba sa inyong pagkilanlan] na kaugnay sa buwis o nabigyan ng PIN pampangangalaga ng pagkilanlan?</value>
+  </data>
+  <data name="If_additional_space_is_needed_check_here" xml:space="preserve">
+    <value>Kung kinakailangan ng karagdagang pagsusulatan, paki-check dito at itala sa page 3</value>
+  </data>
+  <data name="If_uou_are_filling_a_joint_return" xml:space="preserve">
+    <value>(kung naghahain kayo ng joint return [magkasamang pag--ulat] ilagay ang mga pangalang ninyo sa parehong ayos kagaya sa nakaraang taon)</value>
+  </data>
+  <data name="If_yes_did_you_get_married" xml:space="preserve">
+    <value>Kung Oo, Kinasal ba kayo noong 2019?</value>
+  </data>
+  <data name="If_yes_how_many_jobs_did_you_have_last_year" xml:space="preserve">
+    <value>Kung oo, ilan ang inyong pinagtrabahuhan sa nakaraang taon?</value>
+  </data>
+  <data name="If_yes_where" xml:space="preserve">
+    <value>Kung oo, saan?</value>
+  </data>
+  <data name="If_you_are_due_a_refund" xml:space="preserve">
+    <value>Kung nararapat kayo para sa isang refund, gusto ba ninyo na</value>
+  </data>
+  <data name="If_you_belive_your_tax_return_information" xml:space="preserve">
+    <value>Kung naniniwala kayo na inilantad ang inyong impormasyon tungkol sa inyong tax return o ginagamit nang hindi wasto sa paraan na hindi pinahihintulutan ng batas o nang hindi ninyo pinayagan, maaari kayong makiugnay sa Treasury Inspector General for Tax Administration (TIGTA, o pinunong tagasiyasat pampangangasiwa ng buwis) sa pamamagitan ng telephone sa 1-800-366-4484, o sa pamamagitan ng e-mail sa complaints@tigta.treas.gov.</value>
+  </data>
+  <data name="If_you_have_a_balance_due" xml:space="preserve">
+    <value>Kung mayroon kayong babayarang balance, gusto ba ninyong bayaran nang tuwiran mula sa inyong bank account?</value>
+  </data>
+  <data name="Income_or_loss_for_rental_property" xml:space="preserve">
+    <value>Kita (o pagkalugi) mula sa Ari-ariang Pinapaupahan?</value>
+  </data>
+  <data name="Income_or_oloss_from_the_sale" xml:space="preserve">
+    <value>Kita (o pagkalugi) mula sa pagbebenta o pakikipagpalitan ng mga Stock, Bono, Virtual Currency o Real Estate? (Mga Form 1099-S, 1099-B)</value>
+  </data>
+  <data name="Intakesheet" xml:space="preserve">
+    <value>Papel na Pang-tipon/Pang-interview &amp; Pag-review ng Kalidad</value>
+  </data>
+  <data name="Interest_dividents_from_checking" xml:space="preserve">
+    <value>Mga Interest/Dividend mula sa: mga checking/savings account, bond, CD, brokerage? (Mga Form 1099-INT, 1099-DIV)</value>
+  </data>
+  <data name="Ira" xml:space="preserve">
+    <value>IRA</value>
+  </data>
+  <data name="Is_this_person_a_qualifying" xml:space="preserve">
+    <value>Kuwalipikadong
+anak/kamaganak ba ang
+taong ito ng
+sinumang iba
+pang tao? (oo/
+hindi)</value>
+  </data>
+  <data name="Is_your_spouse_a_us_citizen" xml:space="preserve">
+    <value>U.S. Citizen ba ang asawa ninyo?</value>
+  </data>
+  <data name="I_authorize_my_tax_prepare_to_enter_the" xml:space="preserve">
+    <value>Pinapahintulutan ko ang aking Tax Preparer na ipasok ang limang numero na PIN na pinili ko sa ibaba.</value>
+  </data>
+  <data name="I_here_by_consent_to_the_disclosure" xml:space="preserve">
+    <value>Pinapayagan ko/namin, sa pamamagitan nito, ang pagbunyag ng impormasyon sa tax return na linalarawan sa mga tadhana ng Global Carry Forward sa nauuna at pinahihintulutan ang naghahanda ng tax return na magpasok ng PIN sa software pampaghanda ng buwis para sa kapakanan ko/namin upang patunayan na pumayag ako/kami sa mga tadhana ng pagbunyag.</value>
+  </data>
+  <data name="I_or_we_the_taxpayers_have_read_the" xml:space="preserve">
+    <value>Binasa ko/namin, ang nagbabayad ng buwis, ang impormasyon na nauuna.</value>
+  </data>
+  <data name="Last_name" xml:space="preserve">
+    <value>Apelyido</value>
+  </data>
+  <data name="Last_Name_Do_not_enter_your_name_or_spouses_name" xml:space="preserve">
+    <value>Apelyido (Huwag ipasok ang iyong pangalan o pangalan ng asawa)</value>
+  </data>
+  <data name="Last_year_was_your_spouse" xml:space="preserve">
+    <value>Sa nakaraang taon ang inyong asawa ba ay:</value>
+  </data>
+  <data name="Last_year_were_you" xml:space="preserve">
+    <value>Sa nakaraang taon kayo ba ay:</value>
+  </data>
+  <data name="Legally_blind" xml:space="preserve">
+    <value>Bulag sa Ilalim ng Batas</value>
+  </data>
+  <data name="Legally_speparated" xml:space="preserve">
+    <value>Magkahiwalay nang Legal</value>
+  </data>
+  <data name="List_the_name_below_of" xml:space="preserve">
+    <value>Ilista sa ibaba ang mga pangalan ng:</value>
+  </data>
+  <data name="Mailing_address" xml:space="preserve">
+    <value>Address na Pangkoreo</value>
+  </data>
+  <data name="Make_estimated_tax_payments" xml:space="preserve">
+    <value>Gumawa ng mga estimated tax payment [tinantyang bayad sa buwis] o gumamit ng refund mula sa nakaraang taon para sa buwis sa taong ito? Kung gayon magkano?</value>
+  </data>
+  <data name="married" xml:space="preserve">
+    <value>Kasal</value>
+  </data>
+  <data name="Medical_and_dental_inculiding" xml:space="preserve">
+    <value>Medikal at sa Ngipin (kabilang ang mga bayarin pangseguro)</value>
+  </data>
+  <data name="Mortagage_interest" xml:space="preserve">
+    <value>Interes Pang-Mortgage (Form 1098)</value>
+  </data>
+  <data name="M_I" xml:space="preserve">
+    <value>M.I.</value>
+  </data>
+  <data name="Name_first_and_last_do_not_enter_your" xml:space="preserve">
+    <value>Pangalan (Huwag ipasok ang iyong pangalan o pangalan ng asawa)</value>
+  </data>
+  <data name="NEPHEW" xml:space="preserve">
+    <value>PAMANGKING LALAKI</value>
+  </data>
+  <data name="Never_married" xml:space="preserve">
+    <value>Di-Kinasal Kailanman</value>
+  </data>
+  <data name="NIECE" xml:space="preserve">
+    <value>PAMANGKING BABAE</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Hindi</value>
+  </data>
+  <data name="NONE" xml:space="preserve">
+    <value>WALA</value>
+  </data>
+  <data name="Number_of_months_lived_in_your_home" xml:space="preserve">
+    <value>Ilan
+buwang
+tumira sa
+inyong
+tahanan sa
+nakaraang
+taon</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Iba Pa</value>
+  </data>
+  <data name="Other_income_gamnling_lottery" xml:space="preserve">
+    <value>Iba pang kita? (pagsusugal, lottery, gantimpala, gawad, jury duty, virtual currency, Sch K-1, mga royalty, kita sa ibang bansa, ibang ari-arian o mga serbisyo, atbp.) Tukuyin</value>
+  </data>
+  <data name="PARENT" xml:space="preserve">
+    <value>MAGULANG</value>
+  </data>
+  <data name="Part_first_your_personal_information" xml:space="preserve">
+    <value>Part I. Ang Inyong Personal na Impormasyon</value>
+  </data>
+  <data name="Part_five_life_events" xml:space="preserve">
+    <value>Part V - Mga Pangyayari sa Buhay - Sa Nakaraang Taon, Kayo ba (o Inyong Asawa) ay</value>
+  </data>
+  <data name="Part_four_expenses" xml:space="preserve">
+    <value>Part IV - Mga Gastos - Sa Nakaraang Taon, Nagbayad ba Kayo (o Inyong Asawa) ng</value>
+  </data>
+  <data name="Part_second_marital_status_and_household_information" xml:space="preserve">
+    <value>Part II. Impormasyon sa Kalagayan Tungkol sa Pag-aasawa at Sambahayan</value>
+  </data>
+  <data name="Part_third_income_last_year_did_you" xml:space="preserve">
+    <value>Part III - Kinita - Sa Nakaraang Taon, Tumanggap ba Kayo (o Inyong Asawa) ng</value>
+  </data>
+  <data name="Presidental_election_campaign_fund" xml:space="preserve">
+    <value>Pondong Pangkampanya sa Halalan sa Pagkapangulo (Kung lalagyan ninyo ng check ang box, hindi magbabago ang inyong buwis o refund)</value>
+  </data>
+  <data name="Primary_signature" xml:space="preserve">
+    <value>Nakalimbag na Pangalan at Lagda ng Pangunahing Nagbabayad ng Buwis</value>
+  </data>
+  <data name="Primary_taxpayer_printed_name" xml:space="preserve">
+    <value>Pangunahing naka-print na nagbabayad ng buwis</value>
+  </data>
+  <data name="Provide_an_email_address" xml:space="preserve">
+    <value>Magkaloob ng email address (opsyonal) (hindi gagamitin ang email address na ito para sa pakikipag-ugnayan mula sa Inernal Revenue Service)</value>
+  </data>
+  <data name="Purchase_and_install_energy_efficant" xml:space="preserve">
+    <value>Bumili at naglagay sa bahay ng mga bagay na energy efficient (nakakatipid)? (gaya ng bintana, furnace, insulation, atbp.)</value>
+  </data>
+  <data name="Receive_an_economic_impact_payment" xml:space="preserve">
+    <value>Makatanggap ng isang Pagbabayad sa Epekto ng Pang-ekonomiya (pampasigla) sa 2020?</value>
+  </data>
+  <data name="Recive_the_first_time_homebuyers" xml:space="preserve">
+    <value>Tumanggap ng First Time Homebuyers Credit sa 2008?</value>
+  </data>
+  <data name="Refund_of_state_local_income" xml:space="preserve">
+    <value>Refund ng state/local sa mga buwis sa kita? (Form 1099-G)</value>
+  </data>
+  <data name="Relationship_to_you_for_example" xml:space="preserve">
+    <value>Kaugnayan sa
+Inyo</value>
+  </data>
+  <data name="Resident_of_us_canada_or_maxico" xml:space="preserve">
+    <value>Residente
+ng US,
+Canada o
+Mexico sa
+nakaraang
+taon (oo/
+hindi)</value>
+  </data>
+  <data name="Retriment_income_or_payments" xml:space="preserve">
+    <value>Mga kita sa pagretiro o bayad mula sa mga Pension, Annuity, at/o IRA? (Mga Form 1099-R)</value>
+  </data>
+  <data name="Roth_ira" xml:space="preserve">
+    <value>Roth IRA</value>
+  </data>
+  <data name="Scholarships_form_w_t" xml:space="preserve">
+    <value>Mga Scholarship? (Mga Form W-2, 1098-T)</value>
+  </data>
+  <data name="Secondry_signatue" xml:space="preserve">
+    <value>Nakalimbag na Pangalan at Lagda ng Pangalawang Nagbabayad ng Buwis</value>
+  </data>
+  <data name="Secondry_taxpayer_printed_name" xml:space="preserve">
+    <value>Pangalawang naka-print na pangalan ng nagbabayad ng buwis</value>
+  </data>
+  <data name="Self_employment_income_form" xml:space="preserve">
+    <value>Kita mula sa pagiging Self-Employed (From 1099-MISC, cash, vistual currency, o iba pang ari-arian o mga serbisyo)</value>
+  </data>
+  <data name="Single" xml:space="preserve">
+    <value>Walang asawa</value>
+  </data>
+  <data name="Single_or_married_as_of" xml:space="preserve">
+    <value>Walang o
+may asawa
+noong
+12/31/19</value>
+  </data>
+  <data name="SISTER" xml:space="preserve">
+    <value>ATE</value>
+  </data>
+  <data name="Social_security_number" xml:space="preserve">
+    <value>Numero ng Social Security</value>
+  </data>
+  <data name="Social_security_or_railroad_retirement" xml:space="preserve">
+    <value>Mga Benepisyo mula sa Social Security o Railroad Retirement? (Mga Form SSA-1099, RRB-1099)</value>
+  </data>
+  <data name="SON" xml:space="preserve">
+    <value>ANAK</value>
+  </data>
+  <data name="Specify" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Spouse" xml:space="preserve">
+    <value>Asawa</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="STEPBROTHER" xml:space="preserve">
+    <value>HAKBANG KAPATID</value>
+  </data>
+  <data name="STEPCHILD" xml:space="preserve">
+    <value>HAKBANG BATA</value>
+  </data>
+  <data name="STEPSISTER" xml:space="preserve">
+    <value>HAKBANG SISTER</value>
+  </data>
+  <data name="Student_loan_interest" xml:space="preserve">
+    <value>Mga interes sa utang ng estudyante? (Form 1098-E)</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Ipasa</value>
+  </data>
+  <data name="Taxes_state_real_estate_personal" xml:space="preserve">
+    <value>Mga Buwis (Pang-State, Lupain, Pag-aarin Pangsarili, Pagbili)</value>
+  </data>
+  <data name="This_includes_registered_domestic" xml:space="preserve">
+    <value>(Kabilang nito ang nakarehistrong nagsasamang magkabahay, pagkakaisang civil, o iba pang kinikilalang pag-uugnay sa ilalim ng batas ng state)</value>
+  </data>
+  <data name="Tip_income" xml:space="preserve">
+    <value>Kita na Tip?</value>
+  </data>
+  <data name="Totally_and_permanently_disabled" xml:space="preserve">
+    <value>Ganap at Pirmihang May-kapansanan</value>
+  </data>
+  <data name="Totally_and_permanently_disabled_yes_or_nos" xml:space="preserve">
+    <value>Ganap at
+Pirmihang
+Maykapansanan</value>
+  </data>
+  <data name="To_be_completed_by_a_certificate" xml:space="preserve">
+    <value>Kukumpletuhin ng isang Certified Volunteer Preparer</value>
+  </data>
+  <data name="To_purchase_us_savings_bonds" xml:space="preserve">
+    <value>Bumili ng mga U.S. Savings Bond</value>
+  </data>
+  <data name="To_split_your_refund_between_diffrent" xml:space="preserve">
+    <value>Ibahagi ang inyong refund sa iba-ibang account</value>
+  </data>
+  <data name="UNCLE" xml:space="preserve">
+    <value>TIYUHIN</value>
+  </data>
+  <data name="Unemployment_compensation" xml:space="preserve">
+    <value>Kompensasyong Pang-unemployment? (Mga Form 1099-G)</value>
+  </data>
+  <data name="Unsure" xml:space="preserve">
+    <value>Di-tiyak</value>
+  </data>
+  <data name="Uploaded_files" xml:space="preserve">
+    <value>Mga Na-upload na File:</value>
+  </data>
+  <data name="Upload_your_documents_here" xml:space="preserve">
+    <value>I-upload ang iyong Mga Dokumento dito:</value>
+  </data>
+  <data name="Us_citizen_tes_or_no" xml:space="preserve">
+    <value>US
+Citizen</value>
+  </data>
+  <data name="Wages_or_salary_form_w" xml:space="preserve">
+    <value>Sahod o Suweldo? (Form W-2)</value>
+  </data>
+  <data name="Who_lived_with_you_last_year" xml:space="preserve">
+    <value>na tumirang kasama ninyo sa nakaraang taon (maliban sa inyong sarili o inyong asawa)</value>
+  </data>
+  <data name="Widowed" xml:space="preserve">
+    <value>Balo</value>
+  </data>
+  <data name="Year_of_spouse_deaths" xml:space="preserve">
+    <value>Taon ng pagkamatay ng asawa</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Oo</value>
+  </data>
+  <data name="You" xml:space="preserve">
+    <value>Kayo</value>
+  </data>
+  <data name="Your_date_of_birth" xml:space="preserve">
+    <value>Kaarawan Ninyo</value>
+  </data>
+  <data name="Your_first_name" xml:space="preserve">
+    <value>Pangalan Ninyo</value>
+  </data>
+  <data name="Your_job_title" xml:space="preserve">
+    <value>Titulo Ninyo sa Trabaho</value>
+  </data>
+  <data name="Your_spouse_date_of_birth" xml:space="preserve">
+    <value>Kaarawan ng Asawa Ninyo</value>
+  </data>
+  <data name="Your_spouse_first_name" xml:space="preserve">
+    <value>Pangalan ng Asawa Ninyo</value>
+  </data>
+  <data name="Your_spouse_job_title" xml:space="preserve">
+    <value>Titulo ng Asawa Ninyo sa Trabaho</value>
+  </data>
+  <data name="You_support_but_did_not_live_with_you" xml:space="preserve">
+    <value>tinustusan ninyo ngunit hindi tumira kasama ninyo sa nakaraang taon</value>
+  </data>
+  <data name="Zip_code" xml:space="preserve">
+    <value>ZIP code</value>
+  </data>
+</root>

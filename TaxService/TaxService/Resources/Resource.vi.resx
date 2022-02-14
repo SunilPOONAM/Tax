@@ -1,0 +1,698 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdditionalInformation" xml:space="preserve">
+    <value>thông tin thêm</value>
+  </data>
+  <data name="Additional_doc_files" xml:space="preserve">
+    <value>Tệp tài liệu bổ sung</value>
+  </data>
+  <data name="Additional_information_and_question_related" xml:space="preserve">
+    <value>Thông Tin Thêm và Câu Hỏi liên quan đến việc khai thuế</value>
+  </data>
+  <data name="Adopt_a_child" xml:space="preserve">
+    <value>Nhận nuôi con?</value>
+  </data>
+  <data name="Alimony_income_or_seprate_maintenence_payments" xml:space="preserve">
+    <value>Tiền cấp dưỡng cho vợ/chồng sau khi ly dị hay ly thân?</value>
+  </data>
+  <data name="Alimony_or_seprate_maintenance_payments_if" xml:space="preserve">
+    <value>Tiền cấp dưỡng cho vợ/chồng sau khi ly dị hay ly thân? Nếu có, quý vị có số an sinh xã hội của người nhận?</value>
+  </data>
+  <data name="Anyone" xml:space="preserve">
+    <value>bất cứ người nào</value>
+  </data>
+  <data name="Any_of_the_following" xml:space="preserve">
+    <value>Quý vị có chi phí nào sau đây không?</value>
+  </data>
+  <data name="Apt" xml:space="preserve">
+    <value>Số căn hộ</value>
+  </data>
+  <data name="Are_you_a_us_citizen" xml:space="preserve">
+    <value>Quý vị có phải là công dân Hoa Kỳ không?</value>
+  </data>
+  <data name="as4" xml:space="preserve">
+    <value>Tên lót</value>
+  </data>
+  <data name="as5" xml:space="preserve">
+    <value>Họ</value>
+  </data>
+  <data name="as6" xml:space="preserve">
+    <value>Số điện thoại ban ngày</value>
+  </data>
+  <data name="as8" xml:space="preserve">
+    <value>Có</value>
+  </data>
+  <data name="as9" xml:space="preserve">
+    <value>Không</value>
+  </data>
+  <data name="asdf4" xml:space="preserve">
+    <value>Bị tàn tật hoàn toàn và dài hạn</value>
+  </data>
+  <data name="asdf5" xml:space="preserve">
+    <value>Là sinh viên toàn nhiệm</value>
+  </data>
+  <data name="asdf6" xml:space="preserve">
+    <value>Bị mù hợp pháp</value>
+  </data>
+  <data name="As_of_december_thirtyfirst" xml:space="preserve">
+    <value>Đến ngày 31 tháng Chạp, 2019, tình trạng hôn nhân của quý vị là gì?</value>
+  </data>
+  <data name="AUNT" xml:space="preserve">
+    <value>CÔ</value>
+  </data>
+  <data name="BROTHER" xml:space="preserve">
+    <value>ANH TRAI</value>
+  </data>
+  <data name="Can_anyone_claim_you_or_your" xml:space="preserve">
+    <value>Có người nào có thể khai quý vị hoặc người hôn phối là người thuộc quyền không trên bản khai thuế của họ không?</value>
+  </data>
+  <data name="Cash_check_virtual_currency_payments" xml:space="preserve">
+    <value>Tiền mặt/tiền trả bằng chi phiếu/các khoản tiền ảo nhận được hoặc tài sản hay dịch vụ khác cho bất cứ việc nào đã làm chưa báo cáo trên Mẫu đơn W-2 hay 1099?</value>
+  </data>
+  <data name="Charitable_contributions" xml:space="preserve">
+    <value>Đóng Góp Từ Thiện</value>
+  </data>
+  <data name="Chech_here_if_you_or_your_spouse_if" xml:space="preserve">
+    <value>Đánh dấu vào đây nếu quý vị, hay người hôn phối nếu khai chung, muốn góp $3 cho ngân quỹ này</value>
+  </data>
+  <data name="Check_appropriate_box_for_each_question_in_each" xml:space="preserve">
+    <value>Đánh dấu vào ô thích hợp cho mỗi câu hỏi trong từng đoạn</value>
+  </data>
+  <data name="Child_or_dependent_care_expences" xml:space="preserve">
+    <value>Chi phí giữ trẻ/người thuộc quyền như giữ trẻ ban ngày?</value>
+  </data>
+  <data name="Choose_your_file" xml:space="preserve">
+    <value>Chọn tệp của bạn</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Thành phố</value>
+  </data>
+  <data name="College_or_post_secondry_education" xml:space="preserve">
+    <value>Chi phí đại học hoặc giáo dục sau trung học cho bản thân, người hôn phối hay người thuộc quyền của quý vị? (Mẫu đơn 1098-T)</value>
+  </data>
+  <data name="completeformbelow" xml:space="preserve">
+    <value>Hãy hoàn thành mẫu đơn dưới dây</value>
+  </data>
+  <data name="Consent" xml:space="preserve">
+    <value>Thỏa thuận:</value>
+  </data>
+  <data name="Contribution_to_a_retirement_account" xml:space="preserve">
+    <value>Phần đóng góp vào trương mục hồi hưu?</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Ngày</value>
+  </data>
+  <data name="Date_format" xml:space="preserve">
+    <value>(tháng/ngày/
+năm)</value>
+  </data>
+  <data name="Date_of_births" xml:space="preserve">
+    <value>Ngày sinh</value>
+  </data>
+  <data name="Date_of_final_decree" xml:space="preserve">
+    <value>Ngày ghi trên quyết định sau cùng</value>
+  </data>
+  <data name="Date_of_separate_maintenance_decre" xml:space="preserve">
+    <value>Ngày thỏa thuận ly thân</value>
+  </data>
+  <data name="DAUGHTER" xml:space="preserve">
+    <value>CON GÁI</value>
+  </data>
+  <data name="Daytime_telephone_number" xml:space="preserve">
+    <value>Số điện thoại ban ngày</value>
+  </data>
+  <data name="Did_the_taxpayers_pay_more_than_half_the_cost" xml:space="preserve">
+    <value>(Những) người
+đóng thuế có trả
+hơn một nửa chi
+phí bảo trì nhà
+cho người này
+không? (có/
+không)</value>
+  </data>
+  <data name="Did_the_taxpayers_provide_more_than_fiftypercent" xml:space="preserve">
+    <value>(Những) người
+đóng thuế có
+cung cấp hơn
+50% tiền cấp
+dưỡng cho
+người này
+không? (có/
+không/không
+áp dụng)</value>
+  </data>
+  <data name="Did_this_person_have_less_than_fortythree" xml:space="preserve">
+    <value>Người này
+có lợi tức
+chưa đến
+$4,200 phải
+không?
+(có/không)</value>
+  </data>
+  <data name="Did_this_person_provide_more_than_fifty" xml:space="preserve">
+    <value>Người này
+có cung cấp
+hơn 50%
+tiền cấp
+dưỡng riêng
+của mình
+không? (có/
+không)</value>
+  </data>
+  <data name="Did_you_live_in_an_area_that" xml:space="preserve">
+    <value>Sống ở khu vực mà được công bố là khu vực thảm họa Liên Bang?</value>
+  </data>
+  <data name="Did_you_live_with_your_spouse_during_any" xml:space="preserve">
+    <value>Quý vị có sống cùng với người hôn phối vào bất cứ thời gian nào trong 6 tháng qua của năm 2019 không?</value>
+  </data>
+  <data name="Did_you_or_your_spouse_if_filling_jointly" xml:space="preserve">
+    <value>Quý vị, hay người phối ngẫu nếu nộp hồ sơ khai thuế chung, có nhận được thư từ IRS không?</value>
+  </data>
+  <data name="Direct_deposite" xml:space="preserve">
+    <value>Ký thác trực tiếp</value>
+  </data>
+  <data name="Disability_income_such" xml:space="preserve">
+    <value>Lợi tức khuyết tật? (như tiền trả từ bảo hiểm hay bồi thường lao động) (Mẫu đơn 1099-R, W-2)</value>
+  </data>
+  <data name="Divorced" xml:space="preserve">
+    <value>Ly dị</value>
+  </data>
+  <data name="etc" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Everyone" xml:space="preserve">
+    <value>bất cứ người nào</value>
+  </data>
+  <data name="Expences_related_to_self_employment_income" xml:space="preserve">
+    <value>Chi phí liên quan đến lợi tức tư doanh hay bất cứ lợi tức nào khác mà quý vị nhận được?</value>
+  </data>
+  <data name="File_a_federal_return_last_year" xml:space="preserve">
+    <value>Nộp bản khai thuế liên bang năm rồi “lỗ vốn mang qua năm” trên Danh Mục D của Mẫu đơn 1040?</value>
+  </data>
+  <data name="For_supplies_used_as_an_eligible" xml:space="preserve">
+    <value>Tiền trợ cấp dùng cho giáo dục viên đủ tiêu chuẩn như giáo viên, phụ tá giáo viên, cố vấn, v.v…?</value>
+  </data>
+  <data name="FOSTER_CHILD" xml:space="preserve">
+    <value>NUÔI CON</value>
+  </data>
+  <data name="Fourhundredone_k" xml:space="preserve">
+    <value>401K</value>
+  </data>
+  <data name="Full_time_student" xml:space="preserve">
+    <value>Là sinh viên toàn nhiệm</value>
+  </data>
+  <data name="Full_time_student_last_year_yes_or_no" xml:space="preserve">
+    <value>Sinh
+viên
+toàn
+nhiệm
+năm rồi
+(có/
+không)</value>
+  </data>
+  <data name="gb10" xml:space="preserve">
+    <value>Không chắc</value>
+  </data>
+  <data name="GRANDCHILD" xml:space="preserve">
+    <value>cháu nội</value>
+  </data>
+  <data name="GRANDPARENT" xml:space="preserve">
+    <value>ÔNG BÀ</value>
+  </data>
+  <data name="HALF_BROTHER" xml:space="preserve">
+    <value>ANH NỬA</value>
+  </data>
+  <data name="HALF_SISTER" xml:space="preserve">
+    <value>chị em dị bào</value>
+  </data>
+  <data name="Have_a_helth_saving_account" xml:space="preserve">
+    <value>(HSA) Có trương mục tiết kiệm sức khỏe? (Mẫu đơn 5498-SA, 1099-SA, W-2 có mã số W trong ô 12)</value>
+  </data>
+  <data name="Have_credit_card_or_mortgage_debt" xml:space="preserve">
+    <value>Có nợ tiền vay mua nhà hay nợ thẻ tín dụng được nơi cho vay hủy bỏ/xóa nợ hay bị tịch biên nhà? (Mẫu đơn 1099-C, 1099-A)</value>
+  </data>
+  <data name="Have_earned_income_credit" xml:space="preserve">
+    <value>Tín dụng Lợi Tức Kiếm Được, Tín Thuế cho Con hoặc Tín Thuế Cơ Hội Mỹ không được sử dụng cho năm trước đây? Nếu có, năm đóng thuế nào?</value>
+  </data>
+  <data name="Have_health_coverage_through_the" xml:space="preserve">
+    <value>Được bảo hiểm sức khỏe thông qua Thị Trường Bảo Hiểm? [Cung cấp Mẫu đơn 1095-A]</value>
+  </data>
+  <data name="Have_you_your_spouse_or_dependents_been_a" xml:space="preserve">
+    <value>Quý vị, người hôn phối, hoặc người thuộc quyền của quý vị có từng là nạn nhân của hành vi mạo danh liên quan đến thuế hoặc được cấp số Bảo Vệ Danh Tánh PIN?</value>
+  </data>
+  <data name="If_additional_space_is_needed_check_here" xml:space="preserve">
+    <value>Nếu cần thêm khoảng trống, xin đánh dấu ở đây và ghi trên trang 3</value>
+  </data>
+  <data name="If_uou_are_filling_a_joint_return" xml:space="preserve">
+    <value>(Nếu quý vị khai thuế chung, xin cho vào các họ và tên theo đúng thứ tự như trên tờ khai thuế năm ngoái của quý vị)</value>
+  </data>
+  <data name="If_yes_did_you_get_married" xml:space="preserve">
+    <value>Nếu có quý vị kết hôn trong năm 2019?</value>
+  </data>
+  <data name="If_yes_how_many_jobs_did_you_have_last_year" xml:space="preserve">
+    <value>Nếu có thì quý vị có bao nhiêu việc làm trong năm ngoái?</value>
+  </data>
+  <data name="If_yes_where" xml:space="preserve">
+    <value>Nếu có thì ở đâu?</value>
+  </data>
+  <data name="If_you_are_due_a_refund" xml:space="preserve">
+    <value>Nếu được hoàn tiền thì quý vị sẽ:</value>
+  </data>
+  <data name="If_you_belive_your_tax_return_information" xml:space="preserve">
+    <value>Nếu quý vị nghĩ thông tin khai thuế của mình bị tiết lộ hay sử dụng không đúng cách theo luật hoặc không được quý vị cho phép, thì có thể liên lạc với Tổng Thanh Tra Ngân Khố về Hành Chánh Thuế (Treasury Inspector General for Tax Administration, hay TIGTA) qua điện thoại theo số 1-800-366-4484 hoặc điện thư complaints@tigta.treas.gov.</value>
+  </data>
+  <data name="If_you_have_a_balance_due" xml:space="preserve">
+    <value>Nếu còn nợ tiền thì quý vị có muốn trả trực tiếp từ trương mục ngân hàng của mình không?</value>
+  </data>
+  <data name="Income_or_loss_for_rental_property" xml:space="preserve">
+    <value>Lợi tức (hay lỗ) từ tài sản cho mướn?</value>
+  </data>
+  <data name="Income_or_oloss_from_the_sale" xml:space="preserve">
+    <value>Lợi tức (hay thua lỗ) từ việc bán hay trao đổi cổ phiếu, trái phiếu, tiền ảo hay địa ốc? (Mẫu đơn 1099-S, 1099-B)</value>
+  </data>
+  <data name="Intakesheet" xml:space="preserve">
+    <value>Tờ Tiếp Nhận/Phỏng Vấn &amp; Duyệt Xét Phẩm Chất</value>
+  </data>
+  <data name="Interest_dividents_from_checking" xml:space="preserve">
+    <value>Tiền Lời/Lợi Tức Cổ Phần từ: trương mục chi phiếu/tiết kiệm, trái phiếu, chứng chỉ ký thác, môi giới? (Các mẫu đơn 1099-INT, 1099-DIV)</value>
+  </data>
+  <data name="Ira" xml:space="preserve">
+    <value>IRA</value>
+  </data>
+  <data name="Is_this_person_a_qualifying" xml:space="preserve">
+    <value>Người này có
+phải được
+người khác
+khai là con cái/
+họ hàng đủ tiêu
+chuẩn không?
+(có/không)</value>
+  </data>
+  <data name="Is_your_spouse_a_us_citizen" xml:space="preserve">
+    <value>Người hôn phối của quý vị có phải là công dân Hoa Kỳ không?</value>
+  </data>
+  <data name="I_authorize_my_tax_prepare_to_enter_the" xml:space="preserve">
+    <value>Tôi ủy quyền cho Người khai thuế nhập mã PIN năm số mà tôi đã chọn bên dưới.</value>
+  </data>
+  <data name="I_here_by_consent_to_the_disclosure" xml:space="preserve">
+    <value>Tôi/chúng tôi, nơi đây, đồng ý tiết lộ thông tin khai thuế được mô tả trong thời hạn của Global Carry Forward ở trên và cho người khai thuế nhập mã PIN vào nhu liệu khai thuế thay cho tôi để xác nhận tôi/chúng tôi đồng ý với các điều khoảng tiết lộ thông tin.</value>
+  </data>
+  <data name="I_or_we_the_taxpayers_have_read_the" xml:space="preserve">
+    <value>Tôi/chúng tôi, người đóng thuế, đã đọc thông tin trên.</value>
+  </data>
+  <data name="Last_name" xml:space="preserve">
+    <value>Họ</value>
+  </data>
+  <data name="Last_Name_Do_not_enter_your_name_or_spouses_name" xml:space="preserve">
+    <value>Họ (Không nhập tên của bạn hoặc tên vợ / chồng)</value>
+  </data>
+  <data name="Last_year_was_your_spouse" xml:space="preserve">
+    <value>Năm rồi có phải người hôn phối của quý vị:</value>
+  </data>
+  <data name="Last_year_were_you" xml:space="preserve">
+    <value>Năm rồi có phải quý vị:</value>
+  </data>
+  <data name="Legally_blind" xml:space="preserve">
+    <value>Bị mù hợp pháp</value>
+  </data>
+  <data name="Legally_speparated" xml:space="preserve">
+    <value>Ly thân hợp pháp</value>
+  </data>
+  <data name="List_the_name_below_of" xml:space="preserve">
+    <value>Nêu tên dưới đây của:</value>
+  </data>
+  <data name="Mailing_address" xml:space="preserve">
+    <value>Địa chỉ thư tín</value>
+  </data>
+  <data name="Make_estimated_tax_payments" xml:space="preserve">
+    <value>Trả tiền thuế ước tính hay nộp tiền bồi hoàn năm rồi cho thuế năm nay? Nếu có, là bao nhiêu?</value>
+  </data>
+  <data name="married" xml:space="preserve">
+    <value>Đã kết hôn</value>
+  </data>
+  <data name="Medical_and_dental_inculiding" xml:space="preserve">
+    <value>Y tế &amp; Nha khoa (bao gồm bảo phí)</value>
+  </data>
+  <data name="Mortagage_interest" xml:space="preserve">
+    <value>Tiền lời của nợ vay mua nhà (Mẫu đơn 1098)</value>
+  </data>
+  <data name="M_I" xml:space="preserve">
+    <value>Tên lót</value>
+  </data>
+  <data name="Name_first_and_last_do_not_enter_your" xml:space="preserve">
+    <value>Tên (Không nhập tên của bạn hoặc tên vợ / chồng)</value>
+  </data>
+  <data name="NEPHEW" xml:space="preserve">
+    <value>CHÁU TRAI</value>
+  </data>
+  <data name="Never_married" xml:space="preserve">
+    <value>Chưa bao giờ kết hôn</value>
+  </data>
+  <data name="NIECE" xml:space="preserve">
+    <value>cháu gái</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Không</value>
+  </data>
+  <data name="NONE" xml:space="preserve">
+    <value>KHÔNG AI</value>
+  </data>
+  <data name="Number_of_months_lived_in_your_home" xml:space="preserve">
+    <value>Số tháng
+sống trong
+nhà của
+quý vị năm
+rồi</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Loại khác</value>
+  </data>
+  <data name="Other_income_gamnling_lottery" xml:space="preserve">
+    <value>Lợi tức khác? (cờ bạc, xổ số, giải thưởng, tiền thưởng, trách nhiệm bồi thẩm, tiền ảo, Danh Mục K-1, tiền bản quyền, lợi tức nước ngoài, tài sản hay dịch vụ khác, v.v…) Nêu rõ:</value>
+  </data>
+  <data name="PARENT" xml:space="preserve">
+    <value>CHA MẸ</value>
+  </data>
+  <data name="Part_first_your_personal_information" xml:space="preserve">
+    <value>Phần I. Thông Tin Cá Nhân</value>
+  </data>
+  <data name="Part_five_life_events" xml:space="preserve">
+    <value>Phần V – Sự Việc trong Cuộc Sống – Năm rồi, quý vị (hay người hôn phối của quý vị) có</value>
+  </data>
+  <data name="Part_four_expenses" xml:space="preserve">
+    <value>Phần IV – Chi Phí – Năm Rồi, Quý Vị (hay Người Hôn Phối của quý vị) Có Trả</value>
+  </data>
+  <data name="Part_second_marital_status_and_household_information" xml:space="preserve">
+    <value>Phần II – Tình trạng hôn nhân và thông tin gia đình</value>
+  </data>
+  <data name="Part_third_income_last_year_did_you" xml:space="preserve">
+    <value>Phần III – Lợi tức – Năm rồi, quý vị (hay người hôn phối của quý vị) có được</value>
+  </data>
+  <data name="Presidental_election_campaign_fund" xml:space="preserve">
+    <value>Ngân Quỹ Vận Động Bầu Cử Tổng Thống (Nếu quý vị đánh dấu vào một ô thì tiền thuế hay hoàn lại sẽ không thay đổi)</value>
+  </data>
+  <data name="Primary_signature" xml:space="preserve">
+    <value>Họ tên ghi rõ ràng và chữ ký của người đóng thuế chính</value>
+  </data>
+  <data name="Primary_taxpayer_printed_name" xml:space="preserve">
+    <value>Tên in của người nộp thuế chính</value>
+  </data>
+  <data name="Provide_an_email_address" xml:space="preserve">
+    <value>Cho biết địa chỉ điện thư (email) (tùy ý) (địa chỉ điện thư này sẽ không được dùng để liên lạc từ Sở Thuế Vụ)</value>
+  </data>
+  <data name="Purchase_and_install_energy_efficant" xml:space="preserve">
+    <value>Mua và lắp đặt vật dụng tiết kiệm năng lượng trong nhà? (như cửa sổ, lò sưởi, cách nhiệt, v.v…)</value>
+  </data>
+  <data name="Receive_an_economic_impact_payment" xml:space="preserve">
+    <value>Nhận Thanh toán Tác động Kinh tế (kích cầu) vào năm 2020?</value>
+  </data>
+  <data name="Recive_the_first_time_homebuyers" xml:space="preserve">
+    <value>Được Tín Thuế Người Mua Nhà Lần Đầu trong năm 2008?</value>
+  </data>
+  <data name="Refund_of_state_local_income" xml:space="preserve">
+    <value>Tiền hoàn lại từ thuế lợi tức tiểu bang/địa phương (Mẫu đơn 1099-G)</value>
+  </data>
+  <data name="Relationship_to_you_for_example" xml:space="preserve">
+    <value>Mối quan hệ
+với quý vị</value>
+  </data>
+  <data name="Resident_of_us_canada_or_maxico" xml:space="preserve">
+    <value>Cư dân
+Hoa Kỳ,
+Gia Nã Đại,
+hay Mễ Tây
+Cơ năm rồi
+(có/không)</value>
+  </data>
+  <data name="Retriment_income_or_payments" xml:space="preserve">
+    <value>Lợi tức hưu trí hoặc tiền nhận được từ lương hưu, niên kim và/hoặc IRA? (Mẫu đơn 1099-R)</value>
+  </data>
+  <data name="Roth_ira" xml:space="preserve">
+    <value>Roth IRA</value>
+  </data>
+  <data name="Scholarships_form_w_t" xml:space="preserve">
+    <value>Học bổng? (Mẫu đơn W-2, 1098-T)</value>
+  </data>
+  <data name="Secondry_signatue" xml:space="preserve">
+    <value>Họ tên ghi rõ ràng và chữ ký của người đóng thuế phụ</value>
+  </data>
+  <data name="Secondry_taxpayer_printed_name" xml:space="preserve">
+    <value>Tên người nộp thuế phụ</value>
+  </data>
+  <data name="Self_employment_income_form" xml:space="preserve">
+    <value>Lợi tức tư doanh (Mẫu đơn 1099-MISC, tiền mặt, tiền ảo hoặc tài sản hay dịch vụ khác)</value>
+  </data>
+  <data name="Single" xml:space="preserve">
+    <value>Độc thân</value>
+  </data>
+  <data name="Single_or_married_as_of" xml:space="preserve">
+    <value>Độc thân
+(S) hay kết
+hôn (M) kể
+từ ngày 31
+tháng
+Chạp, 2019
+(S/M)</value>
+  </data>
+  <data name="SISTER" xml:space="preserve">
+    <value>EM GÁI</value>
+  </data>
+  <data name="Social_security_number" xml:space="preserve">
+    <value>Số an sinh xã hội</value>
+  </data>
+  <data name="Social_security_or_railroad_retirement" xml:space="preserve">
+    <value>Quyền lợi An Sinh Xã Hội hay quyền lợi hưu trí cho công nhân ngành đường sắt? (Các mẫu đơn SSA-1099, RRB-1099)</value>
+  </data>
+  <data name="SON" xml:space="preserve">
+    <value>CON TRAI</value>
+  </data>
+  <data name="Specify" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Spouse" xml:space="preserve">
+    <value>Người hôn phối</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>Tiểu bang</value>
+  </data>
+  <data name="STEPBROTHER" xml:space="preserve">
+    <value>ANH CỦA MẸ KẾ</value>
+  </data>
+  <data name="STEPCHILD" xml:space="preserve">
+    <value>CON RIÊNG</value>
+  </data>
+  <data name="STEPSISTER" xml:space="preserve">
+    <value>CHỊ KẾ</value>
+  </data>
+  <data name="Student_loan_interest" xml:space="preserve">
+    <value>Tiền lời cho tiền vay đại học? (Mẫu đơn 1098-E)</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Gửi đi</value>
+  </data>
+  <data name="Taxes_state_real_estate_personal" xml:space="preserve">
+    <value>Thuế (Tiểu bang, địa ốc, sở hữu cá nhân, buôn bán)</value>
+  </data>
+  <data name="This_includes_registered_domestic" xml:space="preserve">
+    <value>(Điều này bao gồm bạn nội gia, kết bạn dân sự hay có mối liên hệ chánh thức đối với luật pháp tiểu bang)</value>
+  </data>
+  <data name="Tip_income" xml:space="preserve">
+    <value>Lợi tức từ tiền típ?</value>
+  </data>
+  <data name="Totally_and_permanently_disabled" xml:space="preserve">
+    <value>Bị tàn tật hoàn toàn và dài hạn</value>
+  </data>
+  <data name="Totally_and_permanently_disabled_yes_or_nos" xml:space="preserve">
+    <value>Bị tàn tật
+hoàn toàn
+và dài hạn</value>
+  </data>
+  <data name="To_be_completed_by_a_certificate" xml:space="preserve">
+    <value>Do Người Giúp Khai Thuế Tự Nguyện được Chứng Nhận điền vào</value>
+  </data>
+  <data name="To_purchase_us_savings_bonds" xml:space="preserve">
+    <value>Mua Trái Phiếu Tiết Kiệm Hoa Kỳ</value>
+  </data>
+  <data name="To_split_your_refund_between_diffrent" xml:space="preserve">
+    <value>Phân chia tiền cho các trương mục khác nhau</value>
+  </data>
+  <data name="UNCLE" xml:space="preserve">
+    <value>CHÚ</value>
+  </data>
+  <data name="Unemployment_compensation" xml:space="preserve">
+    <value>Tiền thất nghiệp? (Mẫu đơn 1099-G)</value>
+  </data>
+  <data name="Unsure" xml:space="preserve">
+    <value>Không chắc</value>
+  </data>
+  <data name="Uploaded_files" xml:space="preserve">
+    <value>Tệp đã tải lên:</value>
+  </data>
+  <data name="Upload_your_documents_here" xml:space="preserve">
+    <value>Tải lên Tài liệu của bạn tại đây:</value>
+  </data>
+  <data name="Us_citizen_tes_or_no" xml:space="preserve">
+    <value>Công
+dân Hoa
+Kỳ </value>
+  </data>
+  <data name="Wages_or_salary_form_w" xml:space="preserve">
+    <value>Lương bổng theo giờ hay lương bổng theo năm? (Mẫu đơn W-2)</value>
+  </data>
+  <data name="Who_lived_with_you_last_year" xml:space="preserve">
+    <value>sống chung với quý vị năm rồi (ngoài người hôn phối của quý vị)</value>
+  </data>
+  <data name="Widowed" xml:space="preserve">
+    <value>Góa</value>
+  </data>
+  <data name="Year_of_spouse_deaths" xml:space="preserve">
+    <value>Năm tử của người hôn phối</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Có</value>
+  </data>
+  <data name="You" xml:space="preserve">
+    <value>Quý vị</value>
+  </data>
+  <data name="Your_date_of_birth" xml:space="preserve">
+    <value>Ngày sinh của quý vị</value>
+  </data>
+  <data name="Your_first_name" xml:space="preserve">
+    <value>Tên quý vị</value>
+  </data>
+  <data name="Your_job_title" xml:space="preserve">
+    <value>Chức vụ của quý vị</value>
+  </data>
+  <data name="Your_spouse_date_of_birth" xml:space="preserve">
+    <value>Ngày sinh của người hôn phối</value>
+  </data>
+  <data name="Your_spouse_first_name" xml:space="preserve">
+    <value>Tên của người hôn phối</value>
+  </data>
+  <data name="Your_spouse_job_title" xml:space="preserve">
+    <value>Chức vụ của người hôn phối</value>
+  </data>
+  <data name="You_support_but_did_not_live_with_you" xml:space="preserve">
+    <value>quý vị nuôi nhưng không sống chung với quý vị năm rồi</value>
+  </data>
+  <data name="Zip_code" xml:space="preserve">
+    <value>Mã số bưu chính</value>
+  </data>
+</root>

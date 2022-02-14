@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Admin Portal - Nlync Tax Service</title>
+    <link rel="shortcut icon" type="image/ico" href="~/favicon.ico">
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.3.1/css/all.min.css" rel="stylesheet">
+
+
+    <link href="~/Content/style/admin.css" rel="stylesheet" />
+    <link href="~/Content/style/admin-custom.css" rel="stylesheet" />
+    @Scripts.Render("~/bundles/modernizr")
+    <style>
+    </style>
+</head>
+<body>
+
+
+    <div class="page-wrapper chiller-theme toggled">
+        <a id="show-sidebar" class="btn btn-sm btn-dark" href="#">
+            <i class="fas fa-bars"></i>
+        </a>
+        <nav id="sidebar" class="sidebar-wrapper">
+            <div class="sidebar-content">
+                <div class="sidebar-brand">
+                    <a href="#"><img src="~/Content/images/logo.png" /></a>
+                    <div id="close-sidebar">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+
+                <!-- sidebar-header  -->
+                <!-- sidebar-search  -->
+                <div class="sidebar-menu">
+                    <ul>
+
+                        <li class="header-menu">
+                            <span></span>
+                        </li>
+                        <li>
+                            <a href="@Url.Action("Home", "Admin")">
+                                <i class="fas fa-home"></i>
+                                <span>Home</span>
+
+                            </a>
+                        </li>
+                        @if (Convert.ToInt32(Session["RoleID"]) == 1)
+                        {
+                        <li>
+                            <a href="@Url.Action("AdminIndex", "Admin")">
+                                <i class="fas fa-user-lock"></i>
+                                <span>Admin Users</span>
+
+                            </a>
+                        </li>
+                        }
+                        <li>
+                            <a href="@Url.Action("Index", "Customers")">
+                                <i class="fas fa-users"></i>
+                                <span>Customers</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- sidebar-menu  -->
+            </div>
+            <!-- sidebar-content  -->
+            @*<div class="sidebar-footer">
+                    <a href="#">
+                        <i class="fa fa-bell"></i>
+                        <span class="badge badge-pill badge-warning notification">3</span>
+                    </a>
+                    <a href="#">
+                        <i class="fa fa-envelope"></i>
+                        <span class="badge badge-pill badge-success notification">7</span>
+                    </a>
+                    <a href="#">
+                        <i class="fa fa-cog"></i>
+                        <span class="badge-sonar"></span>
+                    </a>
+                    <a href="#">
+                        <i class="fa fa-power-off"></i>
+                    </a>
+                </div>*@
+        </nav>
+        <!-- sidebar-wrapper  -->
+        <main class="page-content">
+            <!-- Top navbar -->
+            <nav class="navbar navbar-tp navbar-expand-md navbar-dark bg-primary" id="navbar-main">
+                <div class="container-fluid">
+                    <!-- Brand -->
+                    <!-- Form -->
+                    <form class="navbar-search navbar-search-dark form-inline mr-3 d-none d-md-flex ml-lg-auto">
+                        @*<div class="form-group mb-0">
+                                <div class="input-group input-group-alternative">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fas fa-search"></i></span>
+                                    </div>
+                                    <input class="form-control" placeholder="Search" type="text">
+                                </div>
+                            </div>*@
+                    </form>
+                    <!-- User -->
+                    <ul class="navbar-nav align-items-center d-none d-md-flex">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link pr-0" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <div class="media align-items-center">
+                                    <span class="avatar avatar-sm rounded-circle">
+                                        <img src="~/Content/images/logo.png" />
+                                    </span>
+                                    <div class="media-body ml-2 d-none d-lg-block">
+                                        <span class="mb-0 text-sm  font-weight-bold">@Session["UserName"]</span>
+                                    </div>
+                                </div>
+                            </a>
+                           
+                            <div class="dropdown-menu dropdown-menu-arrow dropdown-menu-right">
+                                @*<div class=" dropdown-header noti-title">
+                                        <h6 class="text-overflow m-0">Welcome!</h6>
+                                    </div>*@
+                                @*<a href="./examples/profile.html" class="dropdown-item">
+                                        <i class="ni ni-single-02"></i>
+                                        <span>My profile</span>
+                                    </a>*@
+                                @*<div class="dropdown-divider"></div>*@
+
+                                <a href="@Url.Action("Logout", "Admin")" class="dropdown-item">
+                                    <i class="ni ni-user-run"></i>
+                                    <span>Logout</span>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="container-fluid">
+                <p class="mt-5">  @RenderBody() </p>
+            </div>
+
+        </main>
+        <!-- page-content" -->
+    </div>
+    <!-- page-wrapper -->
+
+
+
+
+    @Scripts.Render("~/bundles/jquery")
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="~/Content/scripts/admin.js"></script>
+
+
+
+    @RenderSection("scripts", required: false)
+
+
+</body>
+</html>
+
+
+

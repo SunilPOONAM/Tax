@@ -1,0 +1,1562 @@
+@model TaxService.Models.TaxModel
+@{
+    ViewBag.Title = TaxService.Resources.Resource.Register;
+}
+
+<link href="~/Content/style/custom.css" rel="stylesheet" />
+
+
+<div class="container-xl bg-blue shadow canvas_div_pdf " id="root">
+    <div class="sec0" id="sec00">
+        <!-- logo and lang -->
+        <div class="row bg-blue-gradient justify-content-end border-bottom  border-light sticky-top">
+            <div class="col-xl-9 col-lg-8 col-md-8 col-sm-8  align-self-center py-1" id="root1">
+                <div class="float-left">
+                    <img src="~/Content/images/logo.png" class="img-fluid" alt="" style="max-height: 90px;">
+
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-4  col-md-4 col-sm-4  align-self-center py-1">
+
+                @using (Html.BeginForm("ChangeLanguage", "Home", FormMethod.Post, new { @id = "changeLanguageForm" }))
+                {
+                    @Html.HiddenFor(m => m.CustomerCode)
+                    @Html.HiddenFor(m => m.Language, new { @id = "languageCode" })
+                }
+
+                <select class="form-control float-right text-black" name="FooBarDropDown" id="FooBarDropDown" onchange="ChangeLang(this.value);">
+                    @{
+                        foreach (var i in TaxService.Models.LanguageModel.AvailableLanguages)
+                        {
+                            <option value="@i.LanguageCultureName" class="text-black">
+                                @i.LanguageFullName
+                            </option>
+                        }
+                    }
+                </select>
+
+            </div>
+        </div>
+    </div>
+    <!-- banner -->
+    <div class="row">
+        <div class="col-sm-12 px-0" style="height: 45vh;">
+            <img src="~/Content/images/tax.jpg" class="img-fluid" style="height: 100%;width: 100%;object-fit: cover;" alt="">
+        </div>
+    </div>
+
+    <!-- header -->
+    <div class="row text-center header-first-bg shadow-sm justify-content-center text-light">
+        <div class="col-xl-8 col-lg-8 col-md-6 col-sm-6 py-2">
+            <h2 class="font-weight-bold py-3">@TaxService.Resources.Resource.completeformbelow</h2>
+        </div>
+    </div>
+
+
+    <form id="jsonform">
+        <div class="sec" id="sec01">
+
+            <!-- part-i -->
+            <div class="row part mt-3 mr-1 ml-1  text-size4 cursor-pointer position-relative p-2 accordion_shadow set-01">
+                <i class="fas fa-plus position-absolute right-10"></i>
+                <span class="font-weight-normal mr-3">@TaxService.Resources.Resource.Part_first_your_personal_information</span> @TaxService.Resources.Resource.If_uou_are_filling_a_joint_return
+            </div>
+            <!-- part-i answer -->
+            <div class="part_answer mr-1 ml-1 text-size5 secpt-01">
+                <!-- first -->
+                <div class="row ">
+                    <div class="col-sm-6 col-md-8 col-lg-8 col-xl-8">
+                        <div class="row">
+                            <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 ">1. @TaxService.Resources.Resource.Your_first_name <input type="text" class="w-100 mb-1" name="part1_firstname" /></div>
+                            <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1 border-left border-right border-light">@TaxService.Resources.Resource.M_I <input type="text" class="w-100 mb-1" name="part1_midname" /></div>
+                            <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                                @TaxService.Resources.Resource.Last_name <input type="text" class="w-100 mb-1" name="part1_lastname" />
+
+                            </div>
+                            <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 border-left border-right border-light">@TaxService.Resources.Resource.Social_security_number<input type="text" class="w-100 mb-1 text-center" name="part1_ssn" id="ssn" placeholder="xxx-xx-xxxx" /></div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 border-left border-right border-light">@TaxService.Resources.Resource.Daytime_telephone_number <input type="text" class="w-100 mb-1 text-center" name="part1_daytmetelephone" id="dayTimeTelephone" placeholder="(xxx)-xxx-xxxx" /></div>
+                            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                <div>@TaxService.Resources.Resource.Are_you_a_us_citizen</div>
+                                <div class="row">
+                                    <div class="col-6 mt-1 "><input type="radio" name="part1_uscitizen" id="" value="@TaxService.Resources.Resource.Yes" /> @TaxService.Resources.Resource.Yes</div>
+                                    <div class="col-6 mt-1"><input type="radio" name="part1_uscitizen" value="@TaxService.Resources.Resource.No" id="" /> @TaxService.Resources.Resource.No</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- second -->
+                <div class="row  border-top border-light">
+                    <div class="col-sm-6 col-md-8 col-lg-8 col-xl-8">
+                        <div class="row">
+                            <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">2. @TaxService.Resources.Resource.Your_spouse_first_name <input type="text" class="w-100 mb-1" name="part1_spouse_firstname" /></div>
+                            <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1 border-left border-right border-light">@TaxService.Resources.Resource.M_I <input type="text" class="w-100 mb-1" name="part1_spouse_midname" /></div>
+                            <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">@TaxService.Resources.Resource.Last_name <input type="text" class="w-100 mb-1" name=" part1_spouse_lastname" /></div>
+                            <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 border-left border-right border-light">@TaxService.Resources.Resource.Social_security_number<input type="text" class="w-100 mb-1 text-center" name="part1_spouse_ssn" id="spouse-ssn" placeholder="xxx-xx-xxxx" /></div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 border-left border-right border-light border-left border-right border-light border-left border-right border-light">@TaxService.Resources.Resource.Daytime_telephone_number <input type="text" class="w-100 mb-1 text-center" name="part1_spouse_daytimetelephone" id="spouseDayTimeTelephone" placeholder="(xxx)-xxx-xxxx" /></div>
+                            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                                <div>@TaxService.Resources.Resource.Is_your_spouse_a_us_citizen</div>
+                                <div class="row">
+                                    <div class="col-6 mt-1"><input type="radio" name="part1_spouse_uscitizen" id="" value="@TaxService.Resources.Resource.Yes" /> @TaxService.Resources.Resource.Yes</div>
+                                    <div class="col-6 mt-1"><input type="radio" name="part1_spouse_uscitizen" id="" value="@TaxService.Resources.Resource.No" /> @TaxService.Resources.Resource.No</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- third -->
+                <div class="row  border-top border-light">
+                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">3. @TaxService.Resources.Resource.Mailing_address <input type="text" class="w-100 mb-1" name="part1_mailing" /></div>
+                    <div class="col-sm-3 col-md-3 col-lg-1 col-xl-1 border-left border-right border-light">@TaxService.Resources.Resource.Apt<input type="text" class="w-100 mb-1" name="part1_apt" /></div>
+                    <div class="col-sm-6 col-md-6 col-lg-3 col-xl-3">@TaxService.Resources.Resource.City <input type="text" class="w-100 mb-1" name="part1_city" /></div>
+                    <div class="col-sm-3 col-md-3 col-lg-2 col-xl-1 border-left border-right border-light">@TaxService.Resources.Resource.State <input type="text" class="w-100 mb-1" name="part1_state" /></div>
+                    <div class="col-sm-3 col-md-3 col-lg-2 col-xl-1">@TaxService.Resources.Resource.Zip_code <input type="text" class="w-100 mb-1" name="part1_zipcode" /></div>
+                </div>
+
+                <!-- fourth fifth six-->
+                <div class="row  border-top border-light">
+                    <div class="col-sm-6 col-md-3 col-lg-3 col-xl-3">4. @TaxService.Resources.Resource.Your_date_of_birth <input type="text" class="w-100 mb-1 text-center" name="part1_dob" id="dOB" placeholder="xx/xx/xxxx" /></div>
+                    <div class="col-sm-6 col-md-3 col-lg-3 col-xl-3 border-left border-right border-light">5. @TaxService.Resources.Resource.Your_job_title <input type="text" class="w-100 mb-1" name="part1_jobtitle" /></div>
+                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 mt-1">
+                        <div class="float-left">
+                            6. @TaxService.Resources.Resource.Last_year_were_you
+                            <div class="">b. @TaxService.Resources.Resource.Totally_and_permanently_disabled <input type="radio" name="part1_Totally_and_permanently_disabled" id="" value="@TaxService.Resources.Resource.Yes" /> @TaxService.Resources.Resource.Yes <input type="radio" name="part1_Totally_and_permanently_disabled" id="" value="@TaxService.Resources.Resource.No" /> @TaxService.Resources.Resource.No</div>
+                        </div>
+                        <div class="float-left pl-2">
+                            <div class="float-left">a. @TaxService.Resources.Resource.Full_time_student &nbsp;</div>
+                            <div class="float-right"><input type="radio" name="part1_Full_time_student" id="" value="@TaxService.Resources.Resource.Yes" /> @TaxService.Resources.Resource.Yes <input type="radio" name="part1_Full_time_student" id="" value="@TaxService.Resources.Resource.No" /> @TaxService.Resources.Resource.No</div>
+                            <div>
+                                <div class="float-left">c. @TaxService.Resources.Resource.Legally_blind</div>
+                                <div class="float-right"><input type="radio" name="part1_Legally_blind" id="" value="@TaxService.Resources.Resource.Yes" /> @TaxService.Resources.Resource.Yes <input type="radio" name="part1_Legally_blind" id="" value="@TaxService.Resources.Resource.No" /> @TaxService.Resources.Resource.No</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- seventh eigth nine -->
+                <div class="row border-top border-bottom border-light">
+                    <div class="col-sm-6 col-md-3 col-lg-3 col-xl-3">7. @TaxService.Resources.Resource.Your_spouse_date_of_birth <input type="text" class="w-100 mb-1 text-center" name="part1_spouseDOB" id="spouseDOB" placeholder="xx/xx/xxxx" /></div>
+                    <div class="col-sm-6 col-md-3 col-lg-3 col-xl-3 border-left border-right border-light">8. @TaxService.Resources.Resource.Your_spouse_job_title <input type="text" class="w-100 mb-1" name="part1_spouse_job_title" /></div>
+                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 mt-1">
+                        <div class="float-left">
+                            9. @TaxService.Resources.Resource.Last_year_was_your_spouse
+                            <div class="">b. @TaxService.Resources.Resource.Totally_and_permanently_disabled <input type="radio" name="part1_Totally_and_permanently_disabled_spouse" id="" value="@TaxService.Resources.Resource.Yes" /> @TaxService.Resources.Resource.Yes <input type="radio" name="part1_Totally_and_permanently_disabled_spouse" id="" value="@TaxService.Resources.Resource.No" /> @TaxService.Resources.Resource.No</div>
+                        </div>
+                        <div class="float-left pl-2">
+                            <div class="float-left">a. @TaxService.Resources.Resource.Full_time_student &nbsp;</div>
+                            <div class="float-right"><input type="radio" name="part1_Full_time_student_spouse" id="" value="@TaxService.Resources.Resource.Yes" /> @TaxService.Resources.Resource.Yes <input type="radio" name="part1_Full_time_student_spouse" value="@TaxService.Resources.Resource.No" id="" /> @TaxService.Resources.Resource.No</div>
+                            <div>
+                                <div class="float-left">c. @TaxService.Resources.Resource.Legally_blind</div>
+                                <div class="float-right"><input type="radio" name="part1_Legally_blind_spouse" id="" value="@TaxService.Resources.Resource.Yes" /> @TaxService.Resources.Resource.Yes <input type="radio" name="part1_Legally_blind_spouse" id="" value="@TaxService.Resources.Resource.No" /> @TaxService.Resources.Resource.No</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- tenth -->
+                <div class="row">
+                    <div class="col-sm-12 border-bottom border-light mt-1 pb-1">
+                        <span class="pr-3">10. @TaxService.Resources.Resource.Can_anyone_claim_you_or_your</span> <input type="radio" name="part1_Can_anyone_claim_spouse" id="" value="@TaxService.Resources.Resource.Yes" /> @TaxService.Resources.Resource.Yes <input type="radio" name="part1_Can_anyone_claim_spouse" id="" value="@TaxService.Resources.Resource.No" /> @TaxService.Resources.Resource.No <input type="radio" name="part1_Can_anyone_claim_spouse" id="" value="@TaxService.Resources.Resource.Unsure" /> @TaxService.Resources.Resource.Unsure
+                    </div>
+                </div>
+
+                <!-- eleven -->
+                <div class="row">
+                    <div class="col-sm-12 border-bottom border-light mt-1 pb-1">
+                        <div class="float-left pr-5">11. @TaxService.Resources.Resource.Have_you_your_spouse_or_dependents_been_a</div>
+                        <div class="float-left"><input type="radio" name="part1_Have_you_your_spouse_or_dependents_been" id="" value="@TaxService.Resources.Resource.Yes" /> @TaxService.Resources.Resource.Yes <input type="radio" name="part1_Have_you_your_spouse_or_dependents_been" id="" value="@TaxService.Resources.Resource.No" /> @TaxService.Resources.Resource.No</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="sec" id="sec02">
+
+            <!-- part ii -->
+            <div class="row part mt-1 m-1 font-weight-normal text-size4 cursor-pointer position-relative p-2 accordion_shadow set-02">
+                <i class="fas fa-plus position-absolute right-10 align-middle"></i>
+                <span class="font-weight-normal mr-3">  @TaxService.Resources.Resource.Part_second_marital_status_and_household_information </span>
+            </div>
+            <!-- part ii-answer -->
+            <div class="part_answer text-size5 m-1 mt-3 secpt-02">
+                <!--part ii-1  -->
+                <div class="row">
+                    <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                        <div class="d-flex"> 1. <span class="ml-1">@TaxService.Resources.Resource.As_of_december_thirtyfirst</span></div>
+                    </div>
+                    <div class="col-sm-9 col-md-9 col-lg-9 col-xl-9">
+                        <table>
+                            <tr>
+                                <td><input type="radio" name="part2_As_of_december_marital_status" id="" value="@TaxService.Resources.Resource.Single" /> @TaxService.Resources.Resource.Single</td>
+                                <td>
+                                    @TaxService.Resources.Resource.This_includes_registered_domestic
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="radio" name="part2_As_of_december_marital_status" id="" value="@TaxService.Resources.Resource.married" /> @TaxService.Resources.Resource.married</td>
+                                <td><div class="d-flex">a. <span class="ml-1">@TaxService.Resources.Resource.If_yes_did_you_get_married</span></div> </td>
+                                <td class="d-flex"><input type="radio" name="part2_If_yes_did_you_get_married" id="" value="@TaxService.Resources.Resource.Yes" class="mr-1" /> @TaxService.Resources.Resource.Yes <input type="radio" name="part2_If_yes_did_you_get_married" id="" value="@TaxService.Resources.Resource.No" class="mr-1 ml-1" /> @TaxService.Resources.Resource.No</td>
+                            </tr>
+                            <tr>
+                                <td class=""></td>
+                                <td><div class="d-flex">b. <span class="ml-1">@TaxService.Resources.Resource.Did_you_live_with_your_spouse_during_any</span></div></td>
+                                <td class="d-flex"><input type="radio" name="part2_Did_you_live_with_your_spouse" id="" class="mr-1" value="@TaxService.Resources.Resource.Yes" /> @TaxService.Resources.Resource.Yes <input type="radio" name="part2_Did_you_live_with_your_spouse" id="" class="mr-1 ml-1" value="@TaxService.Resources.Resource.No" /> @TaxService.Resources.Resource.No</td>
+                            </tr>
+                            <tr>
+                                <td><input type="radio" name="part2_As_of_december_marital_status" id="" value="@TaxService.Resources.Resource.Divorced" /> @TaxService.Resources.Resource.Divorced</td>
+                                <td>
+                                    <div class="float-left w-50 pl-3">@TaxService.Resources.Resource.Date_of_final_decree</div>
+                                    <div class="float-right w-50 mt-1"><input type="text" class="w-75" name="part2_Date_of_final_decree" /></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="radio" name="part2_As_of_december_marital_status" id="" value="@TaxService.Resources.Resource.Legally_speparated" /> @TaxService.Resources.Resource.Legally_speparated </td>
+                                <td>
+                                    <div class="w-50 float-left pl-3">@TaxService.Resources.Resource.Date_of_separate_maintenance_decre</div>
+                                    <div class="w-50 float-right mt-1"><input type="text" class="w-75" name="part2_Date_of_separate_maintenance_decre" /></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="radio" name="part2_As_of_december_marital_status" id="" value="@TaxService.Resources.Resource.Widowed" /> @TaxService.Resources.Resource.Widowed</td>
+                                <td>
+                                    <div class="float-left w-50 pl-3">@TaxService.Resources.Resource.Year_of_spouse_deaths</div>
+                                    <div class="float-right w-50 mt-1"><input type="text" class="w-75" name="part2_Year_of_spouse_deaths" /></div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- part ii-2 -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div>2. @TaxService.Resources.Resource.List_the_name_below_of</div>
+                        <div class="float-left">
+                            <ul>
+                                <li><span class="font-weight-bold">@TaxService.Resources.Resource.Everyone</span> @TaxService.Resources.Resource.Who_lived_with_you_last_year</li>
+                            </ul>
+                        </div>
+                        @*<div class="float-right">
+                            @TaxService.Resources.Resource.If_additional_space_is_needed_check_here
+                        </div>*@
+                    </div>
+                </div>
+
+                <!-- partii-2 -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="table-responsive">
+                            <table class="list_table table table-bordered">
+                                <tr>
+                                    <td colspan="9">
+                                        <ul class="ml-0">
+                                            <li><span class="font-weight-bold">@TaxService.Resources.Resource.Anyone</span> @TaxService.Resources.Resource.You_support_but_did_not_live_with_you</li>
+                                        </ul>
+
+                                    </td>
+                                    @*<td colspan="5" class="font-weight-bold bg-lightyellow text-black">@TaxService.Resources.Resource.To_be_completed_by_a_certificate</td>*@
+                                </tr>
+                                <tr class="align-top">
+                                    <td class="position-relative">
+                                        <div class="pb-2">
+                                            @TaxService.Resources.Resource.Name_first_and_last_do_not_enter_your
+                                        </div>
+                                        @*<div class="position-absolute fix-bottom pt-2">(a)</div>*@
+                                    </td>
+                                    <td class="position-relative">
+                                        <div class="pb-2">
+                                            @TaxService.Resources.Resource.Last_Name_Do_not_enter_your_name_or_spouses_name
+                                        </div>
+                                    </td>
+                                    <td class="position-relative">
+                                        <div class="pb-2">
+                                            @TaxService.Resources.Resource.Date_of_births <br />
+                                            @TaxService.Resources.Resource.Date_format
+                                        </div>
+                                        @*<div class="position-absolute fix-bottom">(b)</div>*@
+                                    </td>
+                                    <td class="position-relative">
+                                        <div class="pb-2">@TaxService.Resources.Resource.Relationship_to_you_for_example</div>
+                                        @*<div class="position-absolute fix-bottom">(c)</div>*@
+                                    </td>
+                                    <td class="position-relative">
+                                        @TaxService.Resources.Resource.Number_of_months_lived_in_your_home
+                                        @*<div class="position-absolute fix-bottom">(d)</div>*@
+                                    </td>
+                                    <td class="position-relative">
+                                        @TaxService.Resources.Resource.Us_citizen_tes_or_no
+                                        @*<div class="position-absolute fix-bottom">(e)</div>*@
+                                    </td>
+                                    @*<td class="position-relative">
+                                        @TaxService.Resources.Resource.Resident_of_us_canada_or_maxico
+                                        <div class="position-absolute fix-bottom">(f)</div>
+                                    </td>*@
+                                    <td class="position-relative">
+                                        @TaxService.Resources.Resource.Single_or_married_as_of
+                                        @*<div class="position-absolute fix-bottom">(g)</div>*@
+                                    </td>
+                                    <td class="position-relative">
+                                        @TaxService.Resources.Resource.Full_time_student_last_year_yes_or_no
+                                        @*<div class="position-absolute fix-bottom">(h)</div>*@
+                                    </td>
+                                    <td class="position-relative">
+                                        @TaxService.Resources.Resource.Totally_and_permanently_disabled_yes_or_nos
+                                        @*<div class="position-absolute fix-bottom">(i)</div>*@
+                                    </td>
+                                    @*<td class="position-relative bg-lightyellow text-black">
+                                        @TaxService.Resources.Resource.Is_this_person_a_qualifying
+                                    </td>
+                                    <td class="position-relative bg-lightyellow text-black">
+                                        @TaxService.Resources.Resource.Did_this_person_provide_more_than_fifty
+                                    </td>
+                                    <td class="position-relative bg-lightyellow text-black">
+                                        @TaxService.Resources.Resource.Did_this_person_have_less_than_fortythree
+                                    </td>
+                                    <td class="position-relative bg-lightyellow text-black">
+                                        @TaxService.Resources.Resource.Did_the_taxpayers_provide_more_than_fiftypercent
+                                    </td>
+                                    <td class="position-relative bg-lightyellow text-black">
+                                        @TaxService.Resources.Resource.Did_the_taxpayers_pay_more_than_half_the_cost
+                                    </td>*@
+                                </tr>
+                                <tr class="bg-lightblue">
+                                    <td class="p-0"><input type="text" class="w-100 bg-lightblue" name="part2_firstname" value=""></td>
+                                    <td class="p-0"><input type="text" class="w-100 bg-lightblue" name="part2_lastname" value=""></td>
+                                    <td class="p-0"><input type="text" id="part2dob1" class="w-100 bg-lightblue text-center" name="part2_dob" value="" placeholder="xx/xx/xxxx"></td>
+                                    <td class="p-1">
+                                        <select class="w-100 bg-lightpurple" name="part2_Relationship_to_you">
+                                            <option value=""></option>
+                                            <option>@TaxService.Resources.Resource.DAUGHTER</option>
+                                            <option>@TaxService.Resources.Resource.SON</option>
+                                            <option>@TaxService.Resources.Resource.STEPCHILD</option>
+                                            <option>@TaxService.Resources.Resource.FOSTER_CHILD</option>
+                                            <option>@TaxService.Resources.Resource.GRANDCHILD</option>
+                                            <option>@TaxService.Resources.Resource.PARENT</option>
+                                            <option>@TaxService.Resources.Resource.GRANDPARENT</option>
+                                            <option>@TaxService.Resources.Resource.BROTHER</option>
+                                            <option>@TaxService.Resources.Resource.SISTER</option>
+                                            <option>@TaxService.Resources.Resource.STEPBROTHER</option>
+                                            <option>@TaxService.Resources.Resource.HALF_BROTHER</option>
+                                            <option>@TaxService.Resources.Resource.HALF_SISTER</option>
+                                            <option>@TaxService.Resources.Resource.NEPHEW</option>
+                                            <option>@TaxService.Resources.Resource.NIECE</option>
+                                            <option>@TaxService.Resources.Resource.AUNT</option>
+                                            <option>@TaxService.Resources.Resource.UNCLE</option>
+                                            <option>@TaxService.Resources.Resource.Other</option>
+                                            <option>@TaxService.Resources.Resource.NONE</option>
+                                        </select>
+                                    </td>
+                                    <td class="p-1">
+                                        <select class="w-100 bg-lightpurple" name="part2_Number_of_months_lived_in_your_home">
+                                            <option value=""></option>
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                            <option value="11">11</option>
+                                            <option value="12">12</option>
+                                        </select>
+                                        @*<input type="text" class="w-100 bg-lightblue" name="name" value="">*@
+                                    </td>
+                                    <td class="p-1">
+                                        <select class="w-100 bg-lightpurple" name="part2_Us_citizen">
+                                            <option></option>
+                                            <option>@TaxService.Resources.Resource.Yes</option>
+                                            <option>@TaxService.Resources.Resource.No</option>
+                                        </select>
+                                    </td>
+                                    <td class="p-1">
+                                        <select class="w-100 bg-lightpurple" name="part2_Single_or_married">
+                                            <option></option>
+                                            <option>@TaxService.Resources.Resource.Single</option>
+                                            <option>@TaxService.Resources.Resource.married</option>
+                                        </select>
+                                    </td>
+                                    <td class="p-1">
+                                        <select class="w-100 bg-lightpurple" name="part2_Full_time_student_last_year">
+                                            <option></option>
+                                            <option>@TaxService.Resources.Resource.Yes</option>
+                                            <option>@TaxService.Resources.Resource.No</option>
+                                        </select>
+                                    </td>
+                                    <td class="p-1">
+                                        <select class="w-100 bg-lightpurple" name="part2_Totally_and_permanently_disabled">
+                                            <option></option>
+                                            <option>@TaxService.Resources.Resource.Yes</option>
+                                            <option>@TaxService.Resources.Resource.No</option>
+                                        </select>
+                                    </td>
+                                    @*<td class="p-0"><input type="text" class="w-100 bg-lightblue" name="name" value=""></td>
+                                    <td class="p-0"><input type="text" class="w-100 bg-lightblue" name="name" value=""></td>
+                                    <td class="p-0"><input type="text" class="w-100 bg-lightblue" name="name" value=""></td>
+                                    <td class="p-0"><input type="text" class="w-100 bg-lightblue" name="name" value=""></td>
+                                    <td class="p-0"><input type="text" class="w-100 bg-lightblue" name="name" value=""></td>*@
+                                    @*<td class="p-0"><input type="text" class="w-100 bg-lightpurple" name="name" value=""></td>
+                                    <td class="p-0"><input type="text" class="w-100  bg-lightpurple" name="name" value=""></td>
+                                    <td class="p-0"><input type="text" class="w-100  bg-lightpurple" name="name" value=""></td>
+                                    <td class="p-0"><input type="text" class="w-100  bg-lightpurple" name="name" value=""></td>
+                                    <td class="p-0"><input type="text" class="w-100  bg-lightpurple" name="name" value=""></td>*@
+                                </tr>
+                                <tr class="bg-lightblue">
+                                    <td class="p-0"><input type="text" class="w-100 bg-lightblue" name="part2_firstname" value=""></td>
+                                    <td class="p-0"><input type="text" class="w-100 bg-lightblue" name="part2_lastname" value=""></td>
+                                    <td class="p-0"><input type="text" id="part2dob2" class="w-100 bg-lightblue text-center" name="part2_dob" value="" placeholder="xx/xx/xxxx"></td>
+                                    <td class="p-1">
+                                        <select class="w-100 bg-lightpurple" name="part2_Relationship_to_you">
+                                            <option value=""></option>
+                                            <option>@TaxService.Resources.Resource.DAUGHTER</option>
+                                            <option>@TaxService.Resources.Resource.SON</option>
+                                            <option>@TaxService.Resources.Resource.STEPCHILD</option>
+                                            <option>@TaxService.Resources.Resource.FOSTER_CHILD</option>
+                                            <option>@TaxService.Resources.Resource.GRANDCHILD</option>
+                                            <option>@TaxService.Resources.Resource.PARENT</option>
+                                            <option>@TaxService.Resources.Resource.GRANDPARENT</option>
+                                            <option>@TaxService.Resources.Resource.BROTHER</option>
+                                            <option>@TaxService.Resources.Resource.SISTER</option>
+                                            <option>@TaxService.Resources.Resource.STEPBROTHER</option>
+                                            <option>@TaxService.Resources.Resource.HALF_BROTHER</option>
+                                            <option>@TaxService.Resources.Resource.HALF_SISTER</option>
+                                            <option>@TaxService.Resources.Resource.NEPHEW</option>
+                                            <option>@TaxService.Resources.Resource.NIECE</option>
+                                            <option>@TaxService.Resources.Resource.AUNT</option>
+                                            <option>@TaxService.Resources.Resource.UNCLE</option>
+                                            <option>@TaxService.Resources.Resource.Other</option>
+                                            <option>@TaxService.Resources.Resource.NONE</option>
+                                        </select>
+                                    </td>
+                                    <td class="p-1">
+                                        <select class="w-100 bg-lightpurple" name="part2_Number_of_months_lived_in_your_home">
+                                            <option value=""></option>
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                            <option value="11">11</option>
+                                            <option value="12">12</option>
+                                        </select>
+                                    </td>
+                                    <td class="p-1">
+                                        <select class="w-100 bg-lightpurple" name="part2_Us_citizen">
+                                            <option></option>
+                                            <option>@TaxService.Resources.Resource.Yes</option>
+                                            <option>@TaxService.Resources.Resource.No</option>
+                                        </select>
+                                    </td>
+                                    <td class="p-1">
+                                        <select class="w-100 bg-lightpurple" name="part2_Single_or_married">
+                                            <option></option>
+                                            <option>@TaxService.Resources.Resource.Single</option>
+                                            <option>@TaxService.Resources.Resource.married</option>
+                                        </select>
+                                    </td>
+                                    <td class="p-1">
+                                        <select class="w-100 bg-lightpurple" name="part2_Full_time_student_last_year">
+                                            <option></option>
+                                            <option>@TaxService.Resources.Resource.Yes</option>
+                                            <option>@TaxService.Resources.Resource.No</option>
+                                        </select>
+                                    </td>
+                                    <td class="p-1">
+                                        <select class="w-100 bg-lightpurple" name="part2_Totally_and_permanently_disabled">
+                                            <option></option>
+                                            <option>@TaxService.Resources.Resource.Yes</option>
+                                            <option>@TaxService.Resources.Resource.No</option>
+                                        </select>
+                                    </td>
+                                    @*<td class="p-0"><input type="text" class="w-100 bg-lightblue" name="name" value=""></td>
+                                    <td class="p-0"><input type="text" class="w-100 bg-lightblue" name="name" value=""></td>
+                                    <td class="p-0"><input type="text" class="w-100 bg-lightblue" name="name" value=""></td>
+                                    <td class="p-0"><input type="text" class="w-100 bg-lightblue" name="name" value=""></td>
+                                    <td class="p-0"><input type="text" class="w-100 bg-lightblue" name="name" value=""></td>*@
+                                    @* <td class="p-0"><input type="text" class="w-100 bg-lightpurple" name="name" value=""></td>
+                                    <td class="p-0"><input type="text" class="w-100  bg-lightpurple" name="name" value=""></td>
+                                    <td class="p-0"><input type="text" class="w-100  bg-lightpurple" name="name" value=""></td>
+                                    <td class="p-0"><input type="text" class="w-100  bg-lightpurple" name="name" value=""></td>
+                                    <td class="p-0"><input type="text" class="w-100  bg-lightpurple" name="name" value=""></td>*@
+                                </tr>
+                                <tr class="bg-lightblue">
+                                    <td class="p-0"><input type="text" class="w-100 bg-lightblue" name="part2_firstname" value=""></td>
+                                    <td class="p-0"><input type="text" class="w-100 bg-lightblue" name="part2_lastname" value=""></td>
+                                    <td class="p-0"><input type="text" id="part2dob3" class="w-100 bg-lightblue text-center" name="part2_dob" value="" placeholder="xx/xx/xxxx"></td>
+                                    <td class="p-1">
+                                        <select class="w-100 bg-lightpurple" name="part2_Relationship_to_you">
+                                            <option value=""></option>
+                                            <option>@TaxService.Resources.Resource.DAUGHTER</option>
+                                            <option>@TaxService.Resources.Resource.SON</option>
+                                            <option>@TaxService.Resources.Resource.STEPCHILD</option>
+                                            <option>@TaxService.Resources.Resource.FOSTER_CHILD</option>
+                                            <option>@TaxService.Resources.Resource.GRANDCHILD</option>
+                                            <option>@TaxService.Resources.Resource.PARENT</option>
+                                            <option>@TaxService.Resources.Resource.GRANDPARENT</option>
+                                            <option>@TaxService.Resources.Resource.BROTHER</option>
+                                            <option>@TaxService.Resources.Resource.SISTER</option>
+                                            <option>@TaxService.Resources.Resource.STEPBROTHER</option>
+                                            <option>@TaxService.Resources.Resource.HALF_BROTHER</option>
+                                            <option>@TaxService.Resources.Resource.HALF_SISTER</option>
+                                            <option>@TaxService.Resources.Resource.NEPHEW</option>
+                                            <option>@TaxService.Resources.Resource.NIECE</option>
+                                            <option>@TaxService.Resources.Resource.AUNT</option>
+                                            <option>@TaxService.Resources.Resource.UNCLE</option>
+                                            <option>@TaxService.Resources.Resource.Other</option>
+                                            <option>@TaxService.Resources.Resource.NONE</option>
+                                        </select>
+                                    </td>
+                                    <td class="p-1">
+                                        <select class="w-100 bg-lightpurple" name="part2_Number_of_months_lived_in_your_home">
+                                            <option value=""></option>
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                            <option value="11">11</option>
+                                            <option value="12">12</option>
+                                        </select>
+                                    </td>
+                                    <td class="p-1">
+                                        <select class="w-100 bg-lightpurple" name="part2_Us_citizen">
+                                            <option></option>
+                                            <option>@TaxService.Resources.Resource.Yes</option>
+                                            <option>@TaxService.Resources.Resource.No</option>
+                                        </select>
+                                    </td>
+                                    <td class="p-1">
+                                        <select class="w-100 bg-lightpurple" name="part2_Single_or_married">
+                                            <option></option>
+                                            <option>@TaxService.Resources.Resource.Single</option>
+                                            <option>@TaxService.Resources.Resource.married</option>
+                                        </select>
+                                    </td>
+                                    <td class="p-1">
+                                        <select class="w-100 bg-lightpurple" name="part2_Full_time_student_last_year">
+                                            <option></option>
+                                            <option>@TaxService.Resources.Resource.Yes</option>
+                                            <option>@TaxService.Resources.Resource.No</option>
+                                        </select>
+                                    </td>
+                                    <td class="p-1">
+                                        <select class="w-100 bg-lightpurple" name="part2_Totally_and_permanently_disabled">
+                                            <option></option>
+                                            <option>@TaxService.Resources.Resource.Yes</option>
+                                            <option>@TaxService.Resources.Resource.No</option>
+                                        </select>
+                                    </td>
+                                    @*<td class="p-0"><input type="text" class="w-100 bg-lightblue" name="name" value=""></td>
+                                    <td class="p-0"><input type="text" class="w-100 bg-lightblue" name="name" value=""></td>
+                                    <td class="p-0"><input type="text" class="w-100 bg-lightblue" name="name" value=""></td>
+                                    <td class="p-0"><input type="text" class="w-100 bg-lightblue" name="name" value=""></td>
+                                    <td class="p-0"><input type="text" class="w-100 bg-lightblue" name="name" value=""></td>*@
+                                    @* <td class="p-0"><input type="text" class="w-100 bg-lightpurple" name="name" value=""></td>
+                                    <td class="p-0"><input type="text" class="w-100  bg-lightpurple" name="name" value=""></td>
+                                    <td class="p-0"><input type="text" class="w-100  bg-lightpurple" name="name" value=""></td>
+                                    <td class="p-0"><input type="text" class="w-100  bg-lightpurple" name="name" value=""></td>
+                                    <td class="p-0"><input type="text" class="w-100  bg-lightpurple" name="name" value=""></td>*@
+                                </tr>
+                                <tr class="bg-lightblue">
+                                    <td class="p-0"><input type="text" class="w-100 bg-lightblue" name="part2_firstname" value=""></td>
+                                    <td class="p-0"><input type="text" class="w-100 bg-lightblue" name="part2_lastname" value=""></td>
+                                    <td class="p-0"><input type="text" id="part2dob4" class="w-100 bg-lightblue text-center" name="part2_dob" value="" placeholder="xx/xx/xxxx"></td>
+                                    <td class="p-1">
+                                        <select class="w-100 bg-lightpurple" name="part2_Relationship_to_you">
+                                            <option value=""></option>
+                                            <option>@TaxService.Resources.Resource.DAUGHTER</option>
+                                            <option>@TaxService.Resources.Resource.SON</option>
+                                            <option>@TaxService.Resources.Resource.STEPCHILD</option>
+                                            <option>@TaxService.Resources.Resource.FOSTER_CHILD</option>
+                                            <option>@TaxService.Resources.Resource.GRANDCHILD</option>
+                                            <option>@TaxService.Resources.Resource.PARENT</option>
+                                            <option>@TaxService.Resources.Resource.GRANDPARENT</option>
+                                            <option>@TaxService.Resources.Resource.BROTHER</option>
+                                            <option>@TaxService.Resources.Resource.SISTER</option>
+                                            <option>@TaxService.Resources.Resource.STEPBROTHER</option>
+                                            <option>@TaxService.Resources.Resource.HALF_BROTHER</option>
+                                            <option>@TaxService.Resources.Resource.HALF_SISTER</option>
+                                            <option>@TaxService.Resources.Resource.NEPHEW</option>
+                                            <option>@TaxService.Resources.Resource.NIECE</option>
+                                            <option>@TaxService.Resources.Resource.AUNT</option>
+                                            <option>@TaxService.Resources.Resource.UNCLE</option>
+                                            <option>@TaxService.Resources.Resource.Other</option>
+                                            <option>@TaxService.Resources.Resource.NONE</option>
+                                        </select>
+                                    </td>
+                                    <td class="p-1">
+                                        <select class="w-100 bg-lightpurple" name="part2_Number_of_months_lived_in_your_home">
+                                            <option value=""></option>
+                                            <option value="0">0</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                            <option value="11">11</option>
+                                            <option value="12">12</option>
+                                        </select>
+                                    </td>
+                                    <td class="p-1">
+                                        <select class="w-100 bg-lightpurple" name="part2_Us_citizen">
+                                            <option></option>
+                                            <option>@TaxService.Resources.Resource.Yes</option>
+                                            <option>@TaxService.Resources.Resource.No</option>
+                                        </select>
+                                    </td>
+                                    <td class="p-1">
+                                        <select class="w-100 bg-lightpurple" name="part2_Single_or_married">
+                                            <option></option>
+                                            <option>@TaxService.Resources.Resource.Single</option>
+                                            <option>@TaxService.Resources.Resource.married</option>
+                                        </select>
+                                    </td>
+                                    <td class="p-1">
+                                        <select class="w-100 bg-lightpurple" name="part2_Full_time_student_last_year">
+                                            <option></option>
+                                            <option>@TaxService.Resources.Resource.Yes</option>
+                                            <option>@TaxService.Resources.Resource.No</option>
+                                        </select>
+                                    </td>
+                                    <td class="p-1">
+                                        <select class="w-100 bg-lightpurple" name="part2_Totally_and_permanently_disabled">
+                                            <option></option>
+                                            <option>@TaxService.Resources.Resource.Yes</option>
+                                            <option>@TaxService.Resources.Resource.No</option>
+                                        </select>
+                                    </td>
+                                    @*<td class="p-0"><input type="text" class="w-100 bg-lightblue" name="name" value=""></td>
+                                    <td class="p-0"><input type="text" class="w-100 bg-lightblue" name="name" value=""></td>
+                                    <td class="p-0"><input type="text" class="w-100 bg-lightblue" name="name" value=""></td>
+                                    <td class="p-0"><input type="text" class="w-100 bg-lightblue" name="name" value=""></td>
+                                    <td class="p-0"><input type="text" class="w-100 bg-lightblue" name="name" value=""></td>*@
+                                    @* <td class="p-0"><input type="text" class="w-100 bg-lightpurple" name="name" value=""></td>
+                                    <td class="p-0"><input type="text" class="w-100  bg-lightpurple" name="name" value=""></td>
+                                    <td class="p-0"><input type="text" class="w-100  bg-lightpurple" name="name" value=""></td>
+                                    <td class="p-0"><input type="text" class="w-100  bg-lightpurple" name="name" value=""></td>
+                                    <td class="p-0"><input type="text" class="w-100  bg-lightpurple" name="name" value=""></td>*@
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="sec" id="sec03">
+
+            <h6 class="font-weight-bold pt-3 pb-1  text-size5 ">@TaxService.Resources.Resource.Check_appropriate_box_for_each_question_in_each</h6>
+            <!-- page2 page2 page2 page2 page2  -->
+            <div class="row part mt-1 m-1  text-size4 cursor-pointer font-weight-normal position-relative p-2 accordion_shadow">
+                <i class="fas fa-plus position-absolute right-10"></i>
+                <span class="font-weight-normal mr-3">  @TaxService.Resources.Resource.Part_third_income_last_year_did_you</span>
+            </div>
+            <!-- receive table-part -->
+            <div class="part_answer m-1 mt-3 text-size5">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="table-responsive">
+                            <table class="table table-sm text-center receive_table table-bordered">
+                                <tr>
+                                    <th>@TaxService.Resources.Resource.Yes</th>
+                                    <th>@TaxService.Resources.Resource.No</th>
+                                    <th>@TaxService.Resources.Resource.Unsure</th>
+                                    <th class="text-left">@TaxService.Resources.Resource.Part_third_income_last_year_did_you</th>
+                                </tr>
+                                <tr>
+                                    <td><input type="radio" name="part3_Wages_or_salary_form_Jobs" id="" value="@TaxService.Resources.Resource.Yes" /></td>
+                                    <td><input type="radio" name="part3_Wages_or_salary_form_Jobs" id="" value="@TaxService.Resources.Resource.No" /></td>
+                                    <td><input type="radio" name="part3_Wages_or_salary_form_Jobs" id="" value="@TaxService.Resources.Resource.Unsure" /></td>
+                                    <td class="text-left d-md-flex d-lg-flex d-sm-block">
+                                        1. <span class="ml-1">(B) @TaxService.Resources.Resource.Wages_or_salary_form_w</span>
+                                        <span class="font-weight-bold ml-1 mr-1"> @TaxService.Resources.Resource.If_yes_how_many_jobs_did_you_have_last_year </span>
+                                        <input type="text" name="part3_Wages_or_salary_form_Jobs" />
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td><input type="radio" name="part3_Tip_income" id="" value="@TaxService.Resources.Resource.Yes" /></td>
+                                    <td><input type="radio" name="part3_Tip_income" id="" value="@TaxService.Resources.Resource.No" /></td>
+                                    <td><input type="radio" name="part3_Tip_income" id="" value="@TaxService.Resources.Resource.Unsure" /></td>
+                                    <td class="text-left d-flex">2. <span class="ml-1">(A) @TaxService.Resources.Resource.Tip_income</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td><input type="radio" name="part3_Scholarships_form" id="" value="@TaxService.Resources.Resource.Yes" /></td>
+                                    <td><input type="radio" name="part3_Scholarships_form" id="" value="@TaxService.Resources.Resource.No" /></td>
+                                    <td><input type="radio" name="part3_Scholarships_form" id="" value="@TaxService.Resources.Resource.Unsure" /></td>
+                                    <td class="text-left d-flex">3. <span class="ml-1">(B) @TaxService.Resources.Resource.Scholarships_form_w_t</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td><input type="radio" name="part3_Interest_dividents_from_checking<" id="" value="@TaxService.Resources.Resource.Yes" /></td>
+                                    <td><input type="radio" name="part3_Interest_dividents_from_checking<" id="" value="@TaxService.Resources.Resource.No" /></td>
+                                    <td><input type="radio" name="part3_Interest_dividents_from_checking<" id="" value="@TaxService.Resources.Resource.Unsure" /></td>
+                                    <td class="text-left d-flex">4. <span class="ml-1">(B) @TaxService.Resources.Resource.Interest_dividents_from_checking</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td><input type="radio" name="part3_Refund_of_state_local_income" id="" value="@TaxService.Resources.Resource.Yes" /></td>
+                                    <td><input type="radio" name="part3_Refund_of_state_local_income" id="" value="@TaxService.Resources.Resource.No" /></td>
+                                    <td><input type="radio" name="part3_Refund_of_state_local_income" id="" value="@TaxService.Resources.Resource.Unsure" /></td>
+                                    <td class="text-left d-flex">5. <span class="ml-1">(B) @TaxService.Resources.Resource.Refund_of_state_local_income</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td><input type="radio" name="part3_Alimony_income_or_seprate_maintenence_payments" id="" value="@TaxService.Resources.Resource.Yes" /></td>
+                                    <td><input type="radio" name="part3_Alimony_income_or_seprate_maintenence_payments" id="" value="@TaxService.Resources.Resource.No" /></td>
+                                    <td><input type="radio" name="part3_Alimony_income_or_seprate_maintenence_payments" id="" value="@TaxService.Resources.Resource.Unsure" /></td>
+                                    <td class="text-left d-flex">6. <span class="ml-1">(B) @TaxService.Resources.Resource.Alimony_income_or_seprate_maintenence_payments</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td><input type="radio" name="part3_Self_employment_income_form" id="" value="@TaxService.Resources.Resource.Yes" /></td>
+                                    <td><input type="radio" name="part3_Self_employment_income_form" id="" value="@TaxService.Resources.Resource.No" /></td>
+                                    <td><input type="radio" name="part3_Self_employment_income_form" id="" value="@TaxService.Resources.Resource.Unsure" /></td>
+                                    <td class="text-left d-flex">7. <span class="ml-1">(A) @TaxService.Resources.Resource.Self_employment_income_form</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td><input type="radio" name="part3_Cash_check_virtual_currency_payments" id="" value="@TaxService.Resources.Resource.Yes" /></td>
+                                    <td><input type="radio" name="part3_Cash_check_virtual_currency_payments" id="" value="@TaxService.Resources.Resource.No" /></td>
+                                    <td><input type="radio" name="part3_Cash_check_virtual_currency_payments" id="" value="@TaxService.Resources.Resource.Unsure" /></td>
+                                    <td class="text-left d-flex">8. <span class="ml-1">(A) @TaxService.Resources.Resource.Cash_check_virtual_currency_payments</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td><input type="radio" name="part3_Income_or_oloss_from_the_sale" id="" value="@TaxService.Resources.Resource.Yes" /></td>
+                                    <td><input type="radio" name="part3_Income_or_oloss_from_the_sale" id="" value="@TaxService.Resources.Resource.No" /></td>
+                                    <td><input type="radio" name="part3_Income_or_oloss_from_the_sale" id="" value="@TaxService.Resources.Resource.Unsure" /></td>
+                                    <td class="text-left d-flex">9. <span class="ml-1">(A) @TaxService.Resources.Resource.Income_or_oloss_from_the_sale</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td><input type="radio" name="part3_Disability_income_such" id="" value="@TaxService.Resources.Resource.Yes" /></td>
+                                    <td><input type="radio" name="part3_Disability_income_such" id="" value="@TaxService.Resources.Resource.No" /></td>
+                                    <td><input type="radio" name="part3_Disability_income_such" id="" value="@TaxService.Resources.Resource.Unsure" /></td>
+                                    <td class="text-left d-flex">10. <span class="ml-1">(B) @TaxService.Resources.Resource.Disability_income_such</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td><input type="radio" name="part3_Retriment_income_or_payments" id="" value="@TaxService.Resources.Resource.Yes" /></td>
+                                    <td><input type="radio" name="part3_Retriment_income_or_payments" id="" value="@TaxService.Resources.Resource.No" /></td>
+                                    <td><input type="radio" name="part3_Retriment_income_or_payments" id="" value="@TaxService.Resources.Resource.Unsure" /></td>
+                                    <td class="text-left d-flex">11. <span class="ml-1">(A) @TaxService.Resources.Resource.Retriment_income_or_payments</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td><input type="radio" name="part3_Unemployment_compensation" id="" value="@TaxService.Resources.Resource.Yes" /></td>
+                                    <td><input type="radio" name="part3_Unemployment_compensation" id="" value="@TaxService.Resources.Resource.No" /></td>
+                                    <td><input type="radio" name="part3_Unemployment_compensation" id="" value="@TaxService.Resources.Resource.Unsure" /></td>
+                                    <td class="text-left d-flex">12. <span class="ml-1">(B) @TaxService.Resources.Resource.Unemployment_compensation</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td><input type="radio" name="part3_Social_security_or_railroad_retirement" id="" value="@TaxService.Resources.Resource.Yes" /></td>
+                                    <td><input type="radio" name="part3_Social_security_or_railroad_retirement" id="" value="@TaxService.Resources.Resource.No" /></td>
+                                    <td><input type="radio" name="part3_Social_security_or_railroad_retirement" id="" value="@TaxService.Resources.Resource.Unsure" /></td>
+                                    <td class="text-left">13. (B) @TaxService.Resources.Resource.Social_security_or_railroad_retirement</td>
+                                </tr>
+
+                                <tr>
+                                    <td><input type="radio" name="part3_Income_or_loss_for_rental_property" id="" value="@TaxService.Resources.Resource.Yes" /></td>
+                                    <td><input type="radio" name="part3_Income_or_loss_for_rental_property" id="" value="@TaxService.Resources.Resource.No" /></td>
+                                    <td><input type="radio" name="part3_Income_or_loss_for_rental_property" id="" value="@TaxService.Resources.Resource.Unsure" /></td>
+                                    <td class="text-left d-flex">14. <span class="ml-1">(M) @TaxService.Resources.Resource.Income_or_loss_for_rental_property</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td><input type="radio" name="part3_Other_income_gamnling_lottery" id="" value="@TaxService.Resources.Resource.Yes" /></td>
+                                    <td><input type="radio" name="part3_Other_income_gamnling_lottery" id="" value="@TaxService.Resources.Resource.No" /></td>
+                                    <td><input type="radio" name="part3_Other_income_gamnling_lottery" id="" value="@TaxService.Resources.Resource.Unsure" /></td>
+                                    <td class="text-left d-md-flex d-lg-flex d-sm-block">
+                                        15. <span class="ml-1">(B) @TaxService.Resources.Resource.Other_income_gamnling_lottery @TaxService.Resources.Resource.etc @TaxService.Resources.Resource.Specify</span><input type="text" class="w-50" name="part3_Other_income_gamnling_lottery" />
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="sec" id="sec04">
+
+            <!-- part iv -->
+            <div class="row part mt-1 m-1  font-weight-normal text-size4 cursor-pointer position-relative p-2 accordion_shadow">
+                <i class="fas fa-plus position-absolute right-10"></i>
+                <span class="font-weight-normal mr-3">  @TaxService.Resources.Resource.Part_four_expenses</span>
+            </div>
+            <!-- pay table or part iv-answer  -->
+            <div class="part_answer mt-3 m-1 text-size5">
+                <div class="row mt-3">
+                    <div class="col-sm-12">
+                        <div class="table-responsive">
+                            <table class="table table-sm text-center receive_table table-bordered">
+                                <tr>
+                                    <th>@TaxService.Resources.Resource.Yes</th>
+                                    <th>@TaxService.Resources.Resource.No</th>
+                                    <th>@TaxService.Resources.Resource.Unsure</th>
+                                    <th class="text-left">@TaxService.Resources.Resource.Part_four_expenses</th>
+                                </tr>
+                                <tr>
+                                    <td><input type="radio" name="part4_Alimony_or_seprate_maintenance_payments_ssn" id="" value="@TaxService.Resources.Resource.Yes" /></td>
+                                    <td><input type="radio" name="part4_Alimony_or_seprate_maintenance_payments_ssn" id="" value="@TaxService.Resources.Resource.No" /></td>
+                                    <td><input type="radio" name="part4_Alimony_or_seprate_maintenance_payments_ssn" id="" value="@TaxService.Resources.Resource.Unsure" /></td>
+                                    <td class="text-left">
+                                        <div class="float-left">1. (B) @TaxService.Resources.Resource.Alimony_or_seprate_maintenance_payments_if</div>
+                                        <div class="float-left pl-5"><input type="radio" name="part4_Alimony_or_seprate_maintenance_payments_ssn" value="@TaxService.Resources.Resource.Yes" /> @TaxService.Resources.Resource.Yes <input type="radio" name="part4_Alimony_or_seprate_maintenance_payments_ssn" value="@TaxService.Resources.Resource.No" /> @TaxService.Resources.Resource.No</div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td><input type="radio" name="part4_Contribution_to_a_retirement_account" id="" value="@TaxService.Resources.Resource.Yes" /></td>
+                                    <td><input type="radio" name="part4_Contribution_to_a_retirement_account" id="" value="@TaxService.Resources.Resource.No" /></td>
+                                    <td><input type="radio" name="part4_Contribution_to_a_retirement_account" id="" value="@TaxService.Resources.Resource.Unsure" /></td>
+                                    <td class="text-left">
+                                        <div class="float-left">2. @TaxService.Resources.Resource.Contribution_to_a_retirement_account</div>
+                                        <div class="float-left pl-5"><input type="checkbox" name="part4_Contribution_to_a_retirement_account" value="@TaxService.Resources.Resource.Ira (A)" /> @TaxService.Resources.Resource.Ira (A) <input type="checkbox" name="part4_Contribution_to_a_retirement_account" value="@TaxService.Resources.Resource.Fourhundredone_k (B)" /> @TaxService.Resources.Resource.Fourhundredone_k (B) <input type="checkbox" name="part4_Contribution_to_a_retirement_account" value="@TaxService.Resources.Resource.Roth_ira (B)" /> @TaxService.Resources.Resource.Roth_ira (B) <input type="checkbox" name="part4_Contribution_to_a_retirement_account" id="" value="@TaxService.Resources.Resource.Other" /> @TaxService.Resources.Resource.Other</div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td><input type="radio" name="part4_College_or_post_secondry_education" id="" value="@TaxService.Resources.Resource.Yes" /></td>
+                                    <td><input type="radio" name="part4_College_or_post_secondry_education" id="" value="@TaxService.Resources.Resource.No" /></td>
+                                    <td><input type="radio" name="part4_College_or_post_secondry_education" id="" value="@TaxService.Resources.Resource.Unsure" /></td>
+                                    <td class="text-left">3. (B) @TaxService.Resources.Resource.College_or_post_secondry_education</td>
+                                </tr>
+
+                                <tr>
+                                    <td><input type="radio" name="part4_Any_of_the_following" id="" value="@TaxService.Resources.Resource.Yes" /></td>
+                                    <td><input type="radio" name="part4_Any_of_the_following" id="" value="@TaxService.Resources.Resource.No" /></td>
+                                    <td><input type="radio" name="part4_Any_of_the_following" id="" value="@TaxService.Resources.Resource.Unsure" /></td>
+                                    <td class="text-left">
+                                        <div class="d-flex">
+                                            <div class="col-3 p-0">4. @TaxService.Resources.Resource.Any_of_the_following</div>
+                                            <div class="col-5"><input type="checkbox" name="part4_Any_of_the_following" id="" value="(A) @TaxService.Resources.Resource.Medical_and_dental_inculiding" /> (A) @TaxService.Resources.Resource.Medical_and_dental_inculiding</div>
+                                            <div class="col-4"><input type="checkbox" name="part4_Any_of_the_following" id="" value="(A) @TaxService.Resources.Resource.Mortagage_interest" /> (A) @TaxService.Resources.Resource.Mortagage_interest</div>
+                                        </div>
+                                        <div class="d-flex">
+                                            <div class="col-3"></div>
+                                            <div class="col-5"><input type="checkbox" name="part4_Any_of_the_following" id="" value="(A) @TaxService.Resources.Resource.Taxes_state_real_estate_personal" /> (A) @TaxService.Resources.Resource.Taxes_state_real_estate_personal</div>
+                                            <div class="col-4"><input type="checkbox" name="part4_Any_of_the_following" id="" value="(B) @TaxService.Resources.Resource.Charitable_contributions" /> (B) @TaxService.Resources.Resource.Charitable_contributions</div>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td><input type="radio" name="part4_Child_or_dependent_care_expences" id="" value="@TaxService.Resources.Resource.Yes" /></td>
+                                    <td><input type="radio" name="part4_Child_or_dependent_care_expences" id="" value="@TaxService.Resources.Resource.No" /></td>
+                                    <td><input type="radio" name="part4_Child_or_dependent_care_expences" id="" value="@TaxService.Resources.Resource.Unsure" /></td>
+                                    <td class="text-left">5. (B) @TaxService.Resources.Resource.Child_or_dependent_care_expences</td>
+                                </tr>
+
+                                <tr>
+                                    <td><input type="radio" name="part4_For_supplies_used_as_an_eligible" id="" value="@TaxService.Resources.Resource.Yes" /></td>
+                                    <td><input type="radio" name="part4_For_supplies_used_as_an_eligible" id="" value="@TaxService.Resources.Resource.No" /></td>
+                                    <td><input type="radio" name="part4_For_supplies_used_as_an_eligible" id="" value="@TaxService.Resources.Resource.Unsure" /></td>
+                                    <td class="text-left">6. (B) @TaxService.Resources.Resource.For_supplies_used_as_an_eligible</td>
+                                </tr>
+
+                                <tr>
+                                    <td><input type="radio" name="part4_Expences_related_to_self_employment_income" id="" value="@TaxService.Resources.Resource.Yes" /></td>
+                                    <td><input type="radio" name="part4_Expences_related_to_self_employment_income" id="" value="@TaxService.Resources.Resource.No" /></td>
+                                    <td><input type="radio" name="part4_Expences_related_to_self_employment_income" id="" value="@TaxService.Resources.Resource.Unsure" /></td>
+                                    <td class="text-left">7. (A) @TaxService.Resources.Resource.Expences_related_to_self_employment_income</td>
+                                </tr>
+
+                                <tr>
+                                    <td><input type="radio" name="part4_Student_loan_interest" id="" value="@TaxService.Resources.Resource.Yes" /></td>
+                                    <td><input type="radio" name="part4_Student_loan_interest" id="" value="@TaxService.Resources.Resource.No" /></td>
+                                    <td><input type="radio" name="part4_Student_loan_interest" id="" value="@TaxService.Resources.Resource.Unsure" /></td>
+                                    <td class="text-left">8. (B) @TaxService.Resources.Resource.Student_loan_interest</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="sec" id="sec05">
+
+            <!-- part v -->
+            <div class="row part mt-1 m-1 font-weight-normal  text-size4 cursor-pointer position-relative p-2 accordion_shadow">
+                <i class="fas fa-plus position-absolute right-10"></i>
+                <span class="font-weight-normal mr-3">   @TaxService.Resources.Resource.Part_five_life_events</span>
+            </div>
+            <!-- part v-answer -->
+            <div class="part_answer m-1 mt-3 text-size5">
+                <!-- life event table -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="table-responsive">
+                            <table class="table table-sm text-center receive_table table-bordered">
+                                <tr>
+                                    <th>@TaxService.Resources.Resource.Yes</th>
+                                    <th>@TaxService.Resources.Resource.No</th>
+                                    <th>@TaxService.Resources.Resource.Unsure</th>
+                                    <th class="text-left">@TaxService.Resources.Resource.Part_five_life_events</th>
+                                </tr>
+                                <tr>
+                                    <td><input type="radio" name="part5_Have_a_helth_saving_account" id="" value="@TaxService.Resources.Resource.Yes" /></td>
+                                    <td><input type="radio" name="part5_Have_a_helth_saving_account" id="" value="@TaxService.Resources.Resource.No" /></td>
+                                    <td><input type="radio" name="part5_Have_a_helth_saving_account" id="" value="@TaxService.Resources.Resource.Unsure" /></td>
+                                    <td class="text-left d-flex">
+                                        1. <span class="ml-1">(A) @TaxService.Resources.Resource.Have_a_helth_saving_account</span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td><input type="radio" name="part5_Have_credit_card_or_mortgage_debt" id="" value="@TaxService.Resources.Resource.Yes" /></td>
+                                    <td><input type="radio" name="part5_Have_credit_card_or_mortgage_debt" id="" value="@TaxService.Resources.Resource.No" /></td>
+                                    <td><input type="radio" name="part5_Have_credit_card_or_mortgage_debt" id="" value="@TaxService.Resources.Resource.Unsure" /></td>
+                                    <td class="text-left d-flex">
+                                        2. <span class="ml-1">(A) @TaxService.Resources.Resource.Have_credit_card_or_mortgage_debt</span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td><input type="radio" name="part5_Adopt_a_child" id="" value="@TaxService.Resources.Resource.Yes" /></td>
+                                    <td><input type="radio" name="part5_Adopt_a_child" id="" value="@TaxService.Resources.Resource.No" /></td>
+                                    <td><input type="radio" name="part5_Adopt_a_child" id="" value="@TaxService.Resources.Resource.Unsure" /></td>
+                                    <td class="text-left d-flex">3. <span class="ml-1">(A) @TaxService.Resources.Resource.Adopt_a_child</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td><input type="radio" name="part5_Have_earned_income_credit" id="" value="@TaxService.Resources.Resource.Yes" /></td>
+                                    <td><input type="radio" name="part5_Have_earned_income_credit" id="" value="@TaxService.Resources.Resource.No" /></td>
+                                    <td><input type="radio" name="part5_Have_earned_income_credit" id="" value="@TaxService.Resources.Resource.Unsure" /></td>
+                                    <td class="text-left d-md-flex d-lg-flex d-sm-block">4. <span class="ml-1 mr-1">(B) @TaxService.Resources.Resource.Have_earned_income_credit</span> <input type="text" name="part5_Have_earned_income_credit" /></td>
+                                </tr>
+
+                                <tr>
+                                    <td><input type="radio" name="part5_Purchase_and_install_energy_efficant" id="" value="@TaxService.Resources.Resource.Yes" /></td>
+                                    <td><input type="radio" name="part5_Purchase_and_install_energy_efficant" id="" value="@TaxService.Resources.Resource.No" /></td>
+                                    <td><input type="radio" name="part5_Purchase_and_install_energy_efficant" id="" value="@TaxService.Resources.Resource.Unsure" /></td>
+                                    <td class="text-left d-flex">5. <span class="ml-1">(A) @TaxService.Resources.Resource.Purchase_and_install_energy_efficant</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td><input type="radio" name="part5_Recive_the_first_time_homebuyers" id="" value="@TaxService.Resources.Resource.Yes" /></td>
+                                    <td><input type="radio" name="part5_Recive_the_first_time_homebuyers" id="" value="@TaxService.Resources.Resource.No" /></td>
+                                    <td><input type="radio" name="part5_Recive_the_first_time_homebuyers" id="" value="@TaxService.Resources.Resource.Unsure" /></td>
+                                    <td class="text-left d-flex">6. <span class="ml-1">(A) @TaxService.Resources.Resource.Recive_the_first_time_homebuyers</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td><input type="radio" name="part5_Make_estimated_tax_payments" id="" value="@TaxService.Resources.Resource.Yes" /></td>
+                                    <td><input type="radio" name="part5_Make_estimated_tax_payments" id="" value="@TaxService.Resources.Resource.No" /></td>
+                                    <td><input type="radio" name="part5_Make_estimated_tax_payments" id="" value="@TaxService.Resources.Resource.Unsure" /></td>
+                                    <td class="text-left d-md-flex d-lg-flex d-sm-block">
+                                        7. <span class="ml-1 mr-1">(B) @TaxService.Resources.Resource.Make_estimated_tax_payments</span><input type="text" name="part5_Make_estimated_tax_payments" id="" />
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td><input type="radio" name="part5_File_a_federal_return_last_year" id="" value="@TaxService.Resources.Resource.Yes" /></td>
+                                    <td><input type="radio" name="part5_File_a_federal_return_last_year" id="" value="@TaxService.Resources.Resource.No" /></td>
+                                    <td><input type="radio" name="part5_File_a_federal_return_last_year" id="" value="@TaxService.Resources.Resource.Unsure" /></td>
+                                    <td class="text-left d-flex">8. <span class="ml-1">(A) @TaxService.Resources.Resource.File_a_federal_return_last_year</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td><input type="radio" name="part5_Have_health_coverage_through_the" id="" value="@TaxService.Resources.Resource.Yes" /></td>
+                                    <td><input type="radio" name="part5_Have_health_coverage_through_the" id="" value="@TaxService.Resources.Resource.No" /></td>
+                                    <td><input type="radio" name="part5_Have_health_coverage_through_the" id="" value="@TaxService.Resources.Resource.Unsure" /></td>
+                                    <td class="text-left d-flex">9. <span class="ml-1">(A) @TaxService.Resources.Resource.Have_health_coverage_through_the</span></td>
+                                </tr>
+
+                                <tr>
+                                    <td><input type="radio" name="part5_Receive_an_economic_impact_payment" id="" value="@TaxService.Resources.Resource.Yes" /></td>
+                                    <td><input type="radio" name="part5_Receive_an_economic_impact_payment" id="" value="@TaxService.Resources.Resource.No" /></td>
+                                    <td><input type="radio" name="part5_Receive_an_economic_impact_payment" id="" value="@TaxService.Resources.Resource.Unsure" /></td>
+                                    <td class="text-left d-flex">10. <span class="ml-1">(B) @TaxService.Resources.Resource.Receive_an_economic_impact_payment</span></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="sec" id="sec06">
+
+            <h6 class="font-weight-bold pt-3 pb-1  text-size5">@TaxService.Resources.Resource.Additional_information_and_question_related</h6>
+            <!-- part -->
+            <div class="row font-weight-normal part mt-1 m-1  text-size4 cursor-pointer position-relative p-2 accordion_shadow">
+                <i class="fas fa-plus position-absolute right-10"></i>
+                <span> @TaxService.Resources.Resource.AdditionalInformation</span>
+            </div>
+            <!-- part answer -->
+            <div class="part_answer m-1 mt-3 text-size5">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="float-left w-75 d-flex">1. <span class="ml-1">@TaxService.Resources.Resource.Provide_an_email_address</span></div>
+                        <div class="float-left w-25"><input type="text" class="w-100" name="AddinlInfo_Provide_an_email_address" /></div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="d-flex">2. <span class="ml-1">@TaxService.Resources.Resource.Presidental_election_campaign_fund</span></div>
+                        <div class="ml-3">
+                            <div class="float-left ">@TaxService.Resources.Resource.Chech_here_if_you_or_your_spouse_if</div>
+                            <div class="float-left pl-5"><input type="checkbox" name="AddinlInfo_Chech_here_if_you_or_your_spouse_if" id="" value="@TaxService.Resources.Resource.You" /> @TaxService.Resources.Resource.You <input type="checkbox" name="AddinlInfo_Chech_here_if_you_or_your_spouse_if" id="" value="@TaxService.Resources.Resource.Spouse" /> @TaxService.Resources.Resource.Spouse</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 col-lg-3 col-xl-3 d-flex">
+                        3. <span class="ml-1">@TaxService.Resources.Resource.If_you_are_due_a_refund</span>
+                    </div>
+                    <div class="col-sm-6 col-md-2 col-lg-2 col-xl-2">
+                        <div>a. @TaxService.Resources.Resource.Direct_deposite</div>
+                        <div class="row">
+                            <div class="col-6"><input type="radio" name="AddinlInfo_If_you_are_due_Direct_deposite" id="" value="@TaxService.Resources.Resource.Yes" /> @TaxService.Resources.Resource.Yes</div>
+                            <div class="col-6"><input type="radio" name="AddinlInfo_If_you_are_due_Direct_deposite" id="" value="@TaxService.Resources.Resource.No" /> @TaxService.Resources.Resource.No</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                        <div>@TaxService.Resources.Resource.To_purchase_us_savings_bonds</div>
+                        <div class="row">
+                            <div class="col-6"><input type="radio" name="AddinlInfo_If_you_are_due_savings_bonds" id="" value="@TaxService.Resources.Resource.Yes" /> @TaxService.Resources.Resource.Yes</div>
+                            <div class="col-6"><input type="radio" name="AddinlInfo_If_you_are_due_savings_bonds" id="" value="@TaxService.Resources.Resource.No" /> @TaxService.Resources.Resource.No</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-4 col-xl-4">
+                        <div>c. @TaxService.Resources.Resource.To_split_your_refund_between_diffrent</div>
+                        <div class="row">
+                            <div class="col-6"><input type="radio" name="AddinlInfo_If_you_are_due_refund_different_accounts" id="" value="@TaxService.Resources.Resource.Yes" /> @TaxService.Resources.Resource.Yes</div>
+                            <div class="col-6"><input type="radio" name="AddinlInfo_If_you_are_due_refund_different_accounts" id="" value="@TaxService.Resources.Resource.No" /> @TaxService.Resources.Resource.No</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div>
+                            4. @TaxService.Resources.Resource.If_you_have_a_balance_due
+                            <input type="radio" name="AddinlInfo_If_you_have_a_balance_due" id="" value="@TaxService.Resources.Resource.Yes" /> @TaxService.Resources.Resource.Yes <input type="radio" name="AddinlInfo_If_you_have_a_balance_due" id="" value="@TaxService.Resources.Resource.No" /> @TaxService.Resources.Resource.No
+                        </div>
+
+                        <div class=" d-sm-block d-md-flex d-lg-flex">
+                            5. <span class="ml-1 mr-1">@TaxService.Resources.Resource.Did_you_live_in_an_area_that</span>
+                            <input type="radio" name="AddinlInfo_Did_you_live" id="" value="@TaxService.Resources.Resource.Yes" /> <span class="ml-1 mr-1">@TaxService.Resources.Resource.Yes</span> <input type="radio" name="AddinlInfo_Did_you_live" id="" value="@TaxService.Resources.Resource.No" /> <span class="ml-1 mr-1">@TaxService.Resources.Resource.No </span><span class="px-3"> @TaxService.Resources.Resource.If_yes_where</span> <input type="text" name="AddinlInfo_Did_you_live_If_yes_where" id="" />
+                        </div>
+
+                        <div>
+                            6. @TaxService.Resources.Resource.Did_you_or_your_spouse_if_filling_jointly
+                            <input type="radio" name="AddinlInfo_spouse_if_filling_jointly" id="" value="@TaxService.Resources.Resource.Yes" /> @TaxService.Resources.Resource.Yes <input type="radio" name="AddinlInfo_spouse_if_filling_jointly" id="" value="@TaxService.Resources.Resource.No" /> @TaxService.Resources.Resource.No
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-12 m-3">
+                    <span class="mr-2">@TaxService.Resources.Resource.Upload_your_documents_here </span>
+                    <label for="FileUpload1" class="btn border">@TaxService.Resources.Resource.Choose_your_file</label>
+                    <label for="FileUpload2" class="btn border">@TaxService.Resources.Resource.Additional_doc_files</label>
+                    <input type="file" id="FileUpload1" class="fi-up" style="visibility:hidden;" />
+                    <input type="file" id="FileUpload2" class="fi-up" style="visibility:hidden;" />
+                    <div>
+                        <p id="fileDetails" class="d-none">@TaxService.Resources.Resource.Uploaded_files</p>
+                        <ol id="nameList"></ol>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="text-size5">
+                <div>
+                    <div class="font-weight-normal text-size3">@TaxService.Resources.Resource.Consent</div>
+                    <div class="pt-3">@TaxService.Resources.Resource.I_or_we_the_taxpayers_have_read_the</div>
+                    <div class="pt-2">
+                        @TaxService.Resources.Resource.I_here_by_consent_to_the_disclosure
+                    </div>
+                </div>
+
+                <div class="pt-3">
+                    <table class="table table-bordered">
+                        <tr>
+                            <td style="border-right: none;">@TaxService.Resources.Resource.Primary_taxpayer_printed_name <input type="text" class="w-100" name="consent_primary_taxpayer_name" /></td>
+                            <td style="border-left: none !important;">@TaxService.Resources.Resource.I_authorize_my_tax_prepare_to_enter_the <input type="text" class="w-100 text-center" name="Consent_taxpayer_pin1" id="pin1" placeholder="xxxxx" /></td>
+                            <td>@TaxService.Resources.Resource.Date <input type="text" class="w-100" name="consent_primary_date" /></td>
+                        </tr>
+                        <tr>
+                            <td style="border-right: none;">@TaxService.Resources.Resource.Secondry_taxpayer_printed_name <input type="text" class="w-100" name="consent_secondry_taxpayer_name" /></td>
+                            <td style="border-left: none !important;">@TaxService.Resources.Resource.I_authorize_my_tax_prepare_to_enter_the <input type="text" class="w-100 text-center" name="consent_secondry_pin2" id="pin2" placeholder="xxxxx" /></td>
+                            <td>@TaxService.Resources.Resource.Date <input type="text" class="w-100" name="consent_secondry_date" /></td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="py-2">
+                    @TaxService.Resources.Resource.If_you_belive_your_tax_return_information
+                </div>
+            </div>
+
+            <div class="pb-3"></div>
+
+        </div>
+    </form>
+
+
+
+</div>
+
+<div class="row">
+    <div class="col-md-12 p-3 text-center">
+        <button type="submit" class="btn btn-primary bg-blue border-blue" id="btnExport">@TaxService.Resources.Resource.Submit</button>
+    </div>
+</div>
+
+@section Scripts {
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.1.62/jquery.inputmask.bundle.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.66/pdfmake.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $(".part").click(function () {
+                if ($(this).next(".part_answer").hasClass("active")) {
+                    $(this).next(".part_answer").removeClass("active").slideUp();
+                    $(this).children("i").removeClass("fa-minus").addClass("fa-plus");
+                } else {
+                    $(".part_answer").slideUp();
+                    $(this).next(".part_answer").addClass("active").slideDown();
+                    $(".part").children("i").removeClass("fa-minus").addClass("fa-plus");
+                    $(this).children("i").removeClass("fa-plus").addClass("fa-minus");
+                }
+            });
+
+            inpMask2();
+
+            if ('@Session["langId"]'!= null) {
+                $('#FooBarDropDown [value="@Session["langId"]"').attr('selected', 'selected');
+            }
+
+        });
+
+         function inpMask2() {
+
+            var pins = [{ "mask": "#####" }];
+
+            $('#pin1').inputmask({
+                mask: pins,
+                greedy: false,
+                definitions: { '#': { validator: "[0-9]", cardinality: 1 } }
+            });
+            $('#pin2').inputmask({
+                mask: pins,
+                greedy: false,
+                definitions: { '#': { validator: "[0-9]", cardinality: 1 } }
+            });
+         }
+
+        function ChangeLang(obj) {
+            $('#languageCode').val(obj);
+            $('#changeLanguageForm').submit();
+        }
+
+
+      var uploads = null;
+
+        var fileData = new FormData();
+
+        $('.fi-up').on('change', (event) => {
+            try
+            {
+                uploadFiles(event);
+            }
+            catch {}
+        })
+
+        function uploadFiles(event) {
+            const file = event.target.files[0]
+            const filereader = new FileReader()
+            filereader.onloadend = function (evt) {
+                if (evt.target.readyState === FileReader.DONE) {
+                    const uint = new Uint8Array(evt.target.result)
+                    let bytes = []
+                    uint.forEach((byte) => {
+                        bytes.push(byte.toString(16))
+                    })
+                    const hex = bytes.join('').toUpperCase()
+                    uploads = getMimetype(hex);
+                    if (uploads == "Unknown filetype" || file.type == "application/x-zip-compressed") {
+                        uploads = null;
+                        document.getElementById('FileUpload1').value = "";
+                        document.getElementById('FileUpload2').value = "";
+                        alert('Only valid document, image and pdf files are allowed to upload');
+                    } else {
+                        if (file.size >= 10485760) {
+                            uploads = [];
+                            document.getElementById('FileUpload1').value = "";
+                            document.getElementById('FileUpload2').value = "";
+                            alert("File too big, please select a file less than 10 MB");
+                        } else if (file.size < 1024) {
+                            uploads = [];
+                            document.getElementById('FileUpload1').value = "";
+                            document.getElementById('FileUpload2').value = "";
+                            alert("File too small, please select a file greater than 1 KB");
+                        } else {
+                            $('#fileDetails').removeClass('d-none').addClass('d-block');
+                            $('#nameList').append("<li>" + file.name + "</li>");
+                            fileData.append(file.name, file);
+                        }
+                    }
+                }
+            }
+
+            const blob = file.slice(0, 4);
+            filereader.readAsArrayBuffer(blob);
+        }
+
+
+
+      const getMimetype = (signature) => {
+        switch (signature) {
+          case '89504E47':
+            return 'image/png'
+          case '47494638':
+            return 'image/gif'
+          case '25504446':
+            return 'application/pdf'
+          case 'FFD8FFDB':
+          case 'FFD8FFE0':
+          case 'FFD8FFE1':
+            return 'image/jpeg'
+          case '504B34':
+            return 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
+          case '75706461':
+            return 'text/plain';
+          default:
+            return 'Unknown filetype'
+        }
+      }
+
+        function sendFile(file) {
+
+        var appUrlSettings = {
+                Url : '@Url.Action("SendFile", "Home")'
+          }
+
+            var reader = new window.FileReader();
+            reader.readAsDataURL(file);
+
+            reader.onloadend = function () {
+
+            base64 = reader.result;
+            base64 = base64.split(',')[1];
+
+              fileData.append('customerEmail', '@Model.CustomerEmail');
+              fileData.append('chunks', base64);
+
+              $.ajax({
+                  url: appUrlSettings.Url,
+                  type: "POST",
+                  contentType: false,
+                  processData: false,
+                  data: fileData,
+                  success: function (response) {
+                      if (response == "success") {
+                          alert("Form submitted successfully !");
+                      }
+                      else {
+                          alert("Error in saving data !");
+                      }
+                      $(".spanner").hide();
+                      $(".overlay").hide();
+                  },
+                  error: function () {
+                      alert("Error in saving data !");
+                      $(".spanner").hide();
+                      $(".overlay").hide(); }
+              });
+
+
+        }
+      }
+
+        $("body").on("click", "#btnExport", function () {
+
+            var jsonText = $('#jsonform').serializeObject();
+            console.log(JSON.stringify(jsonText));
+
+            var r = confirm("Are you confirm to submit ?");
+            if (r == true) {
+              //  $('#fade').fadeTo('slow', 1);
+
+                $("div.spanner").addClass("show");
+                $("div.overlay").addClass("show");
+
+                $('.part_answer').css('display', 'block');
+                $('.fa-plus').css('display', 'none');
+                var data_0;
+                var data_1;
+                var data_2;
+                var data_3;
+                var data_4;
+                var data_5;
+                var data_6;
+                html2canvas($('#sec00')[0], {
+                    onrendered: function (canvas) {
+                        data_0 = canvas.toDataURL();
+                    }
+                });
+                html2canvas($('#sec01')[0], {
+                    scale: 5,
+                    onrendered: function (canvas) {
+                        data_1 = canvas.toDataURL();
+                    }
+                });
+
+                html2canvas($('#sec02')[0], {
+                    onrendered: function (canvas) {
+                        data_2 = canvas.toDataURL();
+                    }
+                });
+                html2canvas($('#sec03')[0], {
+                    onrendered: function (canvas) {
+                        data_3 = canvas.toDataURL();
+                    }
+                });
+                html2canvas($('#sec04')[0], {
+                    onrendered: function (canvas) {
+                        data_4 = canvas.toDataURL();
+                    }
+                });
+                html2canvas($('#sec05')[0], {
+                    onrendered: function (canvas) {
+                        data_5 = canvas.toDataURL();
+                    }
+                });
+                html2canvas($('#sec06')[0], {
+                    onrendered: function (canvas) {
+                        data_6 = canvas.toDataURL();
+                    }
+                });
+                html2canvas($('#root')[0], {
+                    scale: 5,
+                    onrendered: function (canvas) {
+                        var docDefinition = {
+                            content: [
+                                {
+                                    image: data_0,
+                                    width: 500,
+                                },
+                                {
+                                    image: data_1,
+                                    width: 500,
+                                },
+                                {
+                                    image: data_2,
+                                    width: 500
+                                },
+                                {
+                                    image: data_3,
+                                    width: 500,
+                                },
+                                {
+                                    image: data_4,
+                                    width: 500,
+                                },
+                                {
+                                    image: data_5,
+                                    width: 500,
+                                },
+                                {
+                                    image: data_6,
+                                    width: 500,
+                                }
+                            ]
+                        };
+                        $('.part_answer').css('display', 'none');
+                        $('.fa-plus').css('display', 'block');
+                        //pdfMake.createPdf(docDefinition).download("ReviewSheet.pdf");
+                        const pdfDocGenerator = pdfMake.createPdf(docDefinition);
+                        pdfDocGenerator.getBlob((document) => {
+                            sendFile(document);
+                        });
+                    }
+                });
+
+            } else {
+                return false;
+            }
+
+
+        });
+
+        $('.set-01').click(function () {
+            if (!$('.secpt-01').hasClass('active')) {
+                inpMask();
+            }
+        });
+
+        $('.set-02').click(function () {
+            if (!$('.secpt-02').hasClass('active')) {
+                inpMask();
+            }
+        });
+
+        function inpMask() {
+            var ssns = [{ "mask": "###-##-####" }];
+            var phones = [{ "mask": "(###)-###-####" }];
+            var dates = [{ "mask": "##/##/####" }];
+            var pins = [{ "mask": "#####" }];
+            $('#ssn').inputmask({
+                mask: ssns,
+                greedy: false,
+                definitions: { '#': { validator: "[0-9]", cardinality: 1 } }
+            });
+            $('#spouse-ssn').inputmask({
+                mask: ssns,
+                greedy: false,
+                definitions: { '#': { validator: "[0-9]", cardinality: 1 } }
+            });
+            $('#dayTimeTelephone').inputmask({
+                mask: phones,
+                greedy: false,
+                definitions: { '#': { validator: "[0-9]", cardinality: 1 } }
+            });
+            $('#spouseDayTimeTelephone').inputmask({
+                mask: phones,
+                greedy: false,
+                definitions: { '#': { validator: "[0-9]", cardinality: 1 } }
+            });
+            $('#dOB').inputmask({
+                mask: dates,
+                greedy: false,
+                definitions: { '#': { validator: "[0-9]", cardinality: 1 } }
+            });
+            $('#spouseDOB').inputmask({
+                mask: dates,
+                greedy: false,
+                definitions: { '#': { validator: "[0-9]", cardinality: 1 } }
+            });
+            $('#pin1').inputmask({
+                mask: pins,
+                greedy: false,
+                definitions: { '#': { validator: "[0-9]", cardinality: 1 } }
+            });
+            $('#pin2').inputmask({
+                mask: pins,
+                greedy: false,
+                definitions: { '#': { validator: "[0-9]", cardinality: 1 } }
+            });
+            $('#part2dob1').inputmask({
+                mask: "1/2/y",
+                leapday: "29-02-",
+                separator: "/",
+                alias: "mm/dd/yyyy",
+            });
+            $('#part2dob2').inputmask({
+                mask: "1/2/y",
+                leapday: "29-02-",
+                separator: "/",
+                alias: "mm/dd/yyyy",
+            });
+            $('#part2dob3').inputmask({
+                mask: "1/2/y",
+                leapday: "29-02-",
+                separator: "/",
+                alias: "mm/dd/yyyy",
+            });
+            $('#part2dob4').inputmask({
+                mask: "1/2/y",
+                leapday: "29-02-",
+                separator: "/",
+                alias: "mm/dd/yyyy",
+            });
+        }
+
+        function handleFormSubmit(event) {
+            //event.preventDefault();
+
+            const data = new FormData(event.target);
+
+            const formJSON = Object.fromEntries(data.entries());
+
+            // for multi-selects, we need special handling
+            //formJSON.snacks = data.getAll('snacks');
+
+            //const results = document.querySelector('.results pre');
+            console.log(JSON.stringify(formJSON, null, 2));
+        }
+        //$('#jsonform').submit(function (e) {
+        //    var form = $(this);
+        //    var data = form.serialize();
+        //    alert(JSON.stringify(data));
+        //});
+
+        $.fn.serializeObject = function () {
+            var o = {};
+            var a = this.serializeArray();
+            $.each(a, function () {
+                if (o[this.name]) {
+                    if (!o[this.name].push) {
+                        o[this.name] = [o[this.name]];
+                    }
+                    o[this.name].push(this.value || '');
+                } else {
+                    o[this.name] = this.value || '';
+                }
+            });
+            return o;
+        };
+
+
+
+    </script>
+
+}

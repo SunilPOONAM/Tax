@@ -1,0 +1,670 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdditionalInformation" xml:space="preserve">
+    <value>附加信息</value>
+  </data>
+  <data name="Additional_doc_files" xml:space="preserve">
+    <value>其他文件</value>
+  </data>
+  <data name="Additional_information_and_question_related" xml:space="preserve">
+    <value>與填報您的稅表有關的額外資訊和問題</value>
+  </data>
+  <data name="Adopt_a_child" xml:space="preserve">
+    <value>領養子女？</value>
+  </data>
+  <data name="Alimony_income_or_seprate_maintenence_payments" xml:space="preserve">
+    <value>贍養費收入或分居贍養費付款？</value>
+  </data>
+  <data name="Alimony_or_seprate_maintenance_payments_if" xml:space="preserve">
+    <value>贍養費或分居贍養費支付？ 若有，您有收受人的社會安全號碼嗎？</value>
+  </data>
+  <data name="Anyone" xml:space="preserve">
+    <value>任何人</value>
+  </data>
+  <data name="Any_of_the_following" xml:space="preserve">
+    <value>以下任何項？</value>
+  </data>
+  <data name="Apt" xml:space="preserve">
+    <value>公寓號碼</value>
+  </data>
+  <data name="Are_you_a_us_citizen" xml:space="preserve">
+    <value>您是美國公民嗎？</value>
+  </data>
+  <data name="as4" xml:space="preserve">
+    <value>中間名縮寫</value>
+  </data>
+  <data name="as5" xml:space="preserve">
+    <value>姓氏</value>
+  </data>
+  <data name="as6" xml:space="preserve">
+    <value>日間電話號碼</value>
+  </data>
+  <data name="as8" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="as9" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="asdf4" xml:space="preserve">
+    <value>完全永久殘障</value>
+  </data>
+  <data name="asdf5" xml:space="preserve">
+    <value>全職學生</value>
+  </data>
+  <data name="asdf6" xml:space="preserve">
+    <value>法定失明</value>
+  </data>
+  <data name="As_of_december_thirtyfirst" xml:space="preserve">
+    <value>至2019年12月31日為止，您的婚姻狀 況是什麼？</value>
+  </data>
+  <data name="AUNT" xml:space="preserve">
+    <value>阿姨</value>
+  </data>
+  <data name="BROTHER" xml:space="preserve">
+    <value>兄弟</value>
+  </data>
+  <data name="Can_anyone_claim_you_or_your" xml:space="preserve">
+    <value>是否有任何人能在稅表上將您或您配偶申報為被撫養人？</value>
+  </data>
+  <data name="Cash_check_virtual_currency_payments" xml:space="preserve">
+    <value>沒有列在W-2或1099表的任何工作獲得的現金/支票/虛擬貨幣付款，或其他財產或服務?</value>
+  </data>
+  <data name="Charitable_contributions" xml:space="preserve">
+    <value>慈善捐贈</value>
+  </data>
+  <data name="Chech_here_if_you_or_your_spouse_if" xml:space="preserve">
+    <value>如果您或您的配偶（若為夫妻聯合報稅）希望給這項基金捐 $3，請在此處打勾</value>
+  </data>
+  <data name="Check_appropriate_box_for_each_question_in_each" xml:space="preserve">
+    <value>請在每個部分每一題適當的方框中打勾</value>
+  </data>
+  <data name="Child_or_dependent_care_expences" xml:space="preserve">
+    <value>照顧子女/被撫養人的開支，例如日托中心？</value>
+  </data>
+  <data name="Choose_your_file" xml:space="preserve">
+    <value>選擇你的檔案</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>城市</value>
+  </data>
+  <data name="College_or_post_secondry_education" xml:space="preserve">
+    <value>您自己、配偶或被撫養人的大學或職業教育開支？（1098-T表）</value>
+  </data>
+  <data name="completeformbelow" xml:space="preserve">
+    <value>請填寫下面的表格</value>
+  </data>
+  <data name="Consent" xml:space="preserve">
+    <value>同意：</value>
+  </data>
+  <data name="Contribution_to_a_retirement_account" xml:space="preserve">
+    <value>提撥到退休帳戶的供款？</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>日期</value>
+  </data>
+  <data name="Date_format" xml:space="preserve">
+    <value>（年/月/日）</value>
+  </data>
+  <data name="Date_of_births" xml:space="preserve">
+    <value>出生日期</value>
+  </data>
+  <data name="Date_of_final_decree" xml:space="preserve">
+    <value>最後判決日期</value>
+  </data>
+  <data name="Date_of_separate_maintenance_decre" xml:space="preserve">
+    <value>分居撫養協議日期</value>
+  </data>
+  <data name="DAUGHTER" xml:space="preserve">
+    <value>女兒</value>
+  </data>
+  <data name="Daytime_telephone_number" xml:space="preserve">
+    <value>日間電話號碼</value>
+  </data>
+  <data name="Did_the_taxpayers_pay_more_than_half_the_cost" xml:space="preserve">
+    <value>納稅人是否為
+此人支付了一
+半以上的房屋
+維護費？
+（是／否）</value>
+  </data>
+  <data name="Did_the_taxpayers_provide_more_than_fiftypercent" xml:space="preserve">
+    <value>納稅人是否為
+此人提供50%
+以上的撫養
+費？（是／
+否/不適用）</value>
+  </data>
+  <data name="Did_this_person_have_less_than_fortythree" xml:space="preserve">
+    <value>此人收入是
+否低於
+$4,200？
+（是／否）</value>
+  </data>
+  <data name="Did_this_person_provide_more_than_fifty" xml:space="preserve">
+    <value>此人是否提
+供自己50%
+以上的撫養
+費？
+（是／否）</value>
+  </data>
+  <data name="Did_you_live_in_an_area_that" xml:space="preserve">
+    <value>住在被宣佈為聯邦災難區的區域？</value>
+  </data>
+  <data name="Did_you_live_with_your_spouse_during_any" xml:space="preserve">
+    <value>您在2019年下半年中是否有任何一段時間曾與配偶同住？</value>
+  </data>
+  <data name="Did_you_or_your_spouse_if_filling_jointly" xml:space="preserve">
+    <value>您或您的配偶（若為夫妻聯合報稅）是否收到過國稅局來函?</value>
+  </data>
+  <data name="Direct_deposite" xml:space="preserve">
+    <value>經轉帳直接存款</value>
+  </data>
+  <data name="Disability_income_such" xml:space="preserve">
+    <value>殘障收入（例如獲得保險付款或工傷補償)?（1099-R表、W-2表）</value>
+  </data>
+  <data name="Divorced" xml:space="preserve">
+    <value>離婚</value>
+  </data>
+  <data name="etc" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Everyone" xml:space="preserve">
+    <value>大家</value>
+  </data>
+  <data name="Expences_related_to_self_employment_income" xml:space="preserve">
+    <value>與自營職業所得有關或您收到的任何其他收入有關的支出？</value>
+  </data>
+  <data name="File_a_federal_return_last_year" xml:space="preserve">
+    <value>在去年申報的1040聯邦稅表的附表D中包含「資本損失結轉」這一項？</value>
+  </data>
+  <data name="For_supplies_used_as_an_eligible" xml:space="preserve">
+    <value>符合資格的教育者（如教師、教師助理、輔導員等）使用的用品開銷？</value>
+  </data>
+  <data name="FOSTER_CHILD" xml:space="preserve">
+    <value>寄養孩子</value>
+  </data>
+  <data name="Fourhundredone_k" xml:space="preserve">
+    <value>401K退休金儲蓄計畫</value>
+  </data>
+  <data name="Full_time_student" xml:space="preserve">
+    <value>全職學生</value>
+  </data>
+  <data name="Full_time_student_last_year_yes_or_no" xml:space="preserve">
+    <value>去年是
+否是全
+職學生
+（是/
+否）</value>
+  </data>
+  <data name="gb10" xml:space="preserve">
+    <value>不確定</value>
+  </data>
+  <data name="GRANDCHILD" xml:space="preserve">
+    <value>孫子</value>
+  </data>
+  <data name="GRANDPARENT" xml:space="preserve">
+    <value>祖父母</value>
+  </data>
+  <data name="HALF_BROTHER" xml:space="preserve">
+    <value>同父異母或同母異父的兄弟</value>
+  </data>
+  <data name="HALF_SISTER" xml:space="preserve">
+    <value>同父異母的妹妹</value>
+  </data>
+  <data name="Have_a_helth_saving_account" xml:space="preserve">
+    <value>有保健儲蓄帳戶？（5498-SA表、1099-SA表、第12格印有字母W的W-2表）</value>
+  </data>
+  <data name="Have_credit_card_or_mortgage_debt" xml:space="preserve">
+    <value>有被商業貸款機構取消或免除的信用卡債或房屋貸款債務，或是有房屋喪失贖回權？（1099-C、1099A表）</value>
+  </data>
+  <data name="Have_earned_income_credit" xml:space="preserve">
+    <value>有之前年度不允許的低收入家庭福利優惠、兒童稅務優惠或美國教育機會稅務優惠？若有，是在哪一個稅務年 度？</value>
+  </data>
+  <data name="Have_health_coverage_through_the" xml:space="preserve">
+    <value>有通過市場得到的醫療保險(交易)? [提供表格 1095-A]</value>
+  </data>
+  <data name="Have_you_your_spouse_or_dependents_been_a" xml:space="preserve">
+    <value>您、您的配偶或被撫養人是否曾遭到與稅務相關的身份盜用，或曾被核發過身份保護 PIN碼？</value>
+  </data>
+  <data name="If_additional_space_is_needed_check_here" xml:space="preserve">
+    <value>如果需要更多空間，請在此處查看並在第3頁上列出</value>
+  </data>
+  <data name="If_uou_are_filling_a_joint_return" xml:space="preserve">
+    <value>(如果您是夫妻聯合報稅，請按照去年稅表的同樣順序填寫姓名)</value>
+  </data>
+  <data name="If_yes_did_you_get_married" xml:space="preserve">
+    <value>如果是，您在2019年結婚的嗎？</value>
+  </data>
+  <data name="If_yes_how_many_jobs_did_you_have_last_year" xml:space="preserve">
+    <value>如果回答「是」，您去年做過幾份工作？</value>
+  </data>
+  <data name="If_yes_where" xml:space="preserve">
+    <value>如果是，哪裡？</value>
+  </data>
+  <data name="If_you_are_due_a_refund" xml:space="preserve">
+    <value>如果您可以獲得退稅，您希望如何處理</value>
+  </data>
+  <data name="If_you_belive_your_tax_return_information" xml:space="preserve">
+    <value>如果您認為您的報稅表資訊以未經法律授權或未經您許可的方式被不適當地披露或使用，您可以撥打
+1-800-366-4484聯繫財政部稅務行政監察長 (Treasury Inspector General for Tax Administration (TIGTA))，或發
+送電子郵件到 complaints@tigta.treas.gov。</value>
+  </data>
+  <data name="If_you_have_a_balance_due" xml:space="preserve">
+    <value>如果您需要補繳稅，您希望從您的銀行帳戶直接付款嗎？</value>
+  </data>
+  <data name="Income_or_loss_for_rental_property" xml:space="preserve">
+    <value>來自出租產業的收入（或虧損)?</value>
+  </data>
+  <data name="Income_or_oloss_from_the_sale" xml:space="preserve">
+    <value>來自出售股票、債券、虛擬貨幣或房地產的收入（或虧損)?（1099-S、1099-B表）</value>
+  </data>
+  <data name="Intakesheet" xml:space="preserve">
+    <value>受理/面談和品質審查表</value>
+  </data>
+  <data name="Interest_dividents_from_checking" xml:space="preserve">
+    <value>利息/股息，來自：支票/儲蓄帳戶、債券、定期存款 (CD)、佣金？（1099-INT表、1099-DIV表）</value>
+  </data>
+  <data name="Ira" xml:space="preserve">
+    <value>傳統個人退休帳戶 (IRA)</value>
+  </data>
+  <data name="Is_this_person_a_qualifying" xml:space="preserve">
+    <value>此人是否有資
+格被其他人申
+報為被撫養子
+女或親屬？
+（是／否）</value>
+  </data>
+  <data name="Is_your_spouse_a_us_citizen" xml:space="preserve">
+    <value>您的配偶是美國公民嗎？</value>
+  </data>
+  <data name="I_authorize_my_tax_prepare_to_enter_the" xml:space="preserve">
+    <value>我授權我的稅務準備人員在下面輸入我選擇的五個數字PIN。</value>
+  </data>
+  <data name="I_here_by_consent_to_the_disclosure" xml:space="preserve">
+    <value>我/我們同意以上全球傳輸（Global Carry Forward）條款中所述的報稅表資訊披露，並允許報稅員代表本人在稅務
+申報軟件中輸入個人識別號碼，以確認我/我們同意此披露的條款。</value>
+  </data>
+  <data name="I_or_we_the_taxpayers_have_read_the" xml:space="preserve">
+    <value>我/我們，納稅人， 已閱讀上述的資訊。</value>
+  </data>
+  <data name="Last_name" xml:space="preserve">
+    <value>姓氏</value>
+  </data>
+  <data name="Last_Name_Do_not_enter_your_name_or_spouses_name" xml:space="preserve">
+    <value>姓氏（請勿輸入您的姓名或配偶的姓名）</value>
+  </data>
+  <data name="Last_year_was_your_spouse" xml:space="preserve">
+    <value>您的配偶去年是否是：</value>
+  </data>
+  <data name="Last_year_were_you" xml:space="preserve">
+    <value>您去年是否是：</value>
+  </data>
+  <data name="Legally_blind" xml:space="preserve">
+    <value>法定失明</value>
+  </data>
+  <data name="Legally_speparated" xml:space="preserve">
+    <value>合法分居</value>
+  </data>
+  <data name="List_the_name_below_of" xml:space="preserve">
+    <value>列出符合以下條件者姓名：</value>
+  </data>
+  <data name="Mailing_address" xml:space="preserve">
+    <value>郵寄地址</value>
+  </data>
+  <data name="Make_estimated_tax_payments" xml:space="preserve">
+    <value>支付預估稅款，或將去年的退稅用來預繳本年度的稅金？ 若有，金額是多少？</value>
+  </data>
+  <data name="married" xml:space="preserve">
+    <value>已婚</value>
+  </data>
+  <data name="Medical_and_dental_inculiding" xml:space="preserve">
+    <value>醫療與牙科費用？（包括保險保費）</value>
+  </data>
+  <data name="Mortagage_interest" xml:space="preserve">
+    <value>房屋貸款利息（1098表）</value>
+  </data>
+  <data name="M_I" xml:space="preserve">
+    <value>中間名縮寫</value>
+  </data>
+  <data name="Name_first_and_last_do_not_enter_your" xml:space="preserve">
+    <value>名字（請勿輸入您的姓名或配偶的姓名）</value>
+  </data>
+  <data name="NEPHEW" xml:space="preserve">
+    <value>侄子</value>
+  </data>
+  <data name="Never_married" xml:space="preserve">
+    <value>未婚</value>
+  </data>
+  <data name="NIECE" xml:space="preserve">
+    <value>侄女</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="NONE" xml:space="preserve">
+    <value>沒有任何</value>
+  </data>
+  <data name="Number_of_months_lived_in_your_home" xml:space="preserve">
+    <value>去年住在 您家裡幾 個月</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>其它</value>
+  </data>
+  <data name="Other_income_gamnling_lottery" xml:space="preserve">
+    <value>其他收入（賭博、彩票、獎金、獎品、擔任陪審員、虛擬貨幣、K-1附表、提成、外國來源收益、其他財產或服務等）請指明</value>
+  </data>
+  <data name="PARENT" xml:space="preserve">
+    <value>家長</value>
+  </data>
+  <data name="Part_first_your_personal_information" xml:space="preserve">
+    <value>第I部份 -- 個人資料</value>
+  </data>
+  <data name="Part_five_life_events" xml:space="preserve">
+    <value>第V部分 – 人生事件 – 您（或您配偶）去年是否</value>
+  </data>
+  <data name="Part_four_expenses" xml:space="preserve">
+    <value>第IV部分 – 開支 – 您（或您配偶）去年是否有支付</value>
+  </data>
+  <data name="Part_second_marital_status_and_household_information" xml:space="preserve">
+    <value>第II部分 -- 婚姻狀態與家庭狀況</value>
+  </data>
+  <data name="Part_third_income_last_year_did_you" xml:space="preserve">
+    <value>第III部分 – 收入 – 您（或您配偶）去年是否有收到</value>
+  </data>
+  <data name="Presidental_election_campaign_fund" xml:space="preserve">
+    <value>總統大選活動基金: (如果在此處打勾，您的稅額或退稅額不會改變。)</value>
+  </data>
+  <data name="Primary_signature" xml:space="preserve">
+    <value>第一納稅人的工整書寫姓名和簽名</value>
+  </data>
+  <data name="Primary_taxpayer_printed_name" xml:space="preserve">
+    <value>主要納稅人的姓名</value>
+  </data>
+  <data name="Provide_an_email_address" xml:space="preserve">
+    <value>請提供電子郵件地址(選填)(國稅局不會將這個電子郵件地址用於聯繫)</value>
+  </data>
+  <data name="Purchase_and_install_energy_efficant" xml:space="preserve">
+    <value>購買並安裝住宅節能設備？（例如窗戶、壁爐、隔熱設備等）</value>
+  </data>
+  <data name="Receive_an_economic_impact_payment" xml:space="preserve">
+    <value>在2020年獲得經濟影響付款（刺激）？</value>
+  </data>
+  <data name="Recive_the_first_time_homebuyers" xml:space="preserve">
+    <value>在2008年獲得首次購屋者稅收抵免？</value>
+  </data>
+  <data name="Refund_of_state_local_income" xml:space="preserve">
+    <value>州/地方所得稅退款？（1099-G表）</value>
+  </data>
+  <data name="Relationship_to_you_for_example" xml:space="preserve">
+    <value>與您的關係</value>
+  </data>
+  <data name="Resident_of_us_canada_or_maxico" xml:space="preserve">
+    <value>去年是否 是美國、 加拿大或 墨西哥居 民 （是/ 否）</value>
+  </data>
+  <data name="Retriment_income_or_payments" xml:space="preserve">
+    <value>來自退休金、年金和/或IRA（個人退休帳戶）的退休收入或付款？（1099-R表）</value>
+  </data>
+  <data name="Roth_ira" xml:space="preserve">
+    <value>羅斯個人退休帳戶 (Roth IRA)</value>
+  </data>
+  <data name="Scholarships_form_w_t" xml:space="preserve">
+    <value>獎學金？（W-2表、1098-T表）</value>
+  </data>
+  <data name="Secondry_signatue" xml:space="preserve">
+    <value>第二納稅人的工整書寫姓名和簽名</value>
+  </data>
+  <data name="Secondry_taxpayer_printed_name" xml:space="preserve">
+    <value>二級納稅人印刷名稱</value>
+  </data>
+  <data name="Self_employment_income_form" xml:space="preserve">
+    <value>自營職業所得？（1099-MISC表、現金、虛擬貨幣或其他財產或服務）</value>
+  </data>
+  <data name="Single" xml:space="preserve">
+    <value>單身的</value>
+  </data>
+  <data name="Single_or_married_as_of" xml:space="preserve">
+    <value>至2019年12月
+31日為止是單
+身（S）或已婚
+（M）（填入S
+或M）</value>
+  </data>
+  <data name="SISTER" xml:space="preserve">
+    <value>姐姐</value>
+  </data>
+  <data name="Social_security_number" xml:space="preserve">
+    <value>社會安全號碼</value>
+  </data>
+  <data name="Social_security_or_railroad_retirement" xml:space="preserve">
+    <value>社會安全福利金或鐵路員工退休福利金？（SSA-1099、RRB-1099表）</value>
+  </data>
+  <data name="SON" xml:space="preserve">
+    <value>兒子</value>
+  </data>
+  <data name="Specify" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Spouse" xml:space="preserve">
+    <value>配偶</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>州</value>
+  </data>
+  <data name="STEPBROTHER" xml:space="preserve">
+    <value>繼兄弟</value>
+  </data>
+  <data name="STEPCHILD" xml:space="preserve">
+    <value>繼子</value>
+  </data>
+  <data name="STEPSISTER" xml:space="preserve">
+    <value>繼妹</value>
+  </data>
+  <data name="Student_loan_interest" xml:space="preserve">
+    <value>學生貸款利息？（表1098-E）</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>提交</value>
+  </data>
+  <data name="Taxes_state_real_estate_personal" xml:space="preserve">
+    <value>稅金（州稅、房地產稅、個人財產稅、銷售稅）</value>
+  </data>
+  <data name="This_includes_registered_domestic" xml:space="preserve">
+    <value>(此項包括州法管轄下的已登記家庭伴侶、民事結合或其他正式關係)</value>
+  </data>
+  <data name="Tip_income" xml:space="preserve">
+    <value>小費收入？</value>
+  </data>
+  <data name="Totally_and_permanently_disabled" xml:space="preserve">
+    <value>完全永久殘障</value>
+  </data>
+  <data name="Totally_and_permanently_disabled_yes_or_nos" xml:space="preserve">
+    <value>完全永久
+殘障</value>
+  </data>
+  <data name="To_be_completed_by_a_certificate" xml:space="preserve">
+    <value>由認證義工報稅員填寫</value>
+  </data>
+  <data name="To_purchase_us_savings_bonds" xml:space="preserve">
+    <value>購買美國儲蓄公債</value>
+  </data>
+  <data name="To_split_your_refund_between_diffrent" xml:space="preserve">
+    <value>將退稅款分別匯入不同帳戶</value>
+  </data>
+  <data name="UNCLE" xml:space="preserve">
+    <value>叔叔</value>
+  </data>
+  <data name="Unemployment_compensation" xml:space="preserve">
+    <value>失業救濟金？（1099-G表）</value>
+  </data>
+  <data name="Unsure" xml:space="preserve">
+    <value>不確定</value>
+  </data>
+  <data name="Uploaded_files" xml:space="preserve">
+    <value>上傳的文件：</value>
+  </data>
+  <data name="Upload_your_documents_here" xml:space="preserve">
+    <value>在此處上傳您的文檔：</value>
+  </data>
+  <data name="Us_citizen_tes_or_no" xml:space="preserve">
+    <value>美國公民</value>
+  </data>
+  <data name="Wages_or_salary_form_w" xml:space="preserve">
+    <value>工資或薪金？（W-2表）</value>
+  </data>
+  <data name="Who_lived_with_you_last_year" xml:space="preserve">
+    <value>去年與您同住的人（您的配偶除外）</value>
+  </data>
+  <data name="Widowed" xml:space="preserve">
+    <value>喪偶</value>
+  </data>
+  <data name="Year_of_spouse_deaths" xml:space="preserve">
+    <value>配偶身故年度</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="You" xml:space="preserve">
+    <value>您</value>
+  </data>
+  <data name="Your_date_of_birth" xml:space="preserve">
+    <value>您的出生年月日</value>
+  </data>
+  <data name="Your_first_name" xml:space="preserve">
+    <value>您的名字</value>
+  </data>
+  <data name="Your_job_title" xml:space="preserve">
+    <value>您的職稱</value>
+  </data>
+  <data name="Your_spouse_date_of_birth" xml:space="preserve">
+    <value>配偶的出生年月日</value>
+  </data>
+  <data name="Your_spouse_first_name" xml:space="preserve">
+    <value>配偶名字</value>
+  </data>
+  <data name="Your_spouse_job_title" xml:space="preserve">
+    <value>配偶職稱</value>
+  </data>
+  <data name="You_support_but_did_not_live_with_you" xml:space="preserve">
+    <value>你支持但去年沒有和你住在一起</value>
+  </data>
+  <data name="Zip_code" xml:space="preserve">
+    <value>郵遞區號</value>
+  </data>
+</root>

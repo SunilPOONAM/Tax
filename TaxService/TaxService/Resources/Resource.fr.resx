@@ -1,0 +1,636 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdditionalInformation" xml:space="preserve">
+    <value>Information additionnelle</value>
+  </data>
+  <data name="Additional_doc_files" xml:space="preserve">
+    <value>Fichiers Doc supplémentaires</value>
+  </data>
+  <data name="Additional_information_and_question_related" xml:space="preserve">
+    <value>Pati VII – Enfòmasyon ak kestyon adisyonèl konsènan preparasyon enpo ou</value>
+  </data>
+  <data name="Adopt_a_child" xml:space="preserve">
+    <value>Adopte yon timoun?</value>
+  </data>
+  <data name="Alimony_income_or_seprate_maintenence_payments" xml:space="preserve">
+    <value>Revni pansyon alimantè oubyen peman sou separasyon byen?</value>
+  </data>
+  <data name="Alimony_or_seprate_maintenance_payments_if" xml:space="preserve">
+    <value>Pansyon alimantè oubyen peman sou separasyon byen? Si se wi, èske w gen nimewo sekirite sosyal moun ki te resevwa pansyon/peman yo?</value>
+  </data>
+  <data name="Anyone" xml:space="preserve">
+    <value>nenpòt moun</value>
+  </data>
+  <data name="Any_of_the_following" xml:space="preserve">
+    <value>Nenpòt nan bagay sa yo?</value>
+  </data>
+  <data name="Apt" xml:space="preserve">
+    <value># Apatman</value>
+  </data>
+  <data name="Are_you_a_us_citizen" xml:space="preserve">
+    <value>Èske ou se sitwayen ameriken?</value>
+  </data>
+  <data name="as4" xml:space="preserve">
+    <value>Inisyal dezyèm prenon</value>
+  </data>
+  <data name="as5" xml:space="preserve">
+    <value>Siyati</value>
+  </data>
+  <data name="as6" xml:space="preserve">
+    <value>Nimewo Telefòn Lajounen</value>
+  </data>
+  <data name="asdf4" xml:space="preserve">
+    <value>Andikape totalman epi pou tout tan</value>
+  </data>
+  <data name="asdf5" xml:space="preserve">
+    <value>Yon etidyan a tan plen</value>
+  </data>
+  <data name="asdf6" xml:space="preserve">
+    <value>Avèg dapre la lwa</value>
+  </data>
+  <data name="As_of_december_thirtyfirst" xml:space="preserve">
+    <value>Pou kòmanse a pati dat 31 desanm 2019, kisa ki te eta sivil ou?</value>
+  </data>
+  <data name="AUNT" xml:space="preserve">
+    <value>MATANT</value>
+  </data>
+  <data name="BROTHER" xml:space="preserve">
+    <value>FRÈ</value>
+  </data>
+  <data name="Can_anyone_claim_you_or_your" xml:space="preserve">
+    <value>Èske gen nenpòt moun ki kapab mete oubyenm oubyen madanm/mari ou kòm depandan nan deklarasyon enpo sou revni li?</value>
+  </data>
+  <data name="Cash_check_virtual_currency_payments" xml:space="preserve">
+    <value>Peman kach/chèk/vityèl oswa lòt pwopriyete oswa sèvis pou nenpòt travay ki fèt men ki pa rapòte sou Fòm W-2 oubyen 1099?</value>
+  </data>
+  <data name="Charitable_contributions" xml:space="preserve">
+    <value>Kontribisyon nan zèv charitab</value>
+  </data>
+  <data name="Chech_here_if_you_or_your_spouse_if" xml:space="preserve">
+    <value>Tcheke la a si ou menm, oubyen mari/madanm ou ap fè deklarasyon enpo konjwen, vle pou $3 dola al nan fon sa a</value>
+  </data>
+  <data name="Check_appropriate_box_for_each_question_in_each" xml:space="preserve">
+    <value>Tcheke kazye ki apwopriye a pou chak kestyon nan chak seksyon</value>
+  </data>
+  <data name="Child_or_dependent_care_expences" xml:space="preserve">
+    <value>Depans pou okipe pitit oubyen depandan ou yo, pa egzanp depans pou gadri?</value>
+  </data>
+  <data name="Choose_your_file" xml:space="preserve">
+    <value>Choisissez votre fichier</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Vil</value>
+  </data>
+  <data name="College_or_post_secondry_education" xml:space="preserve">
+    <value>Depans pou etid nan inivèsite oubyen etid pòst-segondè pou oumenm, mari/madanm ou oubyen depandan yo? (Fòm 1098-T)</value>
+  </data>
+  <data name="completeformbelow" xml:space="preserve">
+    <value>Veuillez remplir le formulaire ci-dessous</value>
+  </data>
+  <data name="Consent" xml:space="preserve">
+    <value>Konsantman:</value>
+  </data>
+  <data name="Contribution_to_a_retirement_account" xml:space="preserve">
+    <value>Lajan ou kontribye nan yon kont pou retrèt?</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Dat</value>
+  </data>
+  <data name="Date_format" xml:space="preserve">
+    <value>(mm/jj/aa)</value>
+  </data>
+  <data name="Date_of_births" xml:space="preserve">
+    <value>Dat nesans</value>
+  </data>
+  <data name="Date_of_final_decree" xml:space="preserve">
+    <value>Dat dekrè final la</value>
+  </data>
+  <data name="Date_of_separate_maintenance_decre" xml:space="preserve">
+    <value>Dat akò separasyon byen an</value>
+  </data>
+  <data name="DAUGHTER" xml:space="preserve">
+    <value>FILYE</value>
+  </data>
+  <data name="Daytime_telephone_number" xml:space="preserve">
+    <value>Nimewo Telefòn Lajounen</value>
+  </data>
+  <data name="Did_the_taxpayers_pay_more_than_half_the_cost" xml:space="preserve">
+    <value>Èske kontribyab la (yo) te peye plis pase mwatye nan lajan sa te koute pou mentni yon kay pou moun sa a? (wi/non)</value>
+  </data>
+  <data name="Did_the_taxpayers_provide_more_than_fiftypercent" xml:space="preserve">
+    <value>Èske kontribyab la (yo) te bay plis pase 50% nan sipò pou moun sa a? (wi/non)</value>
+  </data>
+  <data name="Did_this_person_have_less_than_fortythree" xml:space="preserve">
+    <value>Èske moun sa a gen revni ki mwens pase $4,200? (wi/non)</value>
+  </data>
+  <data name="Did_this_person_provide_more_than_fifty" xml:space="preserve">
+    <value>Èske moun sa a te bay plis pase 50% nan pwòp sipò pa li? (wi/non)</value>
+  </data>
+  <data name="Did_you_live_in_an_area_that" xml:space="preserve">
+    <value>Viv nan yon zòn yo te deklare yon zòn dezas Federal?</value>
+  </data>
+  <data name="Did_you_live_with_your_spouse_during_any" xml:space="preserve">
+    <value>Èske w te viv ak mari/madanm ou pandan peryòd 6 dènye mwa 2019 la?</value>
+  </data>
+  <data name="Did_you_or_your_spouse_if_filling_jointly" xml:space="preserve">
+    <value>Èske ou menm, oswa mari/madanm ou si nou te fè deklarasyon enpo konjwen, te resevwa yon lèt nan men IRS?</value>
+  </data>
+  <data name="Direct_deposite" xml:space="preserve">
+    <value>Depo dirèkt</value>
+  </data>
+  <data name="Disability_income_such" xml:space="preserve">
+    <value>Revni pou enkapasite? (pa egzanp peman asirans oubyen asirans pou aksidan nan travay [workers compensation]) (Fòm 1099-R, W-2)</value>
+  </data>
+  <data name="Divorced" xml:space="preserve">
+    <value>Divòse</value>
+  </data>
+  <data name="etc" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Everyone" xml:space="preserve">
+    <value>tout moun</value>
+  </data>
+  <data name="Expences_related_to_self_employment_income" xml:space="preserve">
+    <value>Depans ki gen rapò ak revni ki fèt nan travay endepandan oswa nenpòt lòt revni ou resevwa?</value>
+  </data>
+  <data name="File_a_federal_return_last_year" xml:space="preserve">
+    <value>Ranpli yon deklarasyon taks federal pou ane pase ki genyen yon “lajan pèdi sou manman lajan ki rapòte yon lòt lè” sou Fòm 1040 Schedule D?</value>
+  </data>
+  <data name="For_supplies_used_as_an_eligible" xml:space="preserve">
+    <value>Pou founiti yon anseyan ki kalifye itilize, tankou yon pwofesè, asistan pwofesè, konseye, e latriye?</value>
+  </data>
+  <data name="FOSTER_CHILD" xml:space="preserve">
+    <value>PITIT PITIT</value>
+  </data>
+  <data name="Fourhundredone_k" xml:space="preserve">
+    <value>401K</value>
+  </data>
+  <data name="Full_time_student" xml:space="preserve">
+    <value>Yon etidyan a tan plen</value>
+  </data>
+  <data name="Full_time_student_last_year_yes_or_no" xml:space="preserve">
+    <value>Etidyan a tan plen ane pase</value>
+  </data>
+  <data name="gb10" xml:space="preserve">
+    <value>Pa Konnen</value>
+  </data>
+  <data name="GRANDCHILD" xml:space="preserve">
+    <value>GRAN TIMOUN</value>
+  </data>
+  <data name="GRANDPARENT" xml:space="preserve">
+    <value>GRAN PARAN</value>
+  </data>
+  <data name="HALF_BROTHER" xml:space="preserve">
+    <value>DEMI FRÈ</value>
+  </data>
+  <data name="HALF_SISTER" xml:space="preserve">
+    <value>DEMI SÈ</value>
+  </data>
+  <data name="Have_a_helth_saving_account" xml:space="preserve">
+    <value>Gen yon Kont Epay pay pou Swen sante? (Fòm 5498-SA, 1099-SA W-2 ki gen kòd W nan Kazye 12 la)</value>
+  </data>
+  <data name="Have_credit_card_or_mortgage_debt" xml:space="preserve">
+    <value>Te gen yon dèt kat kredi oubyen mòtgèdj yon konpayi ki prete moun lajan te anile/padone oubyen pèdi yon kay nan fòklojè? (Fòm 1099-C, 1099-A)</value>
+  </data>
+  <data name="Have_earned_income_credit" xml:space="preserve">
+    <value>Genyen yon kredi pou revni ki fèt nan travay (EIC), kredi difèt ou gen timoun oubyen yon kredi American Opportunity Credit ki te refize nan yon ane presedan? Si se wi, pou ki ane fiskal?</value>
+  </data>
+  <data name="Have_health_coverage_through_the" xml:space="preserve">
+    <value>Gen asirans sante nan Mache a (Exchange)? [Bay Fòm 1095-A]</value>
+  </data>
+  <data name="Have_you_your_spouse_or_dependents_been_a" xml:space="preserve">
+    <value>Eske oumenm oubyen yon moun nan fanmi ou deja tonbe viktim vòl idantite ki gen rapò avèk taks oubyen eske yo ba ou yon PIN pou Pwoteksyon Idantite?</value>
+  </data>
+  <data name="If_additional_space_is_needed_check_here" xml:space="preserve">
+    <value>Si ou bezwen plis espas, tcheke kazye sa a epi ekri osinon mete l sou paj 4</value>
+  </data>
+  <data name="If_uou_are_filling_a_joint_return" xml:space="preserve">
+    <value>(Si ou ap depoze yon deklarasyon konjwen, silvouplè mete non nou nan menm lòd jan yo parèt nan deklarasyon ane pase a)</value>
+  </data>
+  <data name="If_yes_did_you_get_married" xml:space="preserve">
+    <value>Si repons la se Wi, Èske ou te marye nan ane 2019 la ?</value>
+  </data>
+  <data name="If_yes_how_many_jobs_did_you_have_last_year" xml:space="preserve">
+    <value>Si ou reponn wi, konbyen djòb ou te genyen ane pase?</value>
+  </data>
+  <data name="If_yes_where" xml:space="preserve">
+    <value>Si se wi, ki kote ?</value>
+  </data>
+  <data name="If_you_are_due_a_refund" xml:space="preserve">
+    <value>Si nou dwe ranbouse ou lajan, èske ou ta renmen:</value>
+  </data>
+  <data name="If_you_belive_your_tax_return_information" xml:space="preserve">
+    <value>Si w kwè ke yo te divilge oswa itilize enfòmasyon sou deklarasyon enpo w la enjisteman nan yon fason lalwa pa otorize oswa san konsantman w, ou kapab kontakte Treasury Inspector General for Tax Administration [Enspèkte Jeneral Trezò a pou Administrasyon Enpo] (TIGTA) nan telefòn nan 1-800-366-4484, oswa voye plent ou nan imèl nan complaints@tigta.treas.gov.</value>
+  </data>
+  <data name="If_you_have_a_balance_due" xml:space="preserve">
+    <value>Si ou dwe lajan, èske ou ta renmen peman an soti dirèkteman nan kontanbank ou?</value>
+  </data>
+  <data name="Income_or_loss_for_rental_property" xml:space="preserve">
+    <value>Revni (oubyen lajan pèdi) nan byen ki nan lwaye?</value>
+  </data>
+  <data name="Income_or_oloss_from_the_sale" xml:space="preserve">
+    <value>Revni (oswa pèt) nan vann aksyon, bon, lajan vityèl, oswa byen imobilye? (san ou pa bliye kay pa w) (Fòm 1099-S, 1099-B)</value>
+  </data>
+  <data name="Intakesheet" xml:space="preserve">
+    <value>Feyè pou pran enfòmasyon preliminè/entèvyou ak pou kontwòl travay ki fèt la</value>
+  </data>
+  <data name="Interest_dividents_from_checking" xml:space="preserve">
+    <value>Enterè/dividand ki fèt nan: kont kouran/kont epay, obligasyon, CD, komisyon? (Fòm 1099-INT, 1099-DIV)</value>
+  </data>
+  <data name="Ira" xml:space="preserve">
+    <value>IRA</value>
+  </data>
+  <data name="Is_this_person_a_qualifying" xml:space="preserve">
+    <value>Èske moun sa a admisib kòm pitit oubyen fanmi nenpòt lòt moun? (wi/non)</value>
+  </data>
+  <data name="Is_your_spouse_a_us_citizen" xml:space="preserve">
+    <value>Èske mari/madanm ou se sitwayen ameriken?</value>
+  </data>
+  <data name="I_authorize_my_tax_prepare_to_enter_the" xml:space="preserve">
+    <value>J'autorise mon préparateur de déclarations à saisir le NIP à cinq chiffres que j'ai choisi ci-dessous.</value>
+  </data>
+  <data name="I_here_by_consent_to_the_disclosure" xml:space="preserve">
+    <value>Mwen/nou nan fòmilè sa a dakò pou yo divilge enfòmasyon sou deklarasyon enpo ki dekri nan kondisyon Global Carry Forward ki anlè a epi pèmèt moun k ap prepare deklarasyon enpo a antre yon PIN nan lojisyèl pou preparasyon enpo a sou non mwen pou verifye ke mwen/nou dakò ak kondisyon sou divilgasyon sa a.</value>
+  </data>
+  <data name="I_or_we_the_taxpayers_have_read_the" xml:space="preserve">
+    <value>Mwen/nou, kontribyab la, te li enfòmasyon ki anlè a.</value>
+  </data>
+  <data name="Last_name" xml:space="preserve">
+    <value>Siyati</value>
+  </data>
+  <data name="Last_Name_Do_not_enter_your_name_or_spouses_name" xml:space="preserve">
+    <value>Siyati (Pa antre non ou oswa non mari oswa madanm ou)</value>
+  </data>
+  <data name="Last_year_was_your_spouse" xml:space="preserve">
+    <value>Ane pase, èske mari/madanm ou te:</value>
+  </data>
+  <data name="Last_year_were_you" xml:space="preserve">
+    <value>Ane pase, èske ou te:</value>
+  </data>
+  <data name="Legally_blind" xml:space="preserve">
+    <value>Avèg dapre la lwa</value>
+  </data>
+  <data name="Legally_speparated" xml:space="preserve">
+    <value>Separe devan la lwa</value>
+  </data>
+  <data name="List_the_name_below_of" xml:space="preserve">
+    <value>Nan espas anba a, bay lis non :</value>
+  </data>
+  <data name="Mailing_address" xml:space="preserve">
+    <value>Adrès kote w resevwa lèt pa lapòs</value>
+  </data>
+  <data name="Make_estimated_tax_payments" xml:space="preserve">
+    <value>Fè peman taks ou kalkile davans oswa aplike ranbousman ane pase a pou peye taks ane sa a? Si se wi, konbyen lajan?</value>
+  </data>
+  <data name="married" xml:space="preserve">
+    <value>Marye</value>
+  </data>
+  <data name="Medical_and_dental_inculiding" xml:space="preserve">
+    <value>Swen medikal ak dantist (ki kapab gen ladan yo prim asirans)</value>
+  </data>
+  <data name="Mortagage_interest" xml:space="preserve">
+    <value>Enterè Mòtgèdj (Fòm 1098)</value>
+  </data>
+  <data name="M_I" xml:space="preserve">
+    <value>Inisyal dezyèm prenon</value>
+  </data>
+  <data name="Name_first_and_last_do_not_enter_your" xml:space="preserve">
+    <value>Premye Non (Pa antre nan non ou oswa non mari oswa madanm ou)</value>
+  </data>
+  <data name="NEPHEW" xml:space="preserve">
+    <value>NEFÈ</value>
+  </data>
+  <data name="Never_married" xml:space="preserve">
+    <value>Jamè Marye</value>
+  </data>
+  <data name="NIECE" xml:space="preserve">
+    <value>Nyès</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Non</value>
+  </data>
+  <data name="NONE" xml:space="preserve">
+    <value>OKENN</value>
+  </data>
+  <data name="Number_of_months_lived_in_your_home" xml:space="preserve">
+    <value>Kantite mwa ou te abite lakay ou ane pase</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Lòt</value>
+  </data>
+  <data name="Other_income_gamnling_lottery" xml:space="preserve">
+    <value>Lòt revni? (jwèt aza, lotri, prim, rekonpans, manm jiri, lajan vityèl, Sch K-1, peman dwa dotè, revni ki fèt nan peyi etranje e latriye, lòt pwopriyete oswa sèvis, elatriye.) Presize</value>
+  </data>
+  <data name="PARENT" xml:space="preserve">
+    <value>PARAN</value>
+  </data>
+  <data name="Part_first_your_personal_information" xml:space="preserve">
+    <value>Pati I - Enfòmasyon pèsonèl ou</value>
+  </data>
+  <data name="Part_five_life_events" xml:space="preserve">
+    <value>Pati V. Evènman enpòtan –Ane pase, èske ou menm (oubyen mari/madanm ou) te</value>
+  </data>
+  <data name="Part_four_expenses" xml:space="preserve">
+    <value>Pati IV. Depans –Ane pase, èske oumenm (oubyen mari/madanm ou) te peye</value>
+  </data>
+  <data name="Part_second_marital_status_and_household_information" xml:space="preserve">
+    <value>Pati II. Eta sivil ak enfòmasyon sou tout moun lakay ou</value>
+  </data>
+  <data name="Part_third_income_last_year_did_you" xml:space="preserve">
+    <value>Pati III. Revni –Ane pase, èske ou menm (oubyen mari/madanm ou) te resevwa</value>
+  </data>
+  <data name="Presidental_election_campaign_fund" xml:space="preserve">
+    <value>Fon pou Kanpay Elektoral Prezidansyèl (Si ou tcheke yon kazye, ni taks ou ni ranbousman enpo ou pap chanje)</value>
+  </data>
+  <data name="Primary_signature" xml:space="preserve">
+    <value>Non kontribyab prensipal la ekri ak lèt detache ak siyati li</value>
+  </data>
+  <data name="Primary_taxpayer_printed_name" xml:space="preserve">
+    <value>Nom imprimé du contribuable principal</value>
+  </data>
+  <data name="Provide_an_email_address" xml:space="preserve">
+    <value>Bay yon adrès imèl (opsyonèl) (yo pap itilize adrès imèl sa a pou Depatman Sèvis Enpo sou Revni kontakte w)</value>
+  </data>
+  <data name="Purchase_and_install_energy_efficant" xml:space="preserve">
+    <value>Achte epi enstale atik ki ede ekonomize enèji nan kay ou? (pa egzanp fenèt, fwaye chofaj, izolasyon pou chofaj, e latriye)</value>
+  </data>
+  <data name="Receive_an_economic_impact_payment" xml:space="preserve">
+    <value>Recevez un paiement d'impact économique (stimulus) en 2020?</value>
+  </data>
+  <data name="Recive_the_first_time_homebuyers" xml:space="preserve">
+    <value>Resevwa Kredi pou moun ki achte kay premye fwa nan ane 2008?</value>
+  </data>
+  <data name="Refund_of_state_local_income" xml:space="preserve">
+    <value>Ranbousman enpo sou revni pou eta /lokalite? (Fòm 1099-G)</value>
+  </data>
+  <data name="Relationship_to_you_for_example" xml:space="preserve">
+    <value>Relasyon moun sa gen ak ou</value>
+  </data>
+  <data name="Resident_of_us_canada_or_maxico" xml:space="preserve">
+    <value>Rezidan Etazini, Kanada, oubyen Meksik ane pase (wi/non)</value>
+  </data>
+  <data name="Retriment_income_or_payments" xml:space="preserve">
+    <value>Revni retrèt oubyen peman pansyon, Anwite oubyen IRA? (Fòm 1099-R)</value>
+  </data>
+  <data name="Roth_ira" xml:space="preserve">
+    <value>Roth IRA</value>
+  </data>
+  <data name="sc10" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="Scholarships_form_w_t" xml:space="preserve">
+    <value>Bousdetid? (Fòm W-2, 1098-T)</value>
+  </data>
+  <data name="Secondry_signatue" xml:space="preserve">
+    <value>Non kontribyab adjwen an ekri ak lèt detache ak siyati li</value>
+  </data>
+  <data name="Secondry_taxpayer_printed_name" xml:space="preserve">
+    <value>Nom imprimé du contribuable secondaire</value>
+  </data>
+  <data name="Self_employment_income_form" xml:space="preserve">
+    <value>Revni ki fèt nan travay endepandan? (Fòm 1099-MISC, kach) lajan vityèl, oswa lòt pwopriyete oswa sèvis</value>
+  </data>
+  <data name="Single" xml:space="preserve">
+    <value>Single</value>
+  </data>
+  <data name="Single_or_married_as_of" xml:space="preserve">
+    <value>Selibatè oubyen Marye a pati de dat 31/12/2019</value>
+  </data>
+  <data name="SISTER" xml:space="preserve">
+    <value>SÈ</value>
+  </data>
+  <data name="Social_security_number" xml:space="preserve">
+    <value>Numéro de sécurité sociale</value>
+  </data>
+  <data name="Social_security_or_railroad_retirement" xml:space="preserve">
+    <value>Sekirite Sosyal oswa Railroad Retirement Benefits (Benefis retrèt pou moun ki te travay nan chemendfè)? (Fòm SSA-1099, RRB-1099)</value>
+  </data>
+  <data name="SON" xml:space="preserve">
+    <value>PITIT</value>
+  </data>
+  <data name="Specify" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Spouse" xml:space="preserve">
+    <value>Mari/Madanm ou</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>Eta</value>
+  </data>
+  <data name="STEPBROTHER" xml:space="preserve">
+    <value>BÒ FRÈ</value>
+  </data>
+  <data name="STEPCHILD" xml:space="preserve">
+    <value>ETAP TIMOUN</value>
+  </data>
+  <data name="STEPSISTER" xml:space="preserve">
+    <value>ETAP Sè</value>
+  </data>
+  <data name="Student_loan_interest" xml:space="preserve">
+    <value>Enterè sou lajan etidyan prete pou yo ale lekòl? (Fòm 1098-E)</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Nous faire parvenir</value>
+  </data>
+  <data name="Taxes_state_real_estate_personal" xml:space="preserve">
+    <value>Taks (Eta, Imobilye, Pwopriyete pèsonèl, Taks sou vant)</value>
+  </data>
+  <data name="This_includes_registered_domestic" xml:space="preserve">
+    <value>(Sa gen ladan l patenarya konjigal anrejistre, inyon sivil, oubyen lòt relasyon fòmèl anba lwa Eta a)</value>
+  </data>
+  <data name="Tip_income" xml:space="preserve">
+    <value>Revni ki fèt nan poubwa?</value>
+  </data>
+  <data name="Totally_and_permanently_disabled" xml:space="preserve">
+    <value>Andikape totalman epi pou tout tan</value>
+  </data>
+  <data name="Totally_and_permanently_disabled_yes_or_nos" xml:space="preserve">
+    <value>Andikape totalman epi pou tout tan</value>
+  </data>
+  <data name="To_be_completed_by_a_certificate" xml:space="preserve">
+    <value>Se Volontè Sètifye ki prepare deklarasyon an ki pou ranpli seksyon sa a</value>
+  </data>
+  <data name="To_purchase_us_savings_bonds" xml:space="preserve">
+    <value>Achte U.S. Savings Bonds (Obligasyon epay nan Etazini)</value>
+  </data>
+  <data name="To_split_your_refund_between_diffrent" xml:space="preserve">
+    <value>Distribye ranbousman an ant plizyè kont</value>
+  </data>
+  <data name="UNCLE" xml:space="preserve">
+    <value>TONTON</value>
+  </data>
+  <data name="Unemployment_compensation" xml:space="preserve">
+    <value>Benefis chomaj? (Fòm 1099-G)</value>
+  </data>
+  <data name="Unsure" xml:space="preserve">
+    <value>Pa Konnen</value>
+  </data>
+  <data name="Uploaded_files" xml:space="preserve">
+    <value>Fichiers téléchargés:</value>
+  </data>
+  <data name="Upload_your_documents_here" xml:space="preserve">
+    <value>Téléchargez vos documents ici:</value>
+  </data>
+  <data name="Us_citizen_tes_or_no" xml:space="preserve">
+    <value>Sitwayen ameriken</value>
+  </data>
+  <data name="Wages_or_salary_form_w" xml:space="preserve">
+    <value>Peman oswa salè? (Fòm W-2)</value>
+  </data>
+  <data name="Who_lived_with_you_last_year" xml:space="preserve">
+    <value>ki te abite avèk ou ane pase (eksepte mari/madanm ou)</value>
+  </data>
+  <data name="Widowed" xml:space="preserve">
+    <value>Vèf/vèv</value>
+  </data>
+  <data name="Year_of_spouse_deaths" xml:space="preserve">
+    <value>Ane lanmò mari/madanm ou</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Wi</value>
+  </data>
+  <data name="You" xml:space="preserve">
+    <value>Oumenm</value>
+  </data>
+  <data name="Your_date_of_birth" xml:space="preserve">
+    <value>Dat nesans ou</value>
+  </data>
+  <data name="Your_first_name" xml:space="preserve">
+    <value>Prenon ou</value>
+  </data>
+  <data name="Your_job_title" xml:space="preserve">
+    <value>Tit ou nan travay ou</value>
+  </data>
+  <data name="Your_spouse_date_of_birth" xml:space="preserve">
+    <value>Dat nesans mari/madanm ou</value>
+  </data>
+  <data name="Your_spouse_first_name" xml:space="preserve">
+    <value>Prenon mari/madanm ou</value>
+  </data>
+  <data name="Your_spouse_job_title" xml:space="preserve">
+    <value>Tit mari/madanm ou nan travay li</value>
+  </data>
+  <data name="You_support_but_did_not_live_with_you" xml:space="preserve">
+    <value>ki te sou responsabilite ou men ki pat abite avèk ou ane pase</value>
+  </data>
+  <data name="Zip_code" xml:space="preserve">
+    <value>Kòd postal</value>
+  </data>
+</root>

@@ -1,0 +1,658 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdditionalInformation" xml:space="preserve">
+    <value>معلومة اضافية</value>
+  </data>
+  <data name="Additional_doc_files" xml:space="preserve">
+    <value>ملفات مستندات إضافية</value>
+  </data>
+  <data name="Additional_information_and_question_related" xml:space="preserve">
+    <value>معلومات إضافية وأسئلة متعلقة بإعداد كشف ضرائبك</value>
+  </data>
+  <data name="Adopt_a_child" xml:space="preserve">
+    <value>تبنيت طفلا؟</value>
+  </data>
+  <data name="Alimony_income_or_seprate_maintenence_payments" xml:space="preserve">
+    <value>دخل نفقة الزوجة المطلقة/الزوج المطلق أو مدفوعات إعالة الزوجة المنفصلة/الزوج المنفصل؟</value>
+  </data>
+  <data name="Alimony_or_seprate_maintenance_payments_if" xml:space="preserve">
+    <value>نفقة الزوجة المطلقة/الزوج المطلق أو مدفوعات إعالة الزوجة المنفصلة/الزوج المنفصل؟ إن نعم، هل لديك رقم الضمان الإجتماعي للمستلم؟</value>
+  </data>
+  <data name="Anyone" xml:space="preserve">
+    <value>أي شخص</value>
+  </data>
+  <data name="Any_of_the_following" xml:space="preserve">
+    <value>أي مما يلي؟</value>
+  </data>
+  <data name="Apt" xml:space="preserve">
+    <value>رقم الشقة</value>
+  </data>
+  <data name="Are_you_a_us_citizen" xml:space="preserve">
+    <value>هل تحمل الجنسية الأمريكية؟</value>
+  </data>
+  <data name="As_of_december_thirtyfirst" xml:space="preserve">
+    <value>حتى 31 ديسمبر/كانون الأول 2019 ،ما كان وضعك
+الزوجي؟</value>
+  </data>
+  <data name="AUNT" xml:space="preserve">
+    <value>عمة</value>
+  </data>
+  <data name="BROTHER" xml:space="preserve">
+    <value>شقيق</value>
+  </data>
+  <data name="Can_anyone_claim_you_or_your" xml:space="preserve">
+    <value>هل يستطيع أي شخص الإدعاء بإعالتك أو إعالة زوجتك/زوجك على كشف ضرائبهم؟</value>
+  </data>
+  <data name="Cash_check_virtual_currency_payments" xml:space="preserve">
+    <value>مدفوعات نقدية/شيكات/عملة افتراضية أو ممتلكات أو خدمات أخرى مقابل أي عمل مؤدى وغير مبلغ عنه على الاستمارة 2-W أو الاستمارة 1099؟</value>
+  </data>
+  <data name="Charitable_contributions" xml:space="preserve">
+    <value>مساهمات خيرية</value>
+  </data>
+  <data name="Chech_here_if_you_or_your_spouse_if" xml:space="preserve">
+    <value>اختر المربع هنا إن كنت أنت، أو زوجتك/زوجك في حال رفع كشف مشترك، تريد أن يخصص مبلغ 3 $لهذا الصندوق</value>
+  </data>
+  <data name="Check_appropriate_box_for_each_question_in_each" xml:space="preserve">
+    <value>اختر المربع الملائم لكل سؤال في كل فقرة</value>
+  </data>
+  <data name="Child_or_dependent_care_expences" xml:space="preserve">
+    <value>نفقات رعاية الأطفال/العالة، مثل الرعاية اليومية؟</value>
+  </data>
+  <data name="Choose_your_file" xml:space="preserve">
+    <value>اختر ملفك</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>المدينة</value>
+  </data>
+  <data name="College_or_post_secondry_education" xml:space="preserve">
+    <value>نفقات تعليم جامعي أو بعد ثانوي مدفوعة بالنيابة عنك أو عن زوجتك/زوجك أو من تعيلهم؟ (الإستمارة 1098T(</value>
+  </data>
+  <data name="completeformbelow" xml:space="preserve">
+    <value>يرجى ملء النموذج أدناه</value>
+  </data>
+  <data name="Consent" xml:space="preserve">
+    <value>الموافقة:</value>
+  </data>
+  <data name="Contribution_to_a_retirement_account" xml:space="preserve">
+    <value>تقاعد؟ حساب في م</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="Date_format" xml:space="preserve">
+    <value>(يوم/شهر/
+عام)</value>
+  </data>
+  <data name="Date_of_births" xml:space="preserve">
+    <value>تاريخ
+الميلاد</value>
+  </data>
+  <data name="Date_of_final_decree" xml:space="preserve">
+    <value>تاريخ القرار النهائي</value>
+  </data>
+  <data name="Date_of_separate_maintenance_decre" xml:space="preserve">
+    <value>تاريخ إتفاق الإعالة خلال الإنفصال</value>
+  </data>
+  <data name="DAUGHTER" xml:space="preserve">
+    <value>بنت</value>
+  </data>
+  <data name="Daytime_telephone_number" xml:space="preserve">
+    <value>رقم هاتف صباحي</value>
+  </data>
+  <data name="Did_the_taxpayers_pay_more_than_half_the_cost" xml:space="preserve">
+    <value>هل دفع دافع
+(دافعو) الضرائب
+أكثر من نصف
+كلفة صيانة مسكن
+لهذا الشخص؟
+(نعم/لا)</value>
+  </data>
+  <data name="Did_the_taxpayers_provide_more_than_fiftypercent" xml:space="preserve">
+    <value>هل زود دافع
+(دافعو) الضرائب
+أكثر من 50 %
+من الإعالة لهذا
+الشخص؟
+(نعم/لا)</value>
+  </data>
+  <data name="Did_this_person_have_less_than_fortythree" xml:space="preserve">
+    <value>هل كان دخل
+هذا الشخص
+أقل من
+ ؟$4,200
+(نعم/لا)</value>
+  </data>
+  <data name="Did_this_person_provide_more_than_fifty" xml:space="preserve">
+    <value>هل زود هذا
+الشخص أكثر
+من 50 %
+من إعالته
+الخاصة؟
+(نعم/لا)</value>
+  </data>
+  <data name="Did_you_live_in_an_area_that" xml:space="preserve">
+    <value>هل كنت تعيش في منطقة تم إعلانها منطقة كوارث فيدرالية؟</value>
+  </data>
+  <data name="Did_you_live_with_your_spouse_during_any" xml:space="preserve">
+    <value>هل أقمت مع زوجتك/زوجك أثناء أي جزء من الأشهر الستة الأخيرة من عام 2019؟</value>
+  </data>
+  <data name="Did_you_or_your_spouse_if_filling_jointly" xml:space="preserve">
+    <value>هل تلقيت أنت أو زوجك / زوجتك في حالة التسجيل المشترك خطابًا من مصلحة الضرائب؟</value>
+  </data>
+  <data name="Direct_deposite" xml:space="preserve">
+    <value>إيداع مباشر</value>
+  </data>
+  <data name="Disability_income_such" xml:space="preserve">
+    <value>دخل الإعاقة (مثل المدفوعات من التأمين أو تعويض العمال)؟ (الإستمارات 2-W ،1099R(</value>
+  </data>
+  <data name="Divorced" xml:space="preserve">
+    <value>مطلقا</value>
+  </data>
+  <data name="etc" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Everyone" xml:space="preserve">
+    <value>كل شخص</value>
+  </data>
+  <data name="Expences_related_to_self_employment_income" xml:space="preserve">
+    <value>النفقات المتعلقة بدخل العمل الحر أو أي دخل آخر تلقيته؟</value>
+  </data>
+  <data name="File_a_federal_return_last_year" xml:space="preserve">
+    <value>رفعت كشف ضرائب فدرالية للسنة الماضية يحتوي على "مجموع مرحل لخسائر رأسمالية" [carryover loss capital [على الملحق D من الإستمارة 1040؟</value>
+  </data>
+  <data name="For_supplies_used_as_an_eligible" xml:space="preserve">
+    <value>للمستلزمات المستخدمة كاخصائي تعليم مؤهل مثل المعلم، أو مساعد المعلم أو المستشار أو إلخ.؟</value>
+  </data>
+  <data name="FOSTER_CHILD" xml:space="preserve">
+    <value>رعاية الطفل</value>
+  </data>
+  <data name="Fourhundredone_k" xml:space="preserve">
+    <value>401K</value>
+  </data>
+  <data name="Full_time_student" xml:space="preserve">
+    <value>طالب بدوام كامل</value>
+  </data>
+  <data name="Full_time_student_last_year_yes_or_no" xml:space="preserve">
+    <value>طالب بدوام
+كامل السنة
+الماضية
+(نعم/لا)</value>
+  </data>
+  <data name="GRANDCHILD" xml:space="preserve">
+    <value>حفيد</value>
+  </data>
+  <data name="GRANDPARENT" xml:space="preserve">
+    <value>الجد</value>
+  </data>
+  <data name="HALF_BROTHER" xml:space="preserve">
+    <value>نصف أخ</value>
+  </data>
+  <data name="HALF_SISTER" xml:space="preserve">
+    <value>نصف أخت</value>
+  </data>
+  <data name="Have_a_helth_saving_account" xml:space="preserve">
+    <value>) .HSA (كان لديك حساب توفير صحي؟ (الإستمارات 5498SA و1099SA و 2-Wمع الرمز W في المربع 12(</value>
+  </data>
+  <data name="Have_credit_card_or_mortgage_debt" xml:space="preserve">
+    <value>كان لديك دين من بطاقة إئتمان أو رهن ملغى/معفى من قبل مقرض أو غلق لرهن منزل؟ (الإستمارات 1099C ،1099A(</value>
+  </data>
+  <data name="Have_earned_income_credit" xml:space="preserve">
+    <value>هل كان لديك "إعتماد دخل مكتسب" [Credit Income Earned [أو "إعتماد ضريبة طفل" [Credit Tax Child [أو "إعتماد فرصة أمريكية" [Credit Opportunity American [غير
+مسموح في سنة سابقة؟ إذا نعم، لأي سنة ضريبية؟</value>
+  </data>
+  <data name="Have_health_coverage_through_the" xml:space="preserve">
+    <value>لديك تغطية صحية من خلال السوق (البورصة)؟ ]قدم النموذج [1095-A[</value>
+  </data>
+  <data name="Have_you_your_spouse_or_dependents_been_a" xml:space="preserve">
+    <value>هل وقعت أنت أو زوجتك/زوجك أو من تعليهم ضحية سرقة هوية أو صدر لكم رقم هوية شخصية لحماية هويتكم؟</value>
+  </data>
+  <data name="If_additional_space_is_needed_check_here" xml:space="preserve">
+    <value>إذا كنت بحاجة إلى فسحة إضافية، توضع إشارة هنا ويتم الإدراج على الصفحة 3</value>
+  </data>
+  <data name="If_uou_are_filling_a_joint_return" xml:space="preserve">
+    <value>(إذا كنت تقدم إقرارًا مشتركًا ، أدخل أسماءك بنفس ترتيب إرجاع العام الماضي)</value>
+  </data>
+  <data name="If_yes_did_you_get_married" xml:space="preserve">
+    <value>إذا نعم، هل تزوجت في سنة 2019؟</value>
+  </data>
+  <data name="If_yes_how_many_jobs_did_you_have_last_year" xml:space="preserve">
+    <value>إذا نعم، كم وظيفة كانت لديك السنة الماضية؟</value>
+  </data>
+  <data name="If_yes_where" xml:space="preserve">
+    <value>إذا كانت الإجابة بنعم حيث؟</value>
+  </data>
+  <data name="If_you_are_due_a_refund" xml:space="preserve">
+    <value>إذا كنت تستحق استردادًا ، هل ترغب في:</value>
+  </data>
+  <data name="If_you_belive_your_tax_return_information" xml:space="preserve">
+    <value>إن كنت تعتقد أنه تم الكشف عن معلومات كشف ضرائبك أو إستخدامها بشكل غير لائق وغير مسموح بموجب القانون أو بدون إذنك، فبإمكانك الإتصال
+بـ"المحقق العام لإدارة الضريبة في وزارة المالية" [TIGTA] (Administration Tax for General Inspector Treasury (عبر الهاتف على الرقم
+.complaints@tigta.treas.gov العنوان على الإلكتروني البريد عبر أو 1-800-366-4484</value>
+  </data>
+  <data name="If_you_have_a_balance_due" xml:space="preserve">
+    <value>إذا كان لديك رصيد مستحق ، هل ترغب في إجراء دفعة مباشرة من حسابك المصرفي؟</value>
+  </data>
+  <data name="Income_or_loss_for_rental_property" xml:space="preserve">
+    <value>الدخل (أو الخسارة) من ملكية مؤجرة؟</value>
+  </data>
+  <data name="Income_or_oloss_from_the_sale" xml:space="preserve">
+    <value>الدخل (أو الخسارة) من بيع الأسهم أو السندات أو العملة الافتراضية أو العقارات؟ (الاستمارات 1099S ،1099B(</value>
+  </data>
+  <data name="Interest_dividents_from_checking" xml:space="preserve">
+    <value>فوائد/أنصبة أرباح من: حسابات شيكات/توفير، سندات، إعتمادات مستندية، عمولات؟ (الإستمارة 1099INT والإستمارة 1099DIV(</value>
+  </data>
+  <data name="Ira" xml:space="preserve">
+    <value>IRA</value>
+  </data>
+  <data name="Is_this_person_a_qualifying" xml:space="preserve">
+    <value>ل هذا
+ً الشخص طفلا/
+ً ً مؤهلا
+قريبا
+لأي شخص
+آخر؟ (نعم/لا)</value>
+  </data>
+  <data name="Is_your_spouse_a_us_citizen" xml:space="preserve">
+    <value>هل تحمل الزوجة/الزوج الجنسية الأمريكية؟</value>
+  </data>
+  <data name="I_authorize_my_tax_prepare_to_enter_the" xml:space="preserve">
+    <value>أفوض معدي الضرائب الخاص بي بإدخال رقم التعريف الشخصي المكون من خمسة أرقام الذي اخترته أدناه.</value>
+  </data>
+  <data name="I_here_by_consent_to_the_disclosure" xml:space="preserve">
+    <value>أنا/نحن أوافق على الكشف عن معلومات كشف الضريبة الموصوف في شروط Forward Carry Global أعلاه وأسمح لمعد كشف الضرائب بإدخال كلمة
+سر في برنامج كمبيوتر إعداد كشف الضرائب بالنيابة عني لإثبات أني/أننا أوافق على شروط هذا الكشف.</value>
+  </data>
+  <data name="I_or_we_the_taxpayers_have_read_the" xml:space="preserve">
+    <value>نا/نحن، دافع الضريبة، قرأت المعلومات أعلاه.</value>
+  </data>
+  <data name="Last_name" xml:space="preserve">
+    <value>الإسم الأخير/اللقب</value>
+  </data>
+  <data name="Last_Name_Do_not_enter_your_name_or_spouses_name" xml:space="preserve">
+    <value>اسم العائلة (لا تدخل اسمك أو اسم زوجتك)</value>
+  </data>
+  <data name="Last_year_was_your_spouse" xml:space="preserve">
+    <value>في السنة الماضية، هل كانت زوجتك/زوجك</value>
+  </data>
+  <data name="Last_year_were_you" xml:space="preserve">
+    <value>في السنة الماضية، هل كنت</value>
+  </data>
+  <data name="Legally_blind" xml:space="preserve">
+    <value>أعمى قانونيا</value>
+  </data>
+  <data name="Legally_speparated" xml:space="preserve">
+    <value>ً منفصلا قانونيا</value>
+  </data>
+  <data name="List_the_name_below_of" xml:space="preserve">
+    <value>عدد أدناه أسماء:</value>
+  </data>
+  <data name="Mailing_address" xml:space="preserve">
+    <value>العنوان البريدي</value>
+  </data>
+  <data name="Make_estimated_tax_payments" xml:space="preserve">
+    <value>دفعت أقساط ضرائب مقدرة أو طبقت المبلغ المسترجع من السنة الماضية على ضريبتك لهذه السنة؟ إن كانت الحالة كذلك، فكم؟</value>
+  </data>
+  <data name="married" xml:space="preserve">
+    <value>متزوجا</value>
+  </data>
+  <data name="Medical_and_dental_inculiding" xml:space="preserve">
+    <value>طب وطب أسنان (بما فيها أقساط التأمين)</value>
+  </data>
+  <data name="Mortagage_interest" xml:space="preserve">
+    <value>فوائد رهن منزل (الإستمارة 1098(</value>
+  </data>
+  <data name="M_I" xml:space="preserve">
+    <value>الحرف الأول من الأوسط</value>
+  </data>
+  <data name="Name_first_and_last_do_not_enter_your" xml:space="preserve">
+    <value>الاسم الأول (لا تدخل اسمك أو اسم زوجتك)</value>
+  </data>
+  <data name="NEPHEW" xml:space="preserve">
+    <value>ابن شقيق</value>
+  </data>
+  <data name="Never_married" xml:space="preserve">
+    <value>غير متزوج من قبل</value>
+  </data>
+  <data name="NIECE" xml:space="preserve">
+    <value>ابنة الاخ</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>لا</value>
+  </data>
+  <data name="NONE" xml:space="preserve">
+    <value>لا أحد</value>
+  </data>
+  <data name="Number_of_months_lived_in_your_home" xml:space="preserve">
+    <value>عدد أشهر
+الإقامة في
+منزلك السنة
+الماضية</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>آخر</value>
+  </data>
+  <data name="Other_income_gamnling_lottery" xml:space="preserve">
+    <value>مصدر دخل آخر؟ (المقامرة ، اليانصيب ، الجوائز ، الجوائز ، واجب هيئة المحلفين ، العملة الافتراضية ، Sch K-1 ، الإتاوات ، الدخل الأجنبي ، الممتلكات أو الخدمات الأخرى ،
+الخ) حدد</value>
+  </data>
+  <data name="PARENT" xml:space="preserve">
+    <value>الأبوين</value>
+  </data>
+  <data name="Part_first_your_personal_information" xml:space="preserve">
+    <value>الجزء الأول- معلوماتك الشخصية</value>
+  </data>
+  <data name="Part_five_life_events" xml:space="preserve">
+    <value>الجزء الخامس- أحداث الحياة- في السنة الماضية، هل أنت (أو زوجتك/زوجك)</value>
+  </data>
+  <data name="Part_four_expenses" xml:space="preserve">
+    <value>الجزء الرابع-النفقات- في السنة الماضية، هل دفعت أنت (أو زوجتك/زوجك)</value>
+  </data>
+  <data name="Part_second_marital_status_and_household_information" xml:space="preserve">
+    <value>الجزء الثاني - معلومات الحالة الزوجية والأسرة المعيشية</value>
+  </data>
+  <data name="Part_third_income_last_year_did_you" xml:space="preserve">
+    <value>الجزء الثالث- الدخل-في السنة الماضية، هل تلقيت أنت (أو زوجتك/زوجك)</value>
+  </data>
+  <data name="Presidental_election_campaign_fund" xml:space="preserve">
+    <value>صندوق الحملة الانتخابية الرئاسية (إذا حددت مربعًا ، فلن تتغير الضريبة أو المبلغ المسترد)</value>
+  </data>
+  <data name="Primary_signature" xml:space="preserve">
+    <value>سم دافع الضريبة الرئيسي مطبوعا وتوقيعه</value>
+  </data>
+  <data name="Primary_taxpayer_printed_name" xml:space="preserve">
+    <value>الاسم المطبوع لدافع الضرائب الأساسي</value>
+  </data>
+  <data name="Provide_an_email_address" xml:space="preserve">
+    <value>أدخل عنوان بريد إلكتروني (اختياري) (لن يتم استخدام عنوان البريد الإلكتروني هذا لجهات الاتصال من دائرة الإيرادات الداخلية)</value>
+  </data>
+  <data name="Purchase_and_install_energy_efficant" xml:space="preserve">
+    <value>قمت بشراء وتركيب مستلزمات منزلية مقتصدة للطاقة؟ (مثل نوافذ، سخان، مواد عازلة، إلخ.)</value>
+  </data>
+  <data name="Receive_an_economic_impact_payment" xml:space="preserve">
+    <value>تلقي دفعة الأثر الاقتصادي (التحفيز) في عام 2020؟</value>
+  </data>
+  <data name="Recive_the_first_time_homebuyers" xml:space="preserve">
+    <value>تلقيت "إعتماد مشتري المنازل للمرة الأولى" [Credit Homebuyers Time First [في سنة 2008؟</value>
+  </data>
+  <data name="Refund_of_state_local_income" xml:space="preserve">
+    <value>إسترجاع ضرائب الدخل المحلية/للولاية؟ (الإستمارة 1099G(</value>
+  </data>
+  <data name="Relationship_to_you_for_example" xml:space="preserve">
+    <value>صلة القرابة بك</value>
+  </data>
+  <data name="Resident_of_us_canada_or_maxico" xml:space="preserve">
+    <value>مقيم في الولايات
+المتحدة أو كندا أو
+المكسيك السنة
+الماضية (نعم/لا)</value>
+  </data>
+  <data name="Retriment_income_or_payments" xml:space="preserve">
+    <value>دخل تقاعد أو مدفوعات من من معاشات التقاعد و/أو العلاوات السنوية و/أو حساب IRA؟ (الإستمارة 1099R(</value>
+  </data>
+  <data name="Roth_ira" xml:space="preserve">
+    <value>Roth IRA</value>
+  </data>
+  <data name="Scholarships_form_w_t" xml:space="preserve">
+    <value>المنح الدراسية؟ (النماذج W-2 ، 1098-T)</value>
+  </data>
+  <data name="Secondry_signatue" xml:space="preserve">
+    <value>اسم دافع الضريبة الرئيسي مطبوعا وتوقيعه</value>
+  </data>
+  <data name="Secondry_taxpayer_printed_name" xml:space="preserve">
+    <value>الاسم المطبوع للمكلف الثانوي</value>
+  </data>
+  <data name="Self_employment_income_form" xml:space="preserve">
+    <value>دخل العمل الحر (الاستمارة MISC-1099 ،مبالغ نقدية، عملة افتراضية، أو ممتلكات أو خدمات أخرى)؟</value>
+  </data>
+  <data name="Single" xml:space="preserve">
+    <value>أعزب</value>
+  </data>
+  <data name="Single_or_married_as_of" xml:space="preserve">
+    <value>أعزب أو متزوج
+حتى
+19/12/31
+</value>
+  </data>
+  <data name="SISTER" xml:space="preserve">
+    <value>أخت</value>
+  </data>
+  <data name="Social_security_number" xml:space="preserve">
+    <value>رقم الضمان الاجتماعي</value>
+  </data>
+  <data name="Social_security_or_railroad_retirement" xml:space="preserve">
+    <value>مخصصات الضمان الإجتماعي أو تقاعد عمال السكك الحديدية؟ (الإستمارات SSA1099 ،RRB1099(</value>
+  </data>
+  <data name="SON" xml:space="preserve">
+    <value>ابن</value>
+  </data>
+  <data name="Specify" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Spouse" xml:space="preserve">
+    <value>الزوجة/الزوج</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>الولاية</value>
+  </data>
+  <data name="STEPBROTHER" xml:space="preserve">
+    <value>أخ غير شقيق</value>
+  </data>
+  <data name="STEPCHILD" xml:space="preserve">
+    <value>الربيب ولد الزوج أو الزوجة</value>
+  </data>
+  <data name="STEPSISTER" xml:space="preserve">
+    <value>مثل اختي</value>
+  </data>
+  <data name="Student_loan_interest" xml:space="preserve">
+    <value>فائدة على قروض الطالب؟ (الإستمارة 1098E (</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>يقدم</value>
+  </data>
+  <data name="Taxes_state_real_estate_personal" xml:space="preserve">
+    <value>ضرائب(ولاية، عقارية، ملكية شخصية، مبيعات)</value>
+  </data>
+  <data name="This_includes_registered_domestic" xml:space="preserve">
+    <value>(بما في ذلك الشراكات المنزلية المسجلة أو الإتحادات المدنية أو غيرها من العلاقات الرسمية بموجب قانون الولاية)</value>
+  </data>
+  <data name="Tip_income" xml:space="preserve">
+    <value>دخلا من البقشيش؟</value>
+  </data>
+  <data name="Totally_and_permanently_disabled" xml:space="preserve">
+    <value>معطل كليا ودائما</value>
+  </data>
+  <data name="Totally_and_permanently_disabled_yes_or_nos" xml:space="preserve">
+    <value>معاق تماما
+ً
+ودائما
+</value>
+  </data>
+  <data name="To_be_completed_by_a_certificate" xml:space="preserve">
+    <value>للإستكمال على يد متطوع معتمد ومعد لكشف الضرائب</value>
+  </data>
+  <data name="To_purchase_us_savings_bonds" xml:space="preserve">
+    <value>لشراء سندات الادخار الأمريكية</value>
+  </data>
+  <data name="To_split_your_refund_between_diffrent" xml:space="preserve">
+    <value>لتقسيم المبلغ المسترد بين حسابات مختلفة</value>
+  </data>
+  <data name="UNCLE" xml:space="preserve">
+    <value>اخو الام</value>
+  </data>
+  <data name="Unemployment_compensation" xml:space="preserve">
+    <value>(G-1099 الإستمارة (البطالة ت</value>
+  </data>
+  <data name="Unsure" xml:space="preserve">
+    <value>غير واثق</value>
+  </data>
+  <data name="Uploaded_files" xml:space="preserve">
+    <value>الملفات التي يتم تحميلها:</value>
+  </data>
+  <data name="Upload_your_documents_here" xml:space="preserve">
+    <value>قم بتحميل المستندات الخاصة بك هنا:</value>
+  </data>
+  <data name="Us_citizen_tes_or_no" xml:space="preserve">
+    <value>حامل
+للجنسية
+الأمريكية</value>
+  </data>
+  <data name="Wages_or_salary_form_w" xml:space="preserve">
+    <value>الأجور أو الراتب؟ (استمارة W-2)</value>
+  </data>
+  <data name="Who_lived_with_you_last_year" xml:space="preserve">
+    <value>أقام معك السنة الماضية (غيرك أو غير زوجتك/زوجك)</value>
+  </data>
+  <data name="Widowed" xml:space="preserve">
+    <value>أرمل/أرملة</value>
+  </data>
+  <data name="Year_of_spouse_deaths" xml:space="preserve">
+    <value>سنة وفاة زوجتك/زوجك</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>نعم</value>
+  </data>
+  <data name="You" xml:space="preserve">
+    <value>أنت</value>
+  </data>
+  <data name="Your_date_of_birth" xml:space="preserve">
+    <value>تاريخ ميلادك</value>
+  </data>
+  <data name="Your_first_name" xml:space="preserve">
+    <value>إسمك الأول</value>
+  </data>
+  <data name="Your_job_title" xml:space="preserve">
+    <value>منصبك المهني</value>
+  </data>
+  <data name="Your_spouse_date_of_birth" xml:space="preserve">
+    <value>تاريخ ميلاد الزوجة/الزوج</value>
+  </data>
+  <data name="Your_spouse_first_name" xml:space="preserve">
+    <value>الإسم الأول لزوجتك/زوجك</value>
+  </data>
+  <data name="Your_spouse_job_title" xml:space="preserve">
+    <value>منصب زوجتك/زوجك المهني</value>
+  </data>
+  <data name="You_support_but_did_not_live_with_you" xml:space="preserve">
+    <value>قمت بإعالته لكنه لم يقيم معك السنة الماضية</value>
+  </data>
+  <data name="Zip_code" xml:space="preserve">
+    <value>الرمز البريدي</value>
+  </data>
+</root>

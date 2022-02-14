@@ -1,0 +1,732 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdditionalInformation" xml:space="preserve">
+    <value>informação adicional</value>
+  </data>
+  <data name="Additional_doc_files" xml:space="preserve">
+    <value>Arquivos Doc adicionais</value>
+  </data>
+  <data name="Additional_information_and_question_related" xml:space="preserve">
+    <value>Informações e perguntas adicionais relacionadas à preparação de sua declaração</value>
+  </data>
+  <data name="Adopt_a_child" xml:space="preserve">
+    <value>Adotou uma criança?</value>
+  </data>
+  <data name="Alimony_income_or_seprate_maintenence_payments" xml:space="preserve">
+    <value>Renda de pensão alimentícia ou pagamentos de manutenção separados?</value>
+  </data>
+  <data name="Alimony_or_seprate_maintenance_payments_if" xml:space="preserve">
+    <value>Pensão alimentícia ou pagamentos de manutenção separados? Se Sim, você tem o SSN do(a) beneficiário(a)?</value>
+  </data>
+  <data name="Anyone" xml:space="preserve">
+    <value>qualquer pessoa</value>
+  </data>
+  <data name="Any_of_the_following" xml:space="preserve">
+    <value>Algumas das seguintes opções?</value>
+  </data>
+  <data name="Apt" xml:space="preserve">
+    <value>Apt. No.</value>
+  </data>
+  <data name="Are_you_a_us_citizen" xml:space="preserve">
+    <value>Você é cidadão dos EUA?</value>
+  </data>
+  <data name="as4" xml:space="preserve">
+    <value>Inicial do 2o nome</value>
+  </data>
+  <data name="as5" xml:space="preserve">
+    <value>Sobrenome</value>
+  </data>
+  <data name="as6" xml:space="preserve">
+    <value>Telefone comercial</value>
+  </data>
+  <data name="as8" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+  <data name="as9" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="asdf4" xml:space="preserve">
+    <value>Totalmente ou permanentemente inválido</value>
+  </data>
+  <data name="asdf5" xml:space="preserve">
+    <value>Estudante em tempo integral</value>
+  </data>
+  <data name="asdf6" xml:space="preserve">
+    <value>Legalmente cego</value>
+  </data>
+  <data name="As_of_december_thirtyfirst" xml:space="preserve">
+    <value>Qual era o seu estado civil em 31 de dezembro de 2019:</value>
+  </data>
+  <data name="AUNT" xml:space="preserve">
+    <value>TIA</value>
+  </data>
+  <data name="az7" xml:space="preserve">
+    <value>Catálogo número 58981W</value>
+  </data>
+  <data name="az8" xml:space="preserve">
+    <value>www.irs.gov</value>
+  </data>
+  <data name="az9" xml:space="preserve">
+    <value>Form 13614-C (PT) (Rev. 10-2019)</value>
+  </data>
+  <data name="BROTHER" xml:space="preserve">
+    <value>IRMÃO</value>
+  </data>
+  <data name="Can_anyone_claim_you_or_your" xml:space="preserve">
+    <value>Alguém pode reivindicar você ou seu cônjuge como dependente na declaração de imposto?</value>
+  </data>
+  <data name="Cash_check_virtual_currency_payments" xml:space="preserve">
+    <value>Pagamentos em espécie, cheque, moeda virtual ou outros bens ou serviços por qualquer trabalho realizado que não tenha sido incluído nos formulários W-2 ou 1099?</value>
+  </data>
+  <data name="Charitable_contributions" xml:space="preserve">
+    <value>Contribuições para instituições de caridade</value>
+  </data>
+  <data name="Chech_here_if_you_or_your_spouse_if" xml:space="preserve">
+    <value>Marque aqui se você, ou seu cônjuge estiver fazendo a declaração conjunta, deseja alocar $3 para este fundo</value>
+  </data>
+  <data name="Check_appropriate_box_for_each_question_in_each" xml:space="preserve">
+    <value>Assinale o quadro apropriado para cada pergunta em cada seção</value>
+  </data>
+  <data name="Child_or_dependent_care_expences" xml:space="preserve">
+    <value>Despesas com filhos ou dependentes, como creche?</value>
+  </data>
+  <data name="Choose_your_file" xml:space="preserve">
+    <value>Escolha o seu arquivo</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>Cidade</value>
+  </data>
+  <data name="College_or_post_secondry_education" xml:space="preserve">
+    <value>Despesas para educação universitária ou pós-secundária para você, cônjuge ou dependentes? (Formulário 1098-T)</value>
+  </data>
+  <data name="completeformbelow" xml:space="preserve">
+    <value>Por favor, preencha o formulário abaixo</value>
+  </data>
+  <data name="Consent" xml:space="preserve">
+    <value>Consentimento:</value>
+  </data>
+  <data name="Contribution_to_a_retirement_account" xml:space="preserve">
+    <value>Contribuições para plano de aposentadoria?</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="Date_format" xml:space="preserve">
+    <value>(mm/dd/aa)</value>
+  </data>
+  <data name="Date_of_births" xml:space="preserve">
+    <value>Data de nasc.</value>
+  </data>
+  <data name="Date_of_final_decree" xml:space="preserve">
+    <value>Data do decreto final</value>
+  </data>
+  <data name="Date_of_separate_maintenance_decre" xml:space="preserve">
+    <value>Data do acordo de separação</value>
+  </data>
+  <data name="DAUGHTER" xml:space="preserve">
+    <value>FILHA</value>
+  </data>
+  <data name="Daytime_telephone_number" xml:space="preserve">
+    <value>Telefone comercial</value>
+  </data>
+  <data name="dc3" xml:space="preserve">
+    <value>(b)</value>
+  </data>
+  <data name="dc5" xml:space="preserve">
+    <value>(c)</value>
+  </data>
+  <data name="DeptName" xml:space="preserve">
+    <value>Departamento do Tesouro – Secretaria da Receita Federal</value>
+  </data>
+  <data name="Did_the_taxpayers_pay_more_than_half_the_cost" xml:space="preserve">
+    <value>Os contribuintes pagaram mais da metade dos custos de manutenção da residência para este indivíduo? (sim/não)</value>
+  </data>
+  <data name="Did_the_taxpayers_provide_more_than_fiftypercent" xml:space="preserve">
+    <value>Os contribuintes forneceram mais de 50% de sustento para este indivíduo? (sim/não)</value>
+  </data>
+  <data name="Did_this_person_have_less_than_fortythree" xml:space="preserve">
+    <value>Este indivíduo teve um rendimento inferior a US$4.200? (sim/não)</value>
+  </data>
+  <data name="Did_this_person_provide_more_than_fifty" xml:space="preserve">
+    <value>Este indivíduo contribuiu com mais de 50% do seu próprio sustento? (sim/não)</value>
+  </data>
+  <data name="Did_you_live_in_an_area_that" xml:space="preserve">
+    <value>Vive em uma área que foi declarada como uma área de desastre federal?</value>
+  </data>
+  <data name="Did_you_live_with_your_spouse_during_any" xml:space="preserve">
+    <value>Você morou com seu cônjuge durante qualquer período nos últimos seis meses de 2019?</value>
+  </data>
+  <data name="Did_you_or_your_spouse_if_filling_jointly" xml:space="preserve">
+    <value>Você, ou seu cônjuge se estiver fazendo a declaração conjunta, recebeu uma carta do IRS?</value>
+  </data>
+  <data name="Direct_deposite" xml:space="preserve">
+    <value>Fosse depositado em sua conta</value>
+  </data>
+  <data name="Disability_income_such" xml:space="preserve">
+    <value>Auxílio por invalidez? (como pagamentos do seguro ou indenização trabalhista) (Formulários 1099-R, W-2)</value>
+  </data>
+  <data name="Divorced" xml:space="preserve">
+    <value>Divorciado</value>
+  </data>
+  <data name="ed1" xml:space="preserve">
+    <value>Form 13614-C (PT) (Rev. 10-2019)</value>
+  </data>
+  <data name="engl1" xml:space="preserve">
+    <value>Em caso de dúvidas, pergunte ao preparador voluntário credenciado pelo IRS.</value>
+  </data>
+  <data name="engl2" xml:space="preserve">
+    <value>Os voluntários são treinados para oferecer serviços de alta qualidade e manter os mais elevados padrões éticos. Para relatar comportamento antiético ao IRS, envie um e-mail para</value>
+  </data>
+  <data name="engl3" xml:space="preserve">
+    <value>wi.voltax@irs.gov.</value>
+  </data>
+  <data name="etc" xml:space="preserve">
+    <value>etc.)</value>
+  </data>
+  <data name="Everyone" xml:space="preserve">
+    <value>todas as pessoas</value>
+  </data>
+  <data name="Expences_related_to_self_employment_income" xml:space="preserve">
+    <value>Despesas relacionadas a receitas de autônomo ou qualquer outra receita recebida?</value>
+  </data>
+  <data name="File_a_federal_return_last_year" xml:space="preserve">
+    <value>Apresentou uma declaração dos impostos federais que continha “postergação da perda de capital” no formulário Form 1040 Schedule D?</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Primeiro nome</value>
+  </data>
+  <data name="FirstNameRequired" xml:space="preserve">
+    <value>Por favor registre</value>
+  </data>
+  <data name="Form" xml:space="preserve">
+    <value>Form</value>
+  </data>
+  <data name="Formnum" xml:space="preserve">
+    <value>13614-C (PT)</value>
+  </data>
+  <data name="Formocdate" xml:space="preserve">
+    <value>(Outubro de 2019)</value>
+  </data>
+  <data name="For_supplies_used_as_an_eligible" xml:space="preserve">
+    <value>Para materiais utilizados como educador qualificado, tal como professor, auxiliar de professor, conselheiro, etc.?</value>
+  </data>
+  <data name="FOSTER_CHILD" xml:space="preserve">
+    <value>CRIANÇA ADOTADA</value>
+  </data>
+  <data name="Fourhundredone_k" xml:space="preserve">
+    <value>401K</value>
+  </data>
+  <data name="Full_time_student" xml:space="preserve">
+    <value>Estudante em tempo integral</value>
+  </data>
+  <data name="Full_time_student_last_year_yes_or_no" xml:space="preserve">
+    <value>Estudante em tempo integral durante o ano passado</value>
+  </data>
+  <data name="gb10" xml:space="preserve">
+    <value>Não sabe</value>
+  </data>
+  <data name="GRANDCHILD" xml:space="preserve">
+    <value>NETA/NETO</value>
+  </data>
+  <data name="GRANDPARENT" xml:space="preserve">
+    <value>AVÔ/AVÓ</value>
+  </data>
+  <data name="HALF_BROTHER" xml:space="preserve">
+    <value>MEIO IRMÃO</value>
+  </data>
+  <data name="HALF_SISTER" xml:space="preserve">
+    <value>MEIA-IRMÃ</value>
+  </data>
+  <data name="Have_a_helth_saving_account" xml:space="preserve">
+    <value>(HSA) Teve uma conta de poupança saúde? (Formulários 5498-SA, 1099-SA, W-2 com o código W na caixa 12)</value>
+  </data>
+  <data name="Have_credit_card_or_mortgage_debt" xml:space="preserve">
+    <value>Teve dívida de cartão de crédito ou de hipoteca cancelada/perdoada pelo financiador ou execução hipotecária de sua residência? (Formulários 1099-C, 1099-A)</value>
+  </data>
+  <data name="Have_earned_income_credit" xml:space="preserve">
+    <value>Recebeu crédito de rendimentos, crédito de imposto para filhos ou teve seu American Opportunity Credit (crédito para determinadas despesas educacionais) negado em algum ano anterior? Se Sim, em que ano-base?</value>
+  </data>
+  <data name="Have_health_coverage_through_the" xml:space="preserve">
+    <value>Obteve cobertura de plano de saúde pelo Marketplace (Exchange)? [Forneça o Formulário 1095-A]</value>
+  </data>
+  <data name="Have_you_your_spouse_or_dependents_been_a" xml:space="preserve">
+    <value>Você, seu cônjuge ou dependentes foi (foram) vítima(s) de roubo de identidade relativo a questões tributárias? Foi emitida uma senha de proteção para sua identidade?</value>
+  </data>
+  <data name="If_additional_space_is_needed_check_here" xml:space="preserve">
+    <value>Se necessitar de mais espaço, marque aqui e liste na página 3</value>
+  </data>
+  <data name="If_uou_are_filling_a_joint_return" xml:space="preserve">
+    <value>(Se você estiver declarando imposto conjunto, inclua seus nomes na mesma ordem da declaração do ano anterior )</value>
+  </data>
+  <data name="If_yes_did_you_get_married" xml:space="preserve">
+    <value>Caso afirmativo, você se casou em 2019?</value>
+  </data>
+  <data name="If_yes_how_many_jobs_did_you_have_last_year" xml:space="preserve">
+    <value>Se afirmativo, quantos empregos você teve no ano passado?</value>
+  </data>
+  <data name="If_yes_where" xml:space="preserve">
+    <value>Se sim, onde?</value>
+  </data>
+  <data name="If_you_are_due_a_refund" xml:space="preserve">
+    <value>Caso tenha direito a reembolso, você gostaria que esse valor:</value>
+  </data>
+  <data name="If_you_belive_your_tax_return_information" xml:space="preserve">
+    <value>Se você acredita que suas informações de declaração de imposto tenham sido divulgadas ou usadas indevidamente de uma forma não autorizada pela lei ou sem a sua autorização, entre em contato com o Treasury Inspector General for Tax Administration (TIGTA - Inspetor-geral do Ministério da Fazenda para a Administração dos Impostos dos EUA) no telefone 1-800-366-4484, ou envie um e-mail para complaints@tigta.treas.gov.</value>
+  </data>
+  <data name="If_you_have_a_balance_due" xml:space="preserve">
+    <value>Se você tem saldo a pagar, quer efetuar o pagamento diretamente de sua conta bancária?</value>
+  </data>
+  <data name="Income_or_loss_for_rental_property" xml:space="preserve">
+    <value>Rendimento (ou prejuízo) com aluguel de imóvel?</value>
+  </data>
+  <data name="Income_or_oloss_from_the_sale" xml:space="preserve">
+    <value>Rendimento (ou prejuízo) na venda de ações, títulos, moeda virtual ou imóveis? (Formulários 1099-S, 1099-B)</value>
+  </data>
+  <data name="Intake/Interview&amp;QualityReviewSheet" xml:space="preserve">
+    <value>Ficha de Avaliação/Entrevista e Análise de Qualidade</value>
+  </data>
+  <data name="Intakesheet" xml:space="preserve">
+    <value>Ficha de Avaliação/Entrevista e Análise de Qualidade</value>
+  </data>
+  <data name="Interest_dividents_from_checking" xml:space="preserve">
+    <value>Juros/Dividendos de: conta corrente/poupança, títulos, CDs, investimentos em corretoras? (Formulários 1099-INT, 1099-DIV)</value>
+  </data>
+  <data name="Ira" xml:space="preserve">
+    <value>IRA</value>
+  </data>
+  <data name="Is_this_person_a_qualifying" xml:space="preserve">
+    <value>Este indivíduo pode ter sido incluído como dependente na declaração de imposto de renda de outra pessoa? (sim/não)</value>
+  </data>
+  <data name="Is_your_spouse_a_us_citizen" xml:space="preserve">
+    <value>Seu cônjuge é cidadão dos EUA?</value>
+  </data>
+  <data name="I_authorize_my_tax_prepare_to_enter_the" xml:space="preserve">
+    <value>Autorizo meu preparador de impostos a inserir o PIN de cinco números que escolhi abaixo.</value>
+  </data>
+  <data name="I_here_by_consent_to_the_disclosure" xml:space="preserve">
+    <value>Eu/nós consinto/consentimos a divulgação das informações de declaração de imposto descritas acima nos termos da Global Carry Forward e permito/permitimos que o preparador do imposto de renda inclua um número de identificação pessoal (PIN) no software de preparação de impostos em meu/nosso nome para verificar que estou/estamos de acordo com os termos desta divulgação.</value>
+  </data>
+  <data name="I_or_we_the_taxpayers_have_read_the" xml:space="preserve">
+    <value>Eu/nós, contribuinte(s), li/lemos as informações acima.</value>
+  </data>
+  <data name="kl10" xml:space="preserve">
+    <value>www.irs.gov</value>
+  </data>
+  <data name="kl9" xml:space="preserve">
+    <value>Catálogo número 58981W</value>
+  </data>
+  <data name="Last_name" xml:space="preserve">
+    <value>Sobrenome</value>
+  </data>
+  <data name="Last_Name_Do_not_enter_your_name_or_spouses_name" xml:space="preserve">
+    <value>Sobrenome (não digite seu nome ou o nome do cônjuge)</value>
+  </data>
+  <data name="Last_year_was_your_spouse" xml:space="preserve">
+    <value>No ano passado seu cônjuge era/estava:</value>
+  </data>
+  <data name="Last_year_were_you" xml:space="preserve">
+    <value>No ano passado você era/estava:</value>
+  </data>
+  <data name="Legally_blind" xml:space="preserve">
+    <value>Legalmente cego</value>
+  </data>
+  <data name="Legally_speparated" xml:space="preserve">
+    <value>Separado legalmente</value>
+  </data>
+  <data name="List_the_name_below_of" xml:space="preserve">
+    <value>Liste abaixo os nomes de:</value>
+  </data>
+  <data name="Mailing_address" xml:space="preserve">
+    <value>Endereço para correspondência</value>
+  </data>
+  <data name="Make_estimated_tax_payments" xml:space="preserve">
+    <value>Fez pagamentos antecipados de impostos ou utilizou parte do reembolso para o imposto deste ano? Caso positivo, qual o valor?</value>
+  </data>
+  <data name="married" xml:space="preserve">
+    <value>Casado</value>
+  </data>
+  <data name="Medical_and_dental_inculiding" xml:space="preserve">
+    <value>Médicas e odontológicas (incluindo prêmios de seguro)</value>
+  </data>
+  <data name="Mortagage_interest" xml:space="preserve">
+    <value>Juros de hipotecas (Formulário 1098)</value>
+  </data>
+  <data name="M_I" xml:space="preserve">
+    <value>Inicial do 2o nome</value>
+  </data>
+  <data name="Name_first_and_last_do_not_enter_your" xml:space="preserve">
+    <value>Primeiro nome (não digite seu nome ou o nome do cônjuge)</value>
+  </data>
+  <data name="NEPHEW" xml:space="preserve">
+    <value>SOBRINHO</value>
+  </data>
+  <data name="Never_married" xml:space="preserve">
+    <value>Nunca casou</value>
+  </data>
+  <data name="NIECE" xml:space="preserve">
+    <value>SOBRINHA</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="NONE" xml:space="preserve">
+    <value>NENHUM</value>
+  </data>
+  <data name="Number_of_months_lived_in_your_home" xml:space="preserve">
+    <value>Quanto meses morou na sua casa no ano passado</value>
+  </data>
+  <data name="ol5" xml:space="preserve">
+    <value>Número de catálogo 71523M</value>
+  </data>
+  <data name="ol7" xml:space="preserve">
+    <value>15080 (PT)</value>
+  </data>
+  <data name="ol8" xml:space="preserve">
+    <value>(Rev. 7-2019)</value>
+  </data>
+  <data name="OMBNumber" xml:space="preserve">
+    <value>OMB Número</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Outra</value>
+  </data>
+  <data name="Other_income_gamnling_lottery" xml:space="preserve">
+    <value>Outra receita? (jogos de azar, loteria, concurso, prêmios, remuneração de jurado, moeda virtual, Sch K-1, royalties, receita oriunda do exterior, outros bens ou serviços,</value>
+  </data>
+  <data name="PARENT" xml:space="preserve">
+    <value>PAI/MÃE</value>
+  </data>
+  <data name="Part_first_your_personal_information" xml:space="preserve">
+    <value>Parte I. Informações pessoais</value>
+  </data>
+  <data name="Part_five_life_events" xml:space="preserve">
+    <value>Parte V. Eventos da vida - No ano passado, você (ou seu cônjuge)</value>
+  </data>
+  <data name="Part_four_expenses" xml:space="preserve">
+    <value>Parte IV. Despesas - No ano passado, você (ou seu cônjuge) pagou</value>
+  </data>
+  <data name="Part_second_marital_status_and_household_information" xml:space="preserve">
+    <value>Parte II. Estado civil e informações sobre o domicílio</value>
+  </data>
+  <data name="Part_third_income_last_year_did_you" xml:space="preserve">
+    <value>Parte III. Rendimento - No ano passado, você (ou seu cônjuge) recebeu</value>
+  </data>
+  <data name="pictureidfor" xml:space="preserve">
+    <value>Documento de identidade com foto, seu e de seu cônjuge (como carteira de habilitação válida).</value>
+  </data>
+  <data name="pleasecompt" xml:space="preserve">
+    <value>Preencha as páginas 1 a 4 deste formulário.</value>
+  </data>
+  <data name="Presidental_election_campaign_fund" xml:space="preserve">
+    <value>Fundo para campanha das eleições presidenciais (Se assinalar esta opção, seu imposto ou devolução não mudará)</value>
+  </data>
+  <data name="Primary_signature" xml:space="preserve">
+    <value>Nome do contribuinte primário em letra de forma e assinatura</value>
+  </data>
+  <data name="Primary_taxpayer_printed_name" xml:space="preserve">
+    <value>Nome impresso do contribuinte principal</value>
+  </data>
+  <data name="Provide_an_email_address" xml:space="preserve">
+    <value>Forneça um endereço de e-mail (opcional) (este e-mail não será usado para contatos do Internal Revenue Service)</value>
+  </data>
+  <data name="Purchase_and_install_energy_efficant" xml:space="preserve">
+    <value>Comprou e instalou produtos residenciais de eficiência energética? (janelas, calefação, isolamento térmico, etc.)</value>
+  </data>
+  <data name="Receive_an_economic_impact_payment" xml:space="preserve">
+    <value>Receber um pagamento de impacto econômico (estímulo) em 2020?</value>
+  </data>
+  <data name="Recive_the_first_time_homebuyers" xml:space="preserve">
+    <value>Recebeu o incentivo para compra da primeira casa própria em 2008?</value>
+  </data>
+  <data name="Refund_of_state_local_income" xml:space="preserve">
+    <value>Restituição de impostos estaduais/municipais? (Formulário 1099-G)</value>
+  </data>
+  <data name="Registration" xml:space="preserve">
+    <value>Cadastro</value>
+  </data>
+  <data name="Relationship_to_you_for_example" xml:space="preserve">
+    <value>Parentesco</value>
+  </data>
+  <data name="Resident_of_us_canada_or_maxico" xml:space="preserve">
+    <value>Residente dos EUA, Canadá ou México no ano passado (sim/não)</value>
+  </data>
+  <data name="Retriment_income_or_payments" xml:space="preserve">
+    <value>Rendas de aposentadoria ou pagamentos de pensões, anuidades e/ou IRA (conta de aposentadoria individual)? (Formulário 1099-R)</value>
+  </data>
+  <data name="Roth_ira" xml:space="preserve">
+    <value>Roth IRA</value>
+  </data>
+  <data name="sc10" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="Scholarships_form_w_t" xml:space="preserve">
+    <value>Bolsas de estudo? (Formulários W-2, 1098-T)</value>
+  </data>
+  <data name="Secondry_signatue" xml:space="preserve">
+    <value>Nome do contribuinte secundário em letra de forma e assinatura</value>
+  </data>
+  <data name="Secondry_taxpayer_printed_name" xml:space="preserve">
+    <value>Nome impresso do contribuinte secundário</value>
+  </data>
+  <data name="Self_employment_income_form" xml:space="preserve">
+    <value>Remuneração como autônomo? (Formulário 1099-MISC, pagamento em espécie, moeda virtual ou outros bens ou serviços)</value>
+  </data>
+  <data name="Single" xml:space="preserve">
+    <value>Solteiro/Solteira</value>
+  </data>
+  <data name="Single_or_married_as_of" xml:space="preserve">
+    <value>Solteiro ou casado em 31/12/19</value>
+  </data>
+  <data name="SISTER" xml:space="preserve">
+    <value>IRMÃ</value>
+  </data>
+  <data name="socialsecucard" xml:space="preserve">
+    <value>Cartões do Seguro Social ou cartas dos contribuintes (ITIN) para todas as pessoas relacionadas na sua declaração de impostos.</value>
+  </data>
+  <data name="Social_security_number" xml:space="preserve">
+    <value>Número da Segurança Social</value>
+  </data>
+  <data name="Social_security_or_railroad_retirement" xml:space="preserve">
+    <value>Social Security ou benefícios de Aposentadoria dos Ferroviários? (Formulários SSA-1099, RRB-1099)</value>
+  </data>
+  <data name="SON" xml:space="preserve">
+    <value>FILHO</value>
+  </data>
+  <data name="Specify" xml:space="preserve">
+    <value>Especifique:</value>
+  </data>
+  <data name="Spouse" xml:space="preserve">
+    <value>Cônjuge</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="STEPBROTHER" xml:space="preserve">
+    <value>MEIO-IRMÃO</value>
+  </data>
+  <data name="STEPCHILD" xml:space="preserve">
+    <value>ENTEADA/ENTEADO</value>
+  </data>
+  <data name="STEPSISTER" xml:space="preserve">
+    <value>MEIA-IRMÃ</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Student_loan_interest" xml:space="preserve">
+    <value>Juros de empréstimos para estudantes (Formulário 1098-E)</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="Taxes_state_real_estate_personal" xml:space="preserve">
+    <value>Impostos (estadual, bens imóveis, propriedades pessoais, vendas)</value>
+  </data>
+  <data name="taxinfosuch" xml:space="preserve">
+    <value>Informações de impostos, como os formulários W-2, 1099, 1098, 1095.</value>
+  </data>
+  <data name="This_includes_registered_domestic" xml:space="preserve">
+    <value>(Isso inclui parcerias domésticas registradas, uniões civis ou outros relacionamentos formais de acordo com as leis estaduais)</value>
+  </data>
+  <data name="Tip_income" xml:space="preserve">
+    <value>Gorjetas?</value>
+  </data>
+  <data name="Totally_and_permanently_disabled" xml:space="preserve">
+    <value>Totalmente ou permanentemente inválido</value>
+  </data>
+  <data name="Totally_and_permanently_disabled_yes_or_nos" xml:space="preserve">
+    <value>Total ou permanentemente inválido</value>
+  </data>
+  <data name="To_be_completed_by_a_certificate" xml:space="preserve">
+    <value>A ser preenchido pelo Preparador Voluntário Credenciado</value>
+  </data>
+  <data name="To_purchase_us_savings_bonds" xml:space="preserve">
+    <value>Fosse usado para adquirir títulos da dívida pública dos EUA</value>
+  </data>
+  <data name="To_split_your_refund_between_diffrent" xml:space="preserve">
+    <value>Fosse dividido entre diversas contas</value>
+  </data>
+  <data name="UNCLE" xml:space="preserve">
+    <value>TIO</value>
+  </data>
+  <data name="Unemployment_compensation" xml:space="preserve">
+    <value>Auxílio desemprego? (Formulário 1099-G)</value>
+  </data>
+  <data name="Unsure" xml:space="preserve">
+    <value>Não sabe</value>
+  </data>
+  <data name="Uploaded_files" xml:space="preserve">
+    <value>Arquivos carregados:</value>
+  </data>
+  <data name="Upload_your_documents_here" xml:space="preserve">
+    <value>Carregue seus documentos aqui:</value>
+  </data>
+  <data name="Us_citizen_tes_or_no" xml:space="preserve">
+    <value>Cidadão americano</value>
+  </data>
+  <data name="Wages_or_salary_form_w" xml:space="preserve">
+    <value>Remuneração por hora ou salário? (Formulário W-2)</value>
+  </data>
+  <data name="Who_lived_with_you_last_year" xml:space="preserve">
+    <value>que moravam em sua residência no ano passado (além de você e seu cônjuge)</value>
+  </data>
+  <data name="Widowed" xml:space="preserve">
+    <value>Viúvo</value>
+  </data>
+  <data name="Year_of_spouse_deaths" xml:space="preserve">
+    <value>Ano de falecimento do cônjuge</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+  <data name="You" xml:space="preserve">
+    <value>Você</value>
+  </data>
+  <data name="youareresponsi" xml:space="preserve">
+    <value>Você é responsável pelas informações contidas em sua declaração. Forneça informações completas e precisas.</value>
+  </data>
+  <data name="Your_date_of_birth" xml:space="preserve">
+    <value>Data de nascimento</value>
+  </data>
+  <data name="Your_first_name" xml:space="preserve">
+    <value>Seu nome</value>
+  </data>
+  <data name="Your_job_title" xml:space="preserve">
+    <value>Sua profissão</value>
+  </data>
+  <data name="Your_spouse_date_of_birth" xml:space="preserve">
+    <value>Data de nascimento do cônjuge</value>
+  </data>
+  <data name="Your_spouse_first_name" xml:space="preserve">
+    <value>Nome do seu cônjuge</value>
+  </data>
+  <data name="Your_spouse_job_title" xml:space="preserve">
+    <value>Profissão do cônjuge</value>
+  </data>
+  <data name="Youwillbe" xml:space="preserve">
+    <value>Você precisará de:</value>
+  </data>
+  <data name="You_support_but_did_not_live_with_you" xml:space="preserve">
+    <value>que você tenha sustentado financeiramente, mas que não morava em sua residência</value>
+  </data>
+  <data name="Zip_code" xml:space="preserve">
+    <value>Código Postal</value>
+  </data>
+</root>

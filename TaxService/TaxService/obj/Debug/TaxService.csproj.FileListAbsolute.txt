@@ -1,0 +1,460 @@
+E:\Github\taxservice\TaxService\TaxService\bin\TaxService.dll.config
+E:\Github\taxservice\TaxService\TaxService\bin\TaxService.dll
+E:\Github\taxservice\TaxService\TaxService\bin\TaxService.pdb
+E:\Github\taxservice\TaxService\TaxService\bin\ar\TaxService.resources.dll
+E:\Github\taxservice\TaxService\TaxService\bin\es\TaxService.resources.dll
+E:\Github\taxservice\TaxService\TaxService\bin\fr\TaxService.resources.dll
+E:\Github\taxservice\TaxService\TaxService\bin\ko\TaxService.resources.dll
+E:\Github\taxservice\TaxService\TaxService\bin\pl-PL\TaxService.resources.dll
+E:\Github\taxservice\TaxService\TaxService\bin\pt\TaxService.resources.dll
+E:\Github\taxservice\TaxService\TaxService\bin\en-PH\TaxService.resources.dll
+E:\Github\taxservice\TaxService\TaxService\bin\vi\TaxService.resources.dll
+E:\Github\taxservice\TaxService\TaxService\bin\zh-CHS\TaxService.resources.dll
+E:\Github\taxservice\TaxService\TaxService\bin\zh-CHT\TaxService.resources.dll
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\csc.exe
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\csc.exe.config
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\csc.rsp
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\csi.exe
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\csi.exe.config
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\csi.rsp
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\System.AppContext.dll
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\System.Collections.Immutable.dll
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\System.Console.dll
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\System.Globalization.Calendars.dll
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\System.IO.Compression.dll
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\System.IO.FileSystem.dll
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\System.Net.Http.dll
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\System.Net.Sockets.dll
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\System.Reflection.Metadata.dll
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\System.ValueTuple.dll
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\System.Xml.XPath.dll
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\vbc.exe
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\vbc.exe.config
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\vbc.rsp
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\VBCSCompiler.exe
+E:\Github\taxservice\TaxService\TaxService\bin\roslyn\VBCSCompiler.exe.config
+E:\Github\taxservice\TaxService\TaxService\bin\Antlr3.Runtime.dll
+E:\Github\taxservice\TaxService\TaxService\bin\EntityFramework.dll
+E:\Github\taxservice\TaxService\TaxService\bin\EntityFramework.SqlServer.dll
+E:\Github\taxservice\TaxService\TaxService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Github\taxservice\TaxService\TaxService\bin\Microsoft.Web.Infrastructure.dll
+E:\Github\taxservice\TaxService\TaxService\bin\Newtonsoft.Json.dll
+E:\Github\taxservice\TaxService\TaxService\bin\System.Web.Helpers.dll
+E:\Github\taxservice\TaxService\TaxService\bin\System.Web.Mvc.dll
+E:\Github\taxservice\TaxService\TaxService\bin\System.Web.Optimization.dll
+E:\Github\taxservice\TaxService\TaxService\bin\System.Web.Razor.dll
+E:\Github\taxservice\TaxService\TaxService\bin\System.Web.WebPages.Deployment.dll
+E:\Github\taxservice\TaxService\TaxService\bin\System.Web.WebPages.dll
+E:\Github\taxservice\TaxService\TaxService\bin\System.Web.WebPages.Razor.dll
+E:\Github\taxservice\TaxService\TaxService\bin\WebGrease.dll
+E:\Github\taxservice\TaxService\TaxService\bin\EntityFramework.xml
+E:\Github\taxservice\TaxService\TaxService\bin\EntityFramework.SqlServer.xml
+E:\Github\taxservice\TaxService\TaxService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Github\taxservice\TaxService\TaxService\bin\System.Web.Helpers.xml
+E:\Github\taxservice\TaxService\TaxService\bin\System.Web.Mvc.xml
+E:\Github\taxservice\TaxService\TaxService\bin\System.Web.Optimization.xml
+E:\Github\taxservice\TaxService\TaxService\bin\System.Web.Razor.xml
+E:\Github\taxservice\TaxService\TaxService\bin\System.Web.WebPages.xml
+E:\Github\taxservice\TaxService\TaxService\bin\System.Web.WebPages.Deployment.xml
+E:\Github\taxservice\TaxService\TaxService\bin\System.Web.WebPages.Razor.xml
+E:\Github\taxservice\TaxService\TaxService\bin\Newtonsoft.Json.xml
+E:\Github\taxservice\TaxService\TaxService\bin\Antlr3.Runtime.pdb
+E:\Github\taxservice\TaxService\TaxService\obj\Debug\TaxService.csprojAssemblyReference.cache
+E:\Github\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.resources
+E:\Github\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.ar.resources
+E:\Github\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.es.resources
+E:\Github\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.fr.resources
+E:\Github\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.ko.resources
+E:\Github\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.pl-PL.resources
+E:\Github\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.pt.resources
+E:\Github\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.en-PH.resources
+E:\Github\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.vi.resources
+E:\Github\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.zh-CHS.resources
+E:\Github\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.zh-CHT.resources
+E:\Github\taxservice\TaxService\TaxService\obj\Debug\TaxService.csproj.GenerateResource.cache
+E:\Github\taxservice\TaxService\TaxService\obj\Debug\TaxService.csproj.CoreCompileInputs.cache
+E:\Github\taxservice\TaxService\TaxService\obj\Debug\ar\TaxService.resources.dll
+E:\Github\taxservice\TaxService\TaxService\obj\Debug\es\TaxService.resources.dll
+E:\Github\taxservice\TaxService\TaxService\obj\Debug\fr\TaxService.resources.dll
+E:\Github\taxservice\TaxService\TaxService\obj\Debug\ko\TaxService.resources.dll
+E:\Github\taxservice\TaxService\TaxService\obj\Debug\pl-PL\TaxService.resources.dll
+E:\Github\taxservice\TaxService\TaxService\obj\Debug\pt\TaxService.resources.dll
+E:\Github\taxservice\TaxService\TaxService\obj\Debug\en-PH\TaxService.resources.dll
+E:\Github\taxservice\TaxService\TaxService\obj\Debug\vi\TaxService.resources.dll
+E:\Github\taxservice\TaxService\TaxService\obj\Debug\zh-CHS\TaxService.resources.dll
+E:\Github\taxservice\TaxService\TaxService\obj\Debug\zh-CHT\TaxService.resources.dll
+E:\Github\taxservice\TaxService\TaxService\obj\Debug\TaxService.csproj.CopyComplete
+E:\Github\taxservice\TaxService\TaxService\obj\Debug\TaxService.dll
+E:\Github\taxservice\TaxService\TaxService\obj\Debug\TaxService.pdb
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\TaxService.dll.config
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\TaxService.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\TaxService.pdb
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\ar\TaxService.resources.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\es\TaxService.resources.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\fr\TaxService.resources.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\ko\TaxService.resources.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\pl-PL\TaxService.resources.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\pt\TaxService.resources.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\en-PH\TaxService.resources.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\vi\TaxService.resources.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\zh-CHS\TaxService.resources.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\zh-CHT\TaxService.resources.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\csc.exe
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\csc.exe.config
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\csc.rsp
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\csi.exe
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\csi.exe.config
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\csi.rsp
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\System.AppContext.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\System.Console.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\System.IO.Compression.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\System.Net.Http.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\System.Net.Sockets.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\System.ValueTuple.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\System.Xml.XPath.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\vbc.exe
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\vbc.exe.config
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\vbc.rsp
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\VBCSCompiler.exe
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\Antlr3.Runtime.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\EntityFramework.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\EntityFramework.SqlServer.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\Newtonsoft.Json.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\System.Web.Helpers.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\System.Web.Mvc.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\System.Web.Optimization.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\System.Web.Razor.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\System.Web.WebPages.Deployment.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\System.Web.WebPages.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\System.Web.WebPages.Razor.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\WebGrease.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\EntityFramework.xml
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\EntityFramework.SqlServer.xml
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\System.Web.Helpers.xml
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\System.Web.Mvc.xml
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\System.Web.Optimization.xml
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\System.Web.Razor.xml
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\System.Web.WebPages.xml
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\System.Web.WebPages.Deployment.xml
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\System.Web.WebPages.Razor.xml
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\Newtonsoft.Json.xml
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\bin\Antlr3.Runtime.pdb
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\obj\Debug\TaxService.csproj.AssemblyReference.cache
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.resources
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.ar.resources
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.es.resources
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.fr.resources
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.ko.resources
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.pl-PL.resources
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.pt.resources
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.en-PH.resources
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.vi.resources
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.zh-CHS.resources
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.zh-CHT.resources
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\obj\Debug\TaxService.csproj.GenerateResource.cache
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\obj\Debug\TaxService.csproj.CoreCompileInputs.cache
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\obj\Debug\ar\TaxService.resources.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\obj\Debug\es\TaxService.resources.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\obj\Debug\fr\TaxService.resources.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\obj\Debug\ko\TaxService.resources.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\obj\Debug\pl-PL\TaxService.resources.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\obj\Debug\pt\TaxService.resources.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\obj\Debug\en-PH\TaxService.resources.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\obj\Debug\vi\TaxService.resources.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\obj\Debug\zh-CHS\TaxService.resources.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\obj\Debug\zh-CHT\TaxService.resources.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\obj\Debug\TaxService.csproj.CopyComplete
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\obj\Debug\TaxService.dll
+C:\Users\upkar\Downloads\taxservice\TaxService\TaxService\obj\Debug\TaxService.pdb
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\TaxService.dll.config
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\TaxService.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\TaxService.pdb
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\ar\TaxService.resources.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\es\TaxService.resources.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\fr\TaxService.resources.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\ko\TaxService.resources.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\pl-PL\TaxService.resources.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\pt\TaxService.resources.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\en-PH\TaxService.resources.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\vi\TaxService.resources.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\zh-CHS\TaxService.resources.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\zh-CHT\TaxService.resources.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\csc.exe
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\csc.exe.config
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\csc.rsp
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\csi.exe
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\csi.exe.config
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\csi.rsp
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\System.AppContext.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\System.Collections.Immutable.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\System.Console.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\System.Globalization.Calendars.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\System.IO.Compression.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\System.IO.FileSystem.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\System.Net.Http.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\System.Net.Sockets.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\System.Reflection.Metadata.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\System.ValueTuple.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\System.Xml.XPath.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\vbc.exe
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\vbc.exe.config
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\vbc.rsp
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\VBCSCompiler.exe
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\roslyn\VBCSCompiler.exe.config
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\Antlr3.Runtime.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\EntityFramework.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\EntityFramework.SqlServer.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\Microsoft.Web.Infrastructure.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\Newtonsoft.Json.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\System.Web.Helpers.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\System.Web.Mvc.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\System.Web.Optimization.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\System.Web.Razor.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\System.Web.WebPages.Deployment.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\System.Web.WebPages.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\System.Web.WebPages.Razor.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\WebGrease.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\EntityFramework.xml
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\EntityFramework.SqlServer.xml
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\System.Web.Helpers.xml
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\System.Web.Mvc.xml
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\System.Web.Optimization.xml
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\System.Web.Razor.xml
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\System.Web.WebPages.xml
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\System.Web.WebPages.Deployment.xml
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\System.Web.WebPages.Razor.xml
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\Newtonsoft.Json.xml
+D:\Main Tax Service\taxservice\TaxService\TaxService\bin\Antlr3.Runtime.pdb
+D:\Main Tax Service\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.resources
+D:\Main Tax Service\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.ar.resources
+D:\Main Tax Service\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.es.resources
+D:\Main Tax Service\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.fr.resources
+D:\Main Tax Service\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.ko.resources
+D:\Main Tax Service\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.pl-PL.resources
+D:\Main Tax Service\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.pt.resources
+D:\Main Tax Service\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.en-PH.resources
+D:\Main Tax Service\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.vi.resources
+D:\Main Tax Service\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.zh-CHS.resources
+D:\Main Tax Service\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.zh-CHT.resources
+D:\Main Tax Service\taxservice\TaxService\TaxService\obj\Debug\TaxService.csproj.GenerateResource.cache
+D:\Main Tax Service\taxservice\TaxService\TaxService\obj\Debug\TaxService.csproj.CoreCompileInputs.cache
+D:\Main Tax Service\taxservice\TaxService\TaxService\obj\Debug\ar\TaxService.resources.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\obj\Debug\es\TaxService.resources.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\obj\Debug\fr\TaxService.resources.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\obj\Debug\ko\TaxService.resources.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\obj\Debug\pl-PL\TaxService.resources.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\obj\Debug\pt\TaxService.resources.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\obj\Debug\en-PH\TaxService.resources.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\obj\Debug\vi\TaxService.resources.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\obj\Debug\zh-CHS\TaxService.resources.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\obj\Debug\zh-CHT\TaxService.resources.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\obj\Debug\TaxService.csproj.CopyComplete
+D:\Main Tax Service\taxservice\TaxService\TaxService\obj\Debug\TaxService.dll
+D:\Main Tax Service\taxservice\TaxService\TaxService\obj\Debug\TaxService.pdb
+D:\Main Tax Service\taxservice\TaxService\TaxService\obj\Debug\TaxService.csproj.AssemblyReference.cache
+D:\bitbucket\taxservice\TaxService\TaxService\bin\TaxService.dll.config
+D:\bitbucket\taxservice\TaxService\TaxService\bin\TaxService.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\TaxService.pdb
+D:\bitbucket\taxservice\TaxService\TaxService\bin\ar\TaxService.resources.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\es\TaxService.resources.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\fr\TaxService.resources.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\ko\TaxService.resources.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\pl-PL\TaxService.resources.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\pt\TaxService.resources.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\en-PH\TaxService.resources.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\vi\TaxService.resources.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\zh-CHS\TaxService.resources.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\zh-CHT\TaxService.resources.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\csc.exe
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\csc.exe.config
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\csc.rsp
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\csi.exe
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\csi.exe.config
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\csi.rsp
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.Managed.Core.targets
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\System.AppContext.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\System.Collections.Immutable.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\System.Console.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\System.Globalization.Calendars.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\System.IO.Compression.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\System.IO.FileSystem.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\System.Net.Http.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\System.Net.Sockets.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\System.Reflection.Metadata.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\System.ValueTuple.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\System.Xml.XmlDocument.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\System.Xml.XPath.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\vbc.exe
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\vbc.exe.config
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\vbc.rsp
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\VBCSCompiler.exe
+D:\bitbucket\taxservice\TaxService\TaxService\bin\roslyn\VBCSCompiler.exe.config
+D:\bitbucket\taxservice\TaxService\TaxService\bin\Antlr3.Runtime.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\EntityFramework.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\EntityFramework.SqlServer.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\Microsoft.Web.Infrastructure.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\Newtonsoft.Json.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\System.Web.Helpers.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\System.Web.Mvc.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\System.Web.Optimization.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\System.Web.Razor.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\System.Web.WebPages.Deployment.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\System.Web.WebPages.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\System.Web.WebPages.Razor.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\WebGrease.dll
+D:\bitbucket\taxservice\TaxService\TaxService\bin\EntityFramework.xml
+D:\bitbucket\taxservice\TaxService\TaxService\bin\EntityFramework.SqlServer.xml
+D:\bitbucket\taxservice\TaxService\TaxService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\bitbucket\taxservice\TaxService\TaxService\bin\System.Web.Helpers.xml
+D:\bitbucket\taxservice\TaxService\TaxService\bin\System.Web.Mvc.xml
+D:\bitbucket\taxservice\TaxService\TaxService\bin\System.Web.Optimization.xml
+D:\bitbucket\taxservice\TaxService\TaxService\bin\System.Web.Razor.xml
+D:\bitbucket\taxservice\TaxService\TaxService\bin\System.Web.WebPages.xml
+D:\bitbucket\taxservice\TaxService\TaxService\bin\System.Web.WebPages.Deployment.xml
+D:\bitbucket\taxservice\TaxService\TaxService\bin\System.Web.WebPages.Razor.xml
+D:\bitbucket\taxservice\TaxService\TaxService\bin\Newtonsoft.Json.xml
+D:\bitbucket\taxservice\TaxService\TaxService\bin\Antlr3.Runtime.pdb
+D:\bitbucket\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.resources
+D:\bitbucket\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.ar.resources
+D:\bitbucket\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.es.resources
+D:\bitbucket\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.fr.resources
+D:\bitbucket\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.ko.resources
+D:\bitbucket\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.pl-PL.resources
+D:\bitbucket\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.pt.resources
+D:\bitbucket\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.en-PH.resources
+D:\bitbucket\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.vi.resources
+D:\bitbucket\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.zh-CHS.resources
+D:\bitbucket\taxservice\TaxService\TaxService\obj\Debug\TaxService.Resources.Resource.zh-CHT.resources
+D:\bitbucket\taxservice\TaxService\TaxService\obj\Debug\TaxService.csproj.GenerateResource.cache
+D:\bitbucket\taxservice\TaxService\TaxService\obj\Debug\TaxService.csproj.CoreCompileInputs.cache
+D:\bitbucket\taxservice\TaxService\TaxService\obj\Debug\ar\TaxService.resources.dll
+D:\bitbucket\taxservice\TaxService\TaxService\obj\Debug\es\TaxService.resources.dll
+D:\bitbucket\taxservice\TaxService\TaxService\obj\Debug\fr\TaxService.resources.dll
+D:\bitbucket\taxservice\TaxService\TaxService\obj\Debug\ko\TaxService.resources.dll
+D:\bitbucket\taxservice\TaxService\TaxService\obj\Debug\pl-PL\TaxService.resources.dll
+D:\bitbucket\taxservice\TaxService\TaxService\obj\Debug\pt\TaxService.resources.dll
+D:\bitbucket\taxservice\TaxService\TaxService\obj\Debug\en-PH\TaxService.resources.dll
+D:\bitbucket\taxservice\TaxService\TaxService\obj\Debug\vi\TaxService.resources.dll
+D:\bitbucket\taxservice\TaxService\TaxService\obj\Debug\zh-CHS\TaxService.resources.dll
+D:\bitbucket\taxservice\TaxService\TaxService\obj\Debug\zh-CHT\TaxService.resources.dll
+D:\bitbucket\taxservice\TaxService\TaxService\obj\Debug\TaxService.csproj.CopyComplete
+D:\bitbucket\taxservice\TaxService\TaxService\obj\Debug\TaxService.dll
+D:\bitbucket\taxservice\TaxService\TaxService\obj\Debug\TaxService.pdb
+D:\bitbucket\taxservice\TaxService\TaxService\obj\Debug\TaxService.csproj.AssemblyReference.cache

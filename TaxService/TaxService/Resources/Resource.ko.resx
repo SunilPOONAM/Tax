@@ -1,0 +1,682 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdditionalInformation" xml:space="preserve">
+    <value>추가 정보</value>
+  </data>
+  <data name="Additional_doc_files" xml:space="preserve">
+    <value>추가 문서 파일</value>
+  </data>
+  <data name="Additional_information_and_question_related" xml:space="preserve">
+    <value>보고서 작성 관련 추가 정보 및 질문</value>
+  </data>
+  <data name="Adopt_a_child" xml:space="preserve">
+    <value>자녀를 입양하였습니까?</value>
+  </data>
+  <data name="Alimony_income_or_seprate_maintenence_payments" xml:space="preserve">
+    <value>위자료 소득 또는 별거 수당?</value>
+  </data>
+  <data name="Alimony_or_seprate_maintenance_payments_if" xml:space="preserve">
+    <value>위자료 또는 별거 수당? '예'일경우, 수령자의 SSN을 알고있습니까?</value>
+  </data>
+  <data name="Anyone" xml:space="preserve">
+    <value>누군가</value>
+  </data>
+  <data name="Any_of_the_following" xml:space="preserve">
+    <value>다음 중 해당되는 항목은 무엇입니까?</value>
+  </data>
+  <data name="Apt" xml:space="preserve">
+    <value>Apt#</value>
+  </data>
+  <data name="Are_you_a_us_citizen" xml:space="preserve">
+    <value>귀하는 미국 시민입니까?</value>
+  </data>
+  <data name="as4" xml:space="preserve">
+    <value>중간이름 첫자</value>
+  </data>
+  <data name="as5" xml:space="preserve">
+    <value>성 (Last Name)</value>
+  </data>
+  <data name="as6" xml:space="preserve">
+    <value>주간 전화번호</value>
+  </data>
+  <data name="as8" xml:space="preserve">
+    <value>예</value>
+  </data>
+  <data name="as9" xml:space="preserve">
+    <value>아니요</value>
+  </data>
+  <data name="asdf4" xml:space="preserve">
+    <value>완전하고 영구적 장애인 여부</value>
+  </data>
+  <data name="asdf5" xml:space="preserve">
+    <value>풀타임 학생</value>
+  </data>
+  <data name="asdf6" xml:space="preserve">
+    <value>법적 시각 장애인 여부</value>
+  </data>
+  <data name="As_of_december_thirtyfirst" xml:space="preserve">
+    <value>2019년 12월 31일 현재 귀하의
+결혼 상태는 무엇입니까?</value>
+  </data>
+  <data name="AUNT" xml:space="preserve">
+    <value>이모</value>
+  </data>
+  <data name="BROTHER" xml:space="preserve">
+    <value>동료</value>
+  </data>
+  <data name="Can_anyone_claim_you_or_your" xml:space="preserve">
+    <value>다른 사람이 그의 납세 신고서에 귀하나 귀하의 배우자를 부양가족으로 기재할 수 있습니까?</value>
+  </data>
+  <data name="Cash_check_virtual_currency_payments" xml:space="preserve">
+    <value>양식 W-2 또는 1099에 보고하지 않은 사항으로서 작업 수행 대가로 받은 현금/수표, 가상화폐 금액 또는 기타 재산이나 서비스</value>
+  </data>
+  <data name="Charitable_contributions" xml:space="preserve">
+    <value>자선기부금</value>
+  </data>
+  <data name="Chech_here_if_you_or_your_spouse_if" xml:space="preserve">
+    <value>귀하 또는 부부 공동 보고의 경우 귀하의 배우자가 이 기금에 3달러를 기부하고 싶으면 여기를 체크하십시오.</value>
+  </data>
+  <data name="Check_appropriate_box_for_each_question_in_each" xml:space="preserve">
+    <value>각 섹션의 각 질문에 대하여 적절한 칸을 체크하십시오</value>
+  </data>
+  <data name="Child_or_dependent_care_expences" xml:space="preserve">
+    <value>데이케어 등의 자녀 또는 부양 가족을 돌보기 위한 비용?</value>
+  </data>
+  <data name="Choose_your_file" xml:space="preserve">
+    <value>파일 선택</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>시</value>
+  </data>
+  <data name="College_or_post_secondry_education" xml:space="preserve">
+    <value>자신, 배우자 또는 부양가족을 위해 지급한 대학교 또는 고등교육 학비? (양식 1098-T)</value>
+  </data>
+  <data name="completeformbelow" xml:space="preserve">
+    <value>아래 양식을 작성하십시오</value>
+  </data>
+  <data name="Consent" xml:space="preserve">
+    <value>동의:</value>
+  </data>
+  <data name="Contribution_to_a_retirement_account" xml:space="preserve">
+    <value>퇴직 계좌에 지급한 불입금?</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>날짜</value>
+  </data>
+  <data name="Date_format" xml:space="preserve">
+    <value>(월/일/년 )</value>
+  </data>
+  <data name="Date_of_births" xml:space="preserve">
+    <value>생년월일</value>
+  </data>
+  <data name="Date_of_final_decree" xml:space="preserve">
+    <value>최종 이혼 판결일</value>
+  </data>
+  <data name="Date_of_separate_maintenance_decre" xml:space="preserve">
+    <value>별거 합의 일자</value>
+  </data>
+  <data name="DAUGHTER" xml:space="preserve">
+    <value>딸</value>
+  </data>
+  <data name="Daytime_telephone_number" xml:space="preserve">
+    <value>주간 전화번호</value>
+  </data>
+  <data name="Did_the_taxpayers_pay_more_than_half_the_cost" xml:space="preserve">
+    <value>납세자가 이
+사람의 가정
+유지 비용을
+50% 이상 지급
+하였습니까?
+(예/아니요)</value>
+  </data>
+  <data name="Did_the_taxpayers_provide_more_than_fiftypercent" xml:space="preserve">
+    <value>납세자가 이
+사람을 50%
+이상 부양하
+였습니까?
+(예/아니요)</value>
+  </data>
+  <data name="Did_this_person_have_less_than_fortythree" xml:space="preserve">
+    <value>이 사람의
+소득이
+$4,200 미
+만입니까?
+(예/아니요)</value>
+  </data>
+  <data name="Did_this_person_provide_more_than_fifty" xml:space="preserve">
+    <value>이 사람이
+자신의 부
+양을 50%
+이상 지원
+하였습니
+까?
+(예/아니요)</value>
+  </data>
+  <data name="Did_you_live_in_an_area_that" xml:space="preserve">
+    <value>연방 재해 구역으로 선포된 지역에 살고 있습니까?</value>
+  </data>
+  <data name="Did_you_live_with_your_spouse_during_any" xml:space="preserve">
+    <value>귀하는 2019년도 마지막 6개월 동안 어느 한 시점이라도 귀하의 배우자와 함께 살았습니까?</value>
+  </data>
+  <data name="Did_you_or_your_spouse_if_filling_jointly" xml:space="preserve">
+    <value>귀하 또는 부부 공동 보고의 경우 IRS 서신을 받으셨습니까?</value>
+  </data>
+  <data name="Direct_deposite" xml:space="preserve">
+    <value>직접 입금</value>
+  </data>
+  <data name="Disability_income_such" xml:space="preserve">
+    <value>장애소득? (보험 또는 근로자 재해 보상 지급액) (양식 1099-R, W-2)</value>
+  </data>
+  <data name="Divorced" xml:space="preserve">
+    <value>이혼</value>
+  </data>
+  <data name="etc" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Everyone" xml:space="preserve">
+    <value>여러분</value>
+  </data>
+  <data name="Expences_related_to_self_employment_income" xml:space="preserve">
+    <value>자영업 소득이나 귀하가 받은 기타 수입과 관련된 비용?</value>
+  </data>
+  <data name="File_a_federal_return_last_year" xml:space="preserve">
+    <value>양식 1040 스케줄 D에 '자본 손실 이월'이 포함된 연방 세금 보고서를 작년에 제출하였습니까?</value>
+  </data>
+  <data name="For_supplies_used_as_an_eligible" xml:space="preserve">
+    <value>교사, 교사 보조원, 상담사 등과 같은 유자격 교육자로서 사용한 소모품?</value>
+  </data>
+  <data name="FOSTER_CHILD" xml:space="preserve">
+    <value>손자</value>
+  </data>
+  <data name="Fourhundredone_k" xml:space="preserve">
+    <value>401K</value>
+  </data>
+  <data name="Full_time_student" xml:space="preserve">
+    <value>풀타임 학생</value>
+  </data>
+  <data name="Full_time_student_last_year_yes_or_no" xml:space="preserve">
+    <value>작년도
+풀타임
+학생
+(예/아니
+요)</value>
+  </data>
+  <data name="gb10" xml:space="preserve">
+    <value>불확실</value>
+  </data>
+  <data name="GRANDCHILD" xml:space="preserve">
+    <value>손자</value>
+  </data>
+  <data name="GRANDPARENT" xml:space="preserve">
+    <value>조부모</value>
+  </data>
+  <data name="HALF_BROTHER" xml:space="preserve">
+    <value>하프 형제</value>
+  </data>
+  <data name="HALF_SISTER" xml:space="preserve">
+    <value>반 자매</value>
+  </data>
+  <data name="Have_a_helth_saving_account" xml:space="preserve">
+    <value>건강 저축 계좌를 가지고 있었습니까? (양식 5498-SA, 1099-SA, W 코드가 12번란에 표시된 W-2)</value>
+  </data>
+  <data name="Have_credit_card_or_mortgage_debt" xml:space="preserve">
+    <value>대출자로부터 신용 카드나 주택 모기지 빚을 면제/감면 받았거나 주택이 압류.되었습니까? (양식 1099-C,1099A)</value>
+  </data>
+  <data name="Have_earned_income_credit" xml:space="preserve">
+    <value>이전 연도에 근로 소득 세액 공제 (EIC), 자녀 세액 공제 또는 미국 기회 공제가 거절되었습니까? 만약 '예'일 경우, 어느 과세 연도분입니까?</value>
+  </data>
+  <data name="Have_health_coverage_through_the" xml:space="preserve">
+    <value>시장(거래소)을 통해 건강 관리 보험에 가입하였습니까? [양식 1095-A 제시]</value>
+  </data>
+  <data name="Have_you_your_spouse_or_dependents_been_a" xml:space="preserve">
+    <value>귀하, 귀하의 배우자 또는 부양 가족이 세금 관련 신분 도용의 피해자이거나 신분 보호 비밀 번호를 발급받았습니까?</value>
+  </data>
+  <data name="If_additional_space_is_needed_check_here" xml:space="preserve">
+    <value>추가 공간이 필요하면 여기에 체크한 후, 3페이지에 기입하십시오</value>
+  </data>
+  <data name="If_uou_are_filling_a_joint_return" xml:space="preserve">
+    <value>(부부 공동 보고서를 제출하는 경우 전년도 보고서와 동일한 순서로 이름을 기입하십시오.)</value>
+  </data>
+  <data name="If_yes_did_you_get_married" xml:space="preserve">
+    <value>기혼인 경우, 2019년에 결혼하였습니까?</value>
+  </data>
+  <data name="If_yes_how_many_jobs_did_you_have_last_year" xml:space="preserve">
+    <value>‘예’일 경우 작년에 귀하는 몇 개의 직장을 가졌습니까?</value>
+  </data>
+  <data name="If_yes_where" xml:space="preserve">
+    <value>‘예’일 경우 어디입니까?</value>
+  </data>
+  <data name="If_you_are_due_a_refund" xml:space="preserve">
+    <value>귀하가 환급받을 세금이 있다면 어떤 입금 방식을 원하십니까?</value>
+  </data>
+  <data name="If_you_belive_your_tax_return_information" xml:space="preserve">
+    <value>귀하의 세금 신고 정보가 법률상 허용되지 않는 방법이나 귀하의 허락 없이 공개되었거나 부적합하게 사용되었다 고 생각되면, 세금 관리 재무 감사관(TIGTA)에게 1-800-366-4484번으로 전화하거나 complaints@tigta.treas.gov로 이메일을 보내어 연락을 취하십시오.</value>
+  </data>
+  <data name="If_you_have_a_balance_due" xml:space="preserve">
+    <value>미납 세액이 있을 경우, 귀하의 은행 구좌에서 자동 납부하기를 원합니까?</value>
+  </data>
+  <data name="Income_or_loss_for_rental_property" xml:space="preserve">
+    <value>임대 자산 소득 (또는 손실)?</value>
+  </data>
+  <data name="Income_or_oloss_from_the_sale" xml:space="preserve">
+    <value>주식, 채권, 가상화폐, 또는 부동산 (자신의 주택 포함) 판매소득 (손실)?(양식 1099-S, 1099-B)</value>
+  </data>
+  <data name="Intakesheet" xml:space="preserve">
+    <value>접수/상담 및 품질 검토 용지</value>
+  </data>
+  <data name="Interest_dividents_from_checking" xml:space="preserve">
+    <value>이자/배당금 – 출처: 당좌계좌/저축계좌, 채권, CD, 중개료? (양식 1099-INT, 1099-DIV)</value>
+  </data>
+  <data name="Ira" xml:space="preserve">
+    <value>IRA</value>
+  </data>
+  <data name="Is_this_person_a_qualifying" xml:space="preserve">
+    <value>이 사람이 다
+른 사람의 적
+격 자녀/친척
+입니까? (예/
+아니요)</value>
+  </data>
+  <data name="Is_your_spouse_a_us_citizen" xml:space="preserve">
+    <value>배우자가 미국 시민입니까?</value>
+  </data>
+  <data name="I_authorize_my_tax_prepare_to_enter_the" xml:space="preserve">
+    <value>본인은 세금 작성자가 아래에서 선택한 5 자리 PIN을 입력하도록 승인합니다.</value>
+  </data>
+  <data name="I_here_by_consent_to_the_disclosure" xml:space="preserve">
+    <value>본인/우리는 상기 Global Carry Forward의 조건에 설명된 세금 신고 정보 공개에 동의하며, 세금 신고서 작성자가 본인/우리가 이 공개 조건에 동의한다는 것을 확인하기 위해 세금 작성 소프트웨어에 본인을 대신하여 개인 식별 번호(PIN)를 입력하는 것을 허락합니다.</value>
+  </data>
+  <data name="I_or_we_the_taxpayers_have_read_the" xml:space="preserve">
+    <value>납세자인 본인/우리는 상기 정보를 읽었습니다.</value>
+  </data>
+  <data name="Last_name" xml:space="preserve">
+    <value>성 (Last Name)</value>
+  </data>
+  <data name="Last_Name_Do_not_enter_your_name_or_spouses_name" xml:space="preserve">
+    <value>성 (귀하의 이름이나 배우자의 이름은 입력하지 마십시오)</value>
+  </data>
+  <data name="Last_year_was_your_spouse" xml:space="preserve">
+    <value>작년도 배우자의 상태:</value>
+  </data>
+  <data name="Last_year_were_you" xml:space="preserve">
+    <value>작년도 귀하의 상태:</value>
+  </data>
+  <data name="Legally_blind" xml:space="preserve">
+    <value>법적 시각 장애인 여부</value>
+  </data>
+  <data name="Legally_speparated" xml:space="preserve">
+    <value>법적인 별거상태</value>
+  </data>
+  <data name="List_the_name_below_of" xml:space="preserve">
+    <value>아래에 해당하는 사람(들)의 이름을 기입하십시오.</value>
+  </data>
+  <data name="Mailing_address" xml:space="preserve">
+    <value>우편주소</value>
+  </data>
+  <data name="Make_estimated_tax_payments" xml:space="preserve">
+    <value>추정세를 납부하였거나, 또는 작년도의 환급액을 금년도 세금에 적용하였습니까? 그렇다면 그 금액은 얼마입니까?</value>
+  </data>
+  <data name="married" xml:space="preserve">
+    <value>기혼</value>
+  </data>
+  <data name="Medical_and_dental_inculiding" xml:space="preserve">
+    <value>의료 및 치과 비용 (보험료 포함)</value>
+  </data>
+  <data name="Mortagage_interest" xml:space="preserve">
+    <value>주택 모기지 이자 (양식 1098)</value>
+  </data>
+  <data name="M_I" xml:space="preserve">
+    <value>중간이름 첫자</value>
+  </data>
+  <data name="Name_first_and_last_do_not_enter_your" xml:space="preserve">
+    <value>이름 (귀하의 이름 또는 배우자의 이름은 입력하지 마십시오)</value>
+  </data>
+  <data name="NEPHEW" xml:space="preserve">
+    <value>조카</value>
+  </data>
+  <data name="Never_married" xml:space="preserve">
+    <value>결혼한 적이 없음</value>
+  </data>
+  <data name="NIECE" xml:space="preserve">
+    <value>조카딸</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>아니요</value>
+  </data>
+  <data name="NONE" xml:space="preserve">
+    <value>없음</value>
+  </data>
+  <data name="Number_of_months_lived_in_your_home" xml:space="preserve">
+    <value>작년에 귀
+하의 집에
+서 살았던
+개월 수</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>기타</value>
+  </data>
+  <data name="Other_income_gamnling_lottery" xml:space="preserve">
+    <value>기타 소득? (도박, 복권, 상금, 수상, 배심원 지원금, 가상화폐, Sch K-1, 로열티, 해외 소득, 다른 재산이나 서비스) 내용 기입</value>
+  </data>
+  <data name="PARENT" xml:space="preserve">
+    <value>부모의</value>
+  </data>
+  <data name="Part_first_your_personal_information" xml:space="preserve">
+    <value>파트 I. 귀하의 개인 정보</value>
+  </data>
+  <data name="Part_five_life_events" xml:space="preserve">
+    <value>파트 V. 주요 생활사 – 다음 중 작년도에 귀하 (또는 귀하의 배우자)에게 해당되는 항목은 무엇입니까?</value>
+  </data>
+  <data name="Part_four_expenses" xml:space="preserve">
+    <value>파트 IV. 비용 – 다음 중 작년도에 귀하 (또는 귀하의 배우자)가 지급한 항목은 무엇입니까?</value>
+  </data>
+  <data name="Part_second_marital_status_and_household_information" xml:space="preserve">
+    <value>파트II.결혼 상태 및 가구 정보</value>
+  </data>
+  <data name="Part_third_income_last_year_did_you" xml:space="preserve">
+    <value>파트 III. 소득 – 다음 중 작년도에 귀하 (또는 귀하의 배우자)가 받은 항목은 무엇입니까?</value>
+  </data>
+  <data name="Presidental_election_campaign_fund" xml:space="preserve">
+    <value>대통령 선거 운동 자금 (체크를 해도 귀하의 세금이나 환급액은 변경되지 않습니다)</value>
+  </data>
+  <data name="Primary_signature" xml:space="preserve">
+    <value>주된 납세자 자필서명</value>
+  </data>
+  <data name="Primary_taxpayer_printed_name" xml:space="preserve">
+    <value>기본 납세자 이름</value>
+  </data>
+  <data name="Provide_an_email_address" xml:space="preserve">
+    <value>이메일 주소를 제공하여 주십시오. (선택사항) (이 이메일 주소는 국세청에서 연락을 취하기 위해 사용되지 않습니다.)</value>
+  </data>
+  <data name="Purchase_and_install_energy_efficant" xml:space="preserve">
+    <value>에너지 효율적 가정용품을 구입하여 설치했습니까? (창문, 난로, 단열재등)</value>
+  </data>
+  <data name="Receive_an_economic_impact_payment" xml:space="preserve">
+    <value>2020 년에 경제적 영향 지급 (부양책)을 받습니까?</value>
+  </data>
+  <data name="Recive_the_first_time_homebuyers" xml:space="preserve">
+    <value>2008년에 '첫 주택 구입자 세금공제' 혜택을 받았습니까?</value>
+  </data>
+  <data name="Refund_of_state_local_income" xml:space="preserve">
+    <value>주/지방 소득세 환급? (양식 1099-G)</value>
+  </data>
+  <data name="Relationship_to_you_for_example" xml:space="preserve">
+    <value>귀하와의 관계</value>
+  </data>
+  <data name="Resident_of_us_canada_or_maxico" xml:space="preserve">
+    <value>작년에 미
+국, 캐나
+다 또는
+멕시코 거
+주자 (예/
+아니요)</value>
+  </data>
+  <data name="Retriment_income_or_payments" xml:space="preserve">
+    <value>연금, 연금보험 및/또는 IRA 은퇴 소득 또는 인출 분배분? (양식 1099-R)</value>
+  </data>
+  <data name="Roth_ira" xml:space="preserve">
+    <value>Roth IRA</value>
+  </data>
+  <data name="Scholarships_form_w_t" xml:space="preserve">
+    <value>장학금? (양식 W-2, 1098-T)</value>
+  </data>
+  <data name="Secondry_signatue" xml:space="preserve">
+    <value>주된 납세자 자필 서명</value>
+  </data>
+  <data name="Secondry_taxpayer_printed_name" xml:space="preserve">
+    <value>2 차 납세자 이름</value>
+  </data>
+  <data name="Self_employment_income_form" xml:space="preserve">
+    <value>자영업 소득 (양식 1099-MISC, 현금, 가상 화폐 또는 다른 재산 또는 서비스)</value>
+  </data>
+  <data name="Single" xml:space="preserve">
+    <value>단일</value>
+  </data>
+  <data name="Single_or_married_as_of" xml:space="preserve">
+    <value>2019.12.31
+일 현재 독
+신자 또는
+기혼자</value>
+  </data>
+  <data name="SISTER" xml:space="preserve">
+    <value>여자 형제</value>
+  </data>
+  <data name="Social_security_number" xml:space="preserve">
+    <value>사회 보장 번호</value>
+  </data>
+  <data name="Social_security_or_railroad_retirement" xml:space="preserve">
+    <value>사회 복지 보장 또는 철도 종업원 연금? (양식 SSA-1099, RRB-1099)</value>
+  </data>
+  <data name="SON" xml:space="preserve">
+    <value>아들</value>
+  </data>
+  <data name="Specify" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Spouse" xml:space="preserve">
+    <value>배우자</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>주</value>
+  </data>
+  <data name="STEPBROTHER" xml:space="preserve">
+    <value>이복 형제</value>
+  </data>
+  <data name="STEPCHILD" xml:space="preserve">
+    <value>의붓 자식</value>
+  </data>
+  <data name="STEPSISTER" xml:space="preserve">
+    <value>이복 누이</value>
+  </data>
+  <data name="Student_loan_interest" xml:space="preserve">
+    <value>학자금 대출 이자? (양식 1098-E)</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>제출</value>
+  </data>
+  <data name="Taxes_state_real_estate_personal" xml:space="preserve">
+    <value>세금 (주, 부동산, 개인 자산, 판매)</value>
+  </data>
+  <data name="This_includes_registered_domestic" xml:space="preserve">
+    <value>(여기에는 등록된 동거 관계, 합법적 동성 결혼, 기타 주 법에 근거한 공식적 관계가 포함</value>
+  </data>
+  <data name="Tip_income" xml:space="preserve">
+    <value>팁소득?</value>
+  </data>
+  <data name="Totally_and_permanently_disabled" xml:space="preserve">
+    <value>완전하고 영구적 장애인 여부</value>
+  </data>
+  <data name="Totally_and_permanently_disabled_yes_or_nos" xml:space="preserve">
+    <value>완전하고 영
+구적 장애인
+여부</value>
+  </data>
+  <data name="To_be_completed_by_a_certificate" xml:space="preserve">
+    <value>공인 자원봉사 작성자가 기입할 내용</value>
+  </data>
+  <data name="To_purchase_us_savings_bonds" xml:space="preserve">
+    <value>미국 저축 채권 구매</value>
+  </data>
+  <data name="To_split_your_refund_between_diffrent" xml:space="preserve">
+    <value>환급액을 여러 계정에 분할 입금</value>
+  </data>
+  <data name="UNCLE" xml:space="preserve">
+    <value>삼촌</value>
+  </data>
+  <data name="Unemployment_compensation" xml:space="preserve">
+    <value>실업 보상금? (양식 1099-G)</value>
+  </data>
+  <data name="Unsure" xml:space="preserve">
+    <value>불확실함</value>
+  </data>
+  <data name="Uploaded_files" xml:space="preserve">
+    <value>업로드 된 파일 :</value>
+  </data>
+  <data name="Upload_your_documents_here" xml:space="preserve">
+    <value>여기에 문서를 업로드하십시오.</value>
+  </data>
+  <data name="Us_citizen_tes_or_no" xml:space="preserve">
+    <value>미국 시
+민 (예/
+아니요)</value>
+  </data>
+  <data name="Wages_or_salary_form_w" xml:space="preserve">
+    <value>임금 또는 급여? (양식 W-2).</value>
+  </data>
+  <data name="Who_lived_with_you_last_year" xml:space="preserve">
+    <value>작년에 귀하와 함께 살았던 사람 (배우자 제외)</value>
+  </data>
+  <data name="Widowed" xml:space="preserve">
+    <value>미망인</value>
+  </data>
+  <data name="Year_of_spouse_deaths" xml:space="preserve">
+    <value>배우자의 사망연도</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>예</value>
+  </data>
+  <data name="You" xml:space="preserve">
+    <value>귀하</value>
+  </data>
+  <data name="Your_date_of_birth" xml:space="preserve">
+    <value>귀하의 생년월일</value>
+  </data>
+  <data name="Your_first_name" xml:space="preserve">
+    <value>귀하의 이름 (First Name)</value>
+  </data>
+  <data name="Your_job_title" xml:space="preserve">
+    <value>귀하의 직위</value>
+  </data>
+  <data name="Your_spouse_date_of_birth" xml:space="preserve">
+    <value>배우자의 생년월일</value>
+  </data>
+  <data name="Your_spouse_first_name" xml:space="preserve">
+    <value>배우자의 이름 (First Name)</value>
+  </data>
+  <data name="Your_spouse_job_title" xml:space="preserve">
+    <value>배우자의 직위</value>
+  </data>
+  <data name="You_support_but_did_not_live_with_you" xml:space="preserve">
+    <value>당신은 지원했지만 작년에 당신과 함께 살지 않았습니다.</value>
+  </data>
+  <data name="Zip_code" xml:space="preserve">
+    <value>우편번호</value>
+  </data>
+</root>
